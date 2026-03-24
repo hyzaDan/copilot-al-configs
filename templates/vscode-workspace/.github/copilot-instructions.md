@@ -1,0 +1,21 @@
+# Business Central AL workspace instructions
+
+- Follow the approved implementation plan before writing code.
+- Use Microsoft Dynamics 365 Business Central AL patterns and prefer upgrade-safe extension approaches.
+- Keep internal project suffixes in AL identifiers only, never in captions, tooltips, labels, or translated user-facing texts.
+- Use PascalCase AL method calls such as `Insert`, `Modify`, and `Delete`.
+- Use `addlast` or `addfirst` in page extensions; do not use `addafter` or `addbefore`.
+- Use `Rec.` prefixes for page extension field bindings.
+- Use `DataClassification = CustomerContent` for customer data fields.
+- Plan translation as a separate late phase after implementation.
+- After a successful build, use the `translator` agent or `translation-phase` skill to synchronize XLF files and translate new user-facing texts.
+- Preserve all placeholders, formatting, and `maxLength` constraints in translations.
+- Prefer small, reviewable changes and summarize deviations from plan explicitly.
+- For AL symbols, object structure, and dependency discovery, prefer `al-symbols-mcp` over guesswork.
+- For general library or framework documentation, prefer `context7` over memory-only answers.
+- For Microsoft and Business Central documentation, prefer `microsoft.docs.mcp`.
+- Treat the AL Language extension as an editor prerequisite, not as an MCP server.
+- When the AL Language extension exposes AL build tooling in the current session, prefer `al_build` for compilation and package validation.
+- When that extension-backed tooling is unavailable, such as in GitHub Copilot CLI sessions, fall back to `al-compile` from the shell.
+- Do not prefer `al-compile` over `al_build` in VS Code sessions where the extension-backed tool is available.
+- When a BC server is available (`.bcconfig.json` configured), use `bc-publish` to deploy and `bc-test` to execute test codeunits. `bc-test` auto-detects the codeunit range from `app.json` and supports file output with `-o`.

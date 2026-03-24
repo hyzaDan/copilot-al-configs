@@ -1,0 +1,14 @@
+{
+  "name": "copilot-al-configs",
+  "description": "AL development configuration for GitHub Copilot CLI and VS Code Insiders.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Hyza"
+  },
+  "agents": "agents/",
+  "skills": [
+    "skills/"
+  ],
+  "hooks": "hooks.json",
+  "mcpServers": ".mcp.json"
+}
