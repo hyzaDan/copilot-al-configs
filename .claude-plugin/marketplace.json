@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "description": "Marketplace wrapper for the copilot-al-configs plugin."
+  },
+  "plugins": [
+    {
+      "name": "copilot-al-configs",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}
