@@ -1,0 +1,25 @@
+{
+  "name": "copilot-al-configs",
+  "owner": {
+    "name": "Daniel Hyza"
+  },
+  "metadata": {
+    "description": "Marketplace wrapper for the copilot-al-configs plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "copilot-al-configs",
+      "description": "AL development configuration for GitHub Copilot CLI and VS Code Insiders.",
+      "version": "0.1.0",
+      "source": "./",
+      "agents": "agents/",
+      "skills": [
+        "skills/"
+      ],
+      "hooks": "hooks.json",
+      "mcpServers": ".mcp.json",
+      "strict": false
+    }
+  ]
+}
