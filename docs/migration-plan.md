@@ -73,32 +73,32 @@ Keep and adapt these:
 ## Current Vertical Slice
 
 The first implemented vertical slice covers:
-- `solution-architect` as a real worker agent
+- `al-solution-architect` as a real worker agent
 - `al-developer` as a real worker agent
 - `al-reviewer` as a real review agent
-- `translator` as a dedicated translation worker agent
-- `snapshot-debugger` as a dedicated runtime artifact analysis worker agent
-- `plan-orchestrator`, `develop-orchestrator`, `test-orchestrator`, and `fix-orchestrator` as real orchestrator agents
+- `al-translator` as a dedicated translation worker agent
+- `al-snapshot-debugger` as a dedicated runtime artifact analysis worker agent
+- `al-plan-orchestrator`, `al-develop-orchestrator`, `al-test-orchestrator`, and `al-fix-orchestrator` as real orchestrator agents
 - thin VS Code prompt launchers for the four main workflows
 - true portable skills extracted from the old repository concepts
 - company coding standards integrated into the canonical AL instructions layer
-- translation phase wired into `develop-orchestrator` after successful build
+- translation phase wired into `al-develop-orchestrator` after successful build
 
 Workflow clarification:
-- `develop-orchestrator` may execute translation in the integrated feature path once the final successful build is reached.
+- `al-develop-orchestrator` may execute translation in the integrated feature path once the final successful build is reached.
 - If later production-code changes alter user-facing text, translation must be rerun on the final successful build before release.
 - Standalone `review` and `translate` prompt launchers improve VS Code workflow clarity even though the canonical behavior still lives in the underlying agents.
 
 ## Migrated knowledge sources
 
 Claude BC specialist knowledge merged into Copilot agents and skills:
-- `alex-architect` → `solution-architect` architecture guidance
+- `alex-architect` → `al-solution-architect` architecture guidance
 - `sam-coder` → `al-developer` implementation rules and company coding rules
 - `roger-reviewer` → `al-reviewer` checklist and `al-coding-standards` skill
-- `terry-test` → `test-orchestrator` edge-case categories and coverage policy
-- `dean-debug` → `debugging-methodology` skill and `fix-orchestrator` hypothesis workflow
-- `pat-performance` → `performance-review` skill
-- `sam-security` → `security-review` skill
+- `terry-test` → `al-test-orchestrator` edge-case categories and coverage policy
+- `dean-debug` → `al-debugging-methodology` skill and `al-fix-orchestrator` hypothesis workflow
+- `pat-performance` → `al-performance-review` skill
+- `sam-security` → `al-security-review` skill
 - `personal-coding-standards.md` → `al.instructions.md` canonical rules
 - Company coding standards (cross-project) → `al.instructions.md`, `al-developer`, `al-reviewer`, `al-coding-standards` skill
-- Translation workflow → `translator` agent and `translation-phase` skill
+- Translation workflow → `al-translator` agent and `al-translation-phase` skill

@@ -1,5 +1,5 @@
 ---
-name: performance-review
+name: al-performance-review
 description: Reviews AL solutions for record loading, query shape, looping cost, scalability, and inefficient data-access patterns.
 user-invocable: false
 ---

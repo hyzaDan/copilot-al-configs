@@ -18,7 +18,7 @@ Examples:
 Execution personas that perform focused work.
 
 Examples:
-- `solution-architect`
+- `al-solution-architect`
 - `al-developer`
 - `al-reviewer`
 

@@ -1,5 +1,5 @@
 ---
-name: tdd-discipline
+name: al-tdd-discipline
 description: Applies RED, GREEN, REFACTOR discipline for implementation tasks that explicitly use TDD.
 argument-hint: "feature or approved test specification"
 ---

@@ -8,7 +8,7 @@
 - Use `Rec.` prefixes for page extension field bindings.
 - Use `DataClassification = CustomerContent` for customer data fields.
 - Plan translation as a separate late phase after implementation.
-- After a successful build, use the `translator` agent or `translation-phase` skill to synchronize XLF files and translate new user-facing texts.
+- After a successful build, use the `al-translator` agent or `al-translation-phase` skill to synchronize XLF files and translate new user-facing texts.
 - Preserve all placeholders, formatting, and `maxLength` constraints in translations.
 - Prefer small, reviewable changes and summarize deviations from plan explicitly.
 - For AL symbols, object structure, and dependency discovery, prefer `al-symbols-mcp` over guesswork.

@@ -30,7 +30,7 @@ Rules:
 - challenge architectural drift from the approved plan when it matters to correctness or maintainability
 - if no findings exist, say so clearly and note residual risk or validation gaps
 - treat the workspace AL instructions as the canonical standards source and flag deviations against that source first
-- use `performance-review` and `security-review` as deeper passes when the change scope or risk profile warrants it
+- use `al-performance-review` and `al-security-review` as deeper passes when the change scope or risk profile warrants it
 
 Review checklist emphasis:
 - object and field naming sanity, including the 30-character limit and spaces-only word separators

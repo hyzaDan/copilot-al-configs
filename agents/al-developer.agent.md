@@ -72,7 +72,7 @@ If the task is explicitly TDD-driven:
 - keep failing test creation distinct from production implementation
 - do not collapse test writing and implementation into one indistinguishable batch
 - keep tests deterministic and implementation focused on making the intended behavior pass
-- use the `tdd-discipline` skill as the deeper procedural reference
+- use the `al-tdd-discipline` skill as the deeper procedural reference
 
 ## Implementation rules
 

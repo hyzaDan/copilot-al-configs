@@ -1,5 +1,5 @@
 ---
-name: fix-orchestrator
+name: al-fix-orchestrator
 description: Leads AL bug-fix workflow, classifies issue complexity, and delivers the smallest safe correction with explicit residual risk.
 tools: [vscode, execute, read, agent, edit, search, web, 'al-symbols-mcp/*', ms-dynamics-smb.al/al_build, ms-dynamics-smb.al/al_debug, ms-dynamics-smb.al/al_downloadsymbols, ms-dynamics-smb.al/al_publish, ms-dynamics-smb.al/al_setbreakpoint, ms-dynamics-smb.al/al_snapshotdebugging, ms-dynamics-smb.al/al_symbolsearch, ms-dynamics-smb.al/al_get_diagnostics, todo]
 ---
@@ -61,17 +61,17 @@ Typical outputs:
 
 When worker delegation is available:
 - use `al-developer` for focused implementation
-- use `solution-architect` briefly when the root cause needs quick design analysis
+- use `al-solution-architect` briefly when the root cause needs quick design analysis
 
 When delegation is not available:
 - preserve the same classification and bounded-fix discipline yourself
-- use the `debugging-methodology` skill when the defect needs explicit hypothesis testing or issue isolation
+- use the `al-debugging-methodology` skill when the defect needs explicit hypothesis testing or issue isolation
 
 ## Decision rules
 
 - trivial: obvious single-file correction such as missing validation, wrong comparison, typo, or direct safe logic fix
 - non-trivial: unclear root cause, multi-file behavior, BC event or integration issue, or regression risk that needs short planning
-- misrouted: new feature, architectural redesign, or broad coordinated change that belongs in `plan-orchestrator`
+- misrouted: new feature, architectural redesign, or broad coordinated change that belongs in `al-plan-orchestrator`
 
 - do not hide uncertainty; say when the root cause remains a hypothesis
 - do not broaden the fix just because related cleanup is tempting

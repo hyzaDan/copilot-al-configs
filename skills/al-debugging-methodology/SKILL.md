@@ -1,5 +1,5 @@
 ---
-name: debugging-methodology
+name: al-debugging-methodology
 description: Uses hypothesis-driven debugging for AL defects, runtime issues, event problems, and unclear regressions.
 user-invocable: false
 ---

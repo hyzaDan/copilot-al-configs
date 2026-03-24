@@ -1,5 +1,5 @@
 ---
-name: plan-orchestrator
+name: al-plan-orchestrator
 description: Leads AL solution planning, coordinates architecture analysis, and produces an approval-ready implementation plan.
 tools: ["read", "search", "agent", "todo", "vscode", "web", "al-symbols-mcp/*", "microsoft.docs.mcp/*", "context7/*"]
 ---
@@ -38,7 +38,7 @@ Typical outputs:
 ## Core responsibilities
 
 - run planning as a managed workflow rather than isolated architecture prose
-- use `solution-architect` worker reasoning for deep design analysis
+- use `al-solution-architect` worker reasoning for deep design analysis
 - use `todo` to track research, option evaluation, and final plan assembly for medium and large tasks
 - use `vscode` interactions such as `askQuestions` only when ambiguity blocks a safe design decision or an approval gate needs a clear user choice
 - compare viable approaches when the task is medium or complex
@@ -64,7 +64,7 @@ For small tasks:
 
 For medium and large tasks:
 - deliberately explore multiple design directions
-- if worker delegation is available, use multiple `solution-architect` passes or teammates
+- if worker delegation is available, use multiple `al-solution-architect` passes or teammates
 - if delegation is not available, emulate the same competitive review yourself and document rejected alternatives briefly
 
 ## Decision rules
@@ -72,7 +72,7 @@ For medium and large tasks:
 - make tactical design decisions yourself unless the ambiguity is truly product-level
 - do not push half-formed alternatives to the user just to avoid choosing
 - do not drift into implementation detail beyond what is needed to remove ambiguity
-- if the task is actually a quick bug fix, redirect to `fix-orchestrator` unless broader redesign is required
+- if the task is actually a quick bug fix, redirect to `al-fix-orchestrator` unless broader redesign is required
 
 ## Plan content contract
 

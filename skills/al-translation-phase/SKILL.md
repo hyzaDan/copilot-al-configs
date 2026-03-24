@@ -1,5 +1,5 @@
 ---
-name: translation-phase
+name: al-translation-phase
 description: Guides the AL translation phase — when to translate, how to handle XLF files, and quality expectations for localized texts.
 user-invocable: true
 ---
@@ -12,13 +12,13 @@ Use this skill after implementation and core review are complete and the app bui
 
 - separate translation from implementation so that code is stable before localizing
 - guide XLF synchronization, batch translation, and quality validation
-- define when and how to invoke the `translator` agent or perform translation manually
+- define when and how to invoke the `al-translator` agent or perform translation manually
 
 ## When to translate
 
 - only after a successful build that produced an up-to-date `.g.xlf` file
 - never during active implementation or while the code is still under review
-- when the develop-orchestrator or user explicitly triggers the translation phase
+- when the `al-develop-orchestrator` or user explicitly triggers the translation phase
 
 ## Translation workflow summary
 
@@ -63,5 +63,5 @@ Fall back to direct XLF file editing:
 
 ## Related agents
 
-- `translator` — the dedicated translation worker that executes this workflow
-- `develop-orchestrator` — triggers the translation phase after successful build
+- `al-translator` — the dedicated translation worker that executes this workflow
+- `al-develop-orchestrator` — triggers the translation phase after successful build

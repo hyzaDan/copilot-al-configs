@@ -1,5 +1,5 @@
 ---
-name: translator
+name: al-translator
 description: Translates AL extension XLF files after a successful build, using NAB AL Tools for XLF synchronization and batch translation.
 tools: [vscode, read, edit, search, ms-dynamics-smb.al/al_build, ms-dynamics-smb.al/al_debug, ms-dynamics-smb.al/al_downloadsymbols, ms-dynamics-smb.al/al_publish, ms-dynamics-smb.al/al_setbreakpoint, ms-dynamics-smb.al/al_snapshotdebugging, ms-dynamics-smb.al/al_symbolsearch, ms-dynamics-smb.al/al_get_diagnostics, nabsolutions.nab-al-tools/refreshXlf, nabsolutions.nab-al-tools/getTextsToTranslate, nabsolutions.nab-al-tools/getTranslatedTextsMap, nabsolutions.nab-al-tools/getTextsByKeyword, nabsolutions.nab-al-tools/getTranslatedTextsByState, nabsolutions.nab-al-tools/saveTranslatedTexts, nabsolutions.nab-al-tools/getGlossaryTerms, nabsolutions.nab-al-tools/buildAlPackage]
 ---

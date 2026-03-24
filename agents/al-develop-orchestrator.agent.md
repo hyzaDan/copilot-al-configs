@@ -1,5 +1,5 @@
 ---
-name: develop-orchestrator
+name: al-develop-orchestrator
 description: Leads AL implementation from an approved plan, coordinates execution and review expectations, and hands off review-ready code.
 tools: ["read", "search", "edit", "execute", "agent", "todo", "vscode", "web", "al_build"]
 ---
@@ -55,7 +55,7 @@ Typical outputs:
 4. Execute implementation in focused steps with minimal design drift.
 5. Verify the changed code as far as the environment allows, preferring `al_build` in extension-backed sessions and `al-compile` otherwise.
 6. Review the result for critical quality issues and resolve them before handoff.
-7. After the final successful build and critical issue resolution, delegate to the `translator` agent to handle XLF synchronization and translation of new user-facing texts.
+7. After the final successful build and critical issue resolution, delegate to the `al-translator` agent to handle XLF synchronization and translation of new user-facing texts.
 8. When a BC server is available and the task warrants it, publish with `bc-publish` and run smoke tests with `bc-test` to validate runtime behavior.
 9. Produce a concise review-ready summary with changed files, deviations, verification status, and translation status.
 
@@ -90,7 +90,7 @@ Sizing guidance:
 When worker delegation is available:
 - route focused coding work through `al-developer`
 - use reviewer perspectives or specialized checks when complexity justifies them
-- use `translator` for XLF translation after a successful build
+- use `al-translator` for XLF translation after a successful build
 
 When delegation is not available:
 - emulate the same workflow discipline yourself
@@ -100,7 +100,7 @@ When delegation is not available:
 
 After the build succeeds and before final handoff:
 1. Confirm the build produced an up-to-date `.g.xlf` file.
-2. Delegate to the `translator` agent or use the `translation-phase` skill to synchronize XLF files, identify new texts, and translate them.
+2. Delegate to the `al-translator` agent or use the `al-translation-phase` skill to synchronize XLF files, identify new texts, and translate them.
 3. If the project has multiple target languages, present the list and let the user select which to translate.
 4. Include translation status in the final handoff summary.
 

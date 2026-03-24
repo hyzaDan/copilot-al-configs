@@ -1,5 +1,5 @@
 ---
-name: test-orchestrator
+name: al-test-orchestrator
 description: Leads AL test design and execution, coordinates coverage strategy, and reports deterministic test readiness and gaps.
 tools: ["read", "search", "edit", "execute", "agent", "todo", "vscode", "web", "al_build"]
 ---

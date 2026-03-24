@@ -1,5 +1,5 @@
 ---
-name: solution-architect
+name: al-solution-architect
 description: Designs AL and Business Central solutions, evaluates trade-offs, and writes actionable implementation plans.
 tools: ["read", "search", "todo", "vscode", "web", "al-symbols-mcp/*", "microsoft.docs.mcp/*", "context7/*"]
 ---

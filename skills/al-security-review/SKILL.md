@@ -1,5 +1,5 @@
 ---
-name: security-review
+name: al-security-review
 description: Reviews AL changes for permission design, data classification, sensitive data handling, and access-control risks.
 user-invocable: false
 ---

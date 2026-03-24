@@ -1,5 +1,5 @@
 ---
-name: bc-solution-review
+name: al-bc-solution-review
 description: Reviews AL or BC solutions for correctness, maintainability, standards compliance, and testability.
 argument-hint: "changed files or feature description"
 ---
@@ -17,8 +17,8 @@ Use this skill during review-oriented tasks.
 - Are permission and data-classification choices appropriate?
 - Is testability preserved through clear dependency boundaries?
 - Are there missing edge cases or regression risks?
-- Are there performance-sensitive patterns that should trigger the `performance-review` skill?
-- Are there security or permission concerns that should trigger the `security-review` skill?
+- Are there performance-sensitive patterns that should trigger the `al-performance-review` skill?
+- Are there security or permission concerns that should trigger the `al-security-review` skill?
 
 ## Output expectations
 
@@ -30,5 +30,5 @@ Use this skill during review-oriented tasks.
 ## Related skills
 
 - `al-coding-standards` for canonical naming, affix, and AL structure expectations
-- `performance-review` for deeper performance-focused review passes
-- `security-review` for permission, data-protection, and classification review passes
+- `al-performance-review` for deeper performance-focused review passes
+- `al-security-review` for permission, data-protection, and classification review passes

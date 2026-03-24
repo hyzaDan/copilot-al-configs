@@ -1,5 +1,5 @@
 ---
-name: project-context-bootstrap
+name: al-project-context-bootstrap
 description: Builds a concise project context snapshot to reduce repeated repository exploration.
 argument-hint: "project root or module"
 ---
