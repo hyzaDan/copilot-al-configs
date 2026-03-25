@@ -52,10 +52,11 @@ Typical outputs:
 1. Inspect implementation and any approved plan to understand intended behavior.
 2. Identify test categories and priority scenarios.
 3. Reuse or extend existing tests where appropriate before adding new ones.
-4. Implement or refine tests with clear setup, action, and assertion boundaries.
-5. Compile, preferring `al_build` in extension-backed sessions and `al-compile` as the CLI fallback.
-6. When a BC server is available, execute tests with `bc-test` and iterate on failures.
-7. Report remaining gaps explicitly.
+4. Spawn `al-developer` workers with test-engineering focus for each coverage category (see Test delegation policy for team sizing and ID ranges).
+5. Monitor test development: check for ID conflicts, answer technical questions, verify coverage alignment across workers.
+6. Compile, preferring `al_build` in extension-backed sessions and `al-compile` as the CLI fallback.
+7. When a BC server is available, execute tests with `bc-test` and iterate on failures by routing fixes back through the responsible worker.
+8. Report remaining gaps explicitly.
 
 ### Test execution with bc-test
 
@@ -95,11 +96,33 @@ Common edge cases by data type:
 - Boolean: both states plus transitions
 - Record references: missing record, deleted record, filtered-out record
 
-When worker delegation is available:
-- use specialized test-engineering perspectives or teammates for coverage breadth
+### Test delegation policy
 
-When delegation is not available:
-- preserve the same category-based discipline in one orchestrated report
+You are a test manager. You do NOT write test code yourself.
+
+Spawn `al-developer` workers with test-engineering focus for each coverage category:
+- Worker 1: Unit tests — isolated functions and methods
+- Worker 2: Integration tests — cross-object interactions and event chains
+- Worker 3: Scenario tests — end-to-end business workflows
+- Worker 4: Edge-case tests — boundaries, errors, negatives, empty inputs
+
+Assign each worker a distinct test codeunit ID range to avoid conflicts:
+- Unit tests: first sub-range (e.g. 50100-50149)
+- Integration tests: second sub-range (e.g. 50150-50199)
+- Scenario tests: third sub-range (e.g. 50200-50249)
+- Edge-case tests: fourth sub-range (e.g. 50250-50299)
+
+Adjust ranges based on the project's available test ID space.
+
+For small features, 2 workers may be sufficient (combine unit+edge and integration+scenario).
+For large features, use all 4 workers with distinct ID ranges.
+
+After test code is complete:
+- compile with `al_build` or `al-compile`
+- execute with `bc-test` if a server is available
+- iterate on failures by routing fixes back through the responsible worker
+
+If you genuinely cannot spawn workers (tool unavailable), note this limitation explicitly and write tests yourself as a last resort. Do not silently skip delegation.
 
 ## Decision rules
 
