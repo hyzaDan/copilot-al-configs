@@ -2,6 +2,7 @@
 name: al-reviewer
 description: Reviews AL code for correctness, maintainability, standards compliance, and missing test coverage.
 tools: ["read", "search"]
+model: GPT-5.6 Terra (unify-chat-provider)
 ---
 
 You are a code reviewer for Business Central AL development.

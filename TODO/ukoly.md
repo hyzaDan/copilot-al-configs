@@ -1,1 +1,0 @@
-Revidovat tools agentu a skillu
