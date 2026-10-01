@@ -1,6 +1,6 @@
 # Taxonomy
 
-This repository separates conceptual roles from runtime representation.
+Default workflow: built-in Plan for planning, built-in Agent for implementation. Custom agents are optional, not mandatory workflow phases.
 
 ## Concepts
 
@@ -13,38 +13,28 @@ Examples:
 - test-specific conventions
 - project-specific naming and translation rules
 
-### Worker Agents
+### Custom Agents
 
-Execution personas that perform focused work.
+Use for context isolation, model selection, or tool restrictions. The body links to skills rather than copying their procedures.
 
-Examples:
-- `al-solution-architect`
-- `al-developer`
-- `al-reviewer`
+- `al-reviewer`: independent read-only review.
+- `al-snapshot-debugger`: isolated read-only runtime artifact analysis.
+- `al-translator`: selected-language translation with a restricted tool set.
+- `al-symbol-researcher`: bounded dependency lookup with concise evidence returned to the parent.
+- `al-developer`: optional worker for an independently owned module.
 
-### Orchestrators
+Develop/fix/test orchestrators remain manual compatibility entrypoints with automatic model invocation disabled. They do not require workers, worker counts, or mandatory reviewer sign-off. The old planner/architect in `Backup/` are historical and are not shipped from `agents/`.
 
-Workflow entrypoints that coordinate phases, workers, or approvals.
+### Prompt Files
 
-Examples:
-- planning workflow
-- development workflow
-- testing workflow
-- quick-fix workflow
-
-Canonical runtime representation:
-- orchestrator agents in `agents/`
-- optional thin prompt launchers in `templates/vscode-workspace/.github/prompts/`
-- local workspace agents only when a project needs explicit overrides
-
-Prompt launchers are primarily for orchestrators, but the workspace overlay may also expose thin worker launchers when that improves direct UX for common standalone tasks such as review or translation.
+Optional user-invoked shortcuts in the workspace overlay. They select built-in modes and describe the task, not an orchestration contract. They do not install or embed skills.
 
 ### Skills
 
 Portable capabilities that can be loaded on demand across Copilot runtimes.
 
 Examples:
-- TDD discipline
+- AL build and test workflows
 - AL coding standards
 - review checklist
 - translation phase guidance
@@ -55,7 +45,7 @@ Examples:
 ### Plugin root
 
 Use plugin root for shared runtime assets consumed by Copilot CLI and Copilot plugin loading:
-- `agents/` for worker agents and orchestrator agents
+- `agents/` for optional workers and compatibility entrypoints
 - `skills/`
 - `.mcp.json`
 - `hooks.json`
@@ -64,15 +54,18 @@ Use plugin root for shared runtime assets consumed by Copilot CLI and Copilot pl
 
 Use `templates/vscode-workspace/.github/` for target-project customization:
 - `copilot-instructions.md`
-- `instructions/`
 - `prompts/` for thin workflow launchers when helpful for UX
 - local `.github/agents/` only for project-specific overrides, not as the default mirrored source
 
 ## Anti-patterns
 
-Avoid these migrations:
-- treating orchestration workflows as if they were just lightweight skills
-- treating checklists as worker personas
-- treating prompt wrappers as the canonical owner of workflow behavior
-- copying Claude-specific frontmatter and tool labels directly
-- mixing always-on policy text into every agent body instead of instructions or skills
+Avoid:
+- mandatory orchestration for ordinary edits
+- treating a checklist as a separate persona
+- broad skill descriptions that match every AL task
+- loading all skill references or mapping the entire repository before a local change
+- assigning `model` to a skill and assuming it changes the executing model
+- copying tool schemas or general model behavior into every agent
+- confusing team preferences with compiler/AppSource requirements
+
+Keep long or exceptional procedures in linked references. Short focused review skills can remain single files; progressive disclosure does not require splitting every checklist.

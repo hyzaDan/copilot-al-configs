@@ -1,5 +1,7 @@
 # Migration Plan
 
+Historical record of the original Claude-to-Copilot migration. The orchestrator-first target and status below are superseded by [the skill-first audit](skill-first-audit.md) and [current taxonomy](taxonomy.md). Names and paths in this record describe the earlier design, not necessarily current files. Do not load this document as a prerequisite for AL work.
+
 ## Goal
 
 Create a Copilot-native repository that is separate from the Claude repository while preserving the strongest AL workflow concepts.
@@ -70,7 +72,7 @@ Keep and adapt these:
 - review checklists
 - workflow boundaries between planning, coding, and review
 
-## Current Vertical Slice
+## Original Vertical Slice
 
 The first implemented vertical slice covers:
 - `al-solution-architect` as a real worker agent

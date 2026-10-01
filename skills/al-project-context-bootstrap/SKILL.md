@@ -1,12 +1,14 @@
 ---
 name: al-project-context-bootstrap
-description: Builds a concise project context snapshot to reduce repeated repository exploration.
+description: 'Use when onboarding to an unfamiliar AL app or explicitly preparing reusable project context for a feature stream.'
 argument-hint: "project root or module"
 ---
 
 # Project Context Bootstrap
 
 Use this skill at the start of a new feature stream or in an unfamiliar codebase.
+
+Not a prerequisite for ordinary edits. Start with the affected module and capture only facts needed for the task; do not map every workspace root. Record source paths and app/version identity so later sessions can revalidate stale context.
 
 ## Capture
 

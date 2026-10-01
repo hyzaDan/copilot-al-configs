@@ -1,6 +1,6 @@
 ---
 name: al-solution-architecture
-description: Use when planning, designing, or evaluating changes to Microsoft Dynamics 365 Business Central extensions written in AL. Applies to tasks involving AL code, .al files, Business Central features, refactoring, data model changes, AL object design, events and subscribers, integration points, validation, upgrade safety, performance, permissions, or automated tests.
+description: 'Use for AL data-model design, BC extension-point selection, or architectural trade-offs in a feature plan or refactor.'
 ---
 
 # AL Solution Architecture
@@ -17,29 +17,11 @@ Provide Business Central / AL-specific architectural guidance to the active plan
 - Keep architecture proportional to the task; avoid unnecessary abstraction.
 - Treat translation as a later implementation phase.
 
-## Ask design-impacting questions
+## Design boundaries
 
-Before committing to an architecture, actively identify unknowns that can materially change the solution design or Business Central behavior.
+Resolve consequential uncertainty about data ownership/lifecycle, cardinality, posting behavior, permissions, or integration contracts before committing to the design. Use nearby source and project constraints; ask only for decisions that cannot be inferred safely. Routine implementation details do not require approval.
 
-Ask the user targeted questions when an answer can affect areas such as:
-
-- data ownership, lifecycle, cardinality, or source of truth
-- existing entity extension versus a separate table
-- business process, posting behavior, validation, or user interaction
-- Base App / System App integration points and extension strategy
-- permissions, external integrations, dependencies, or background processing
-- performance, data volume, upgrade compatibility, or automated testability
-
-Inspect the workspace first and do not ask what can already be determined from existing code and conventions. Ask about design-relevant ambiguity even when implementation could continue with an assumption if a different answer could lead to a different architecture or business behavior. Prefer specific, bounded questions whose design consequence is clear. Decide low-level implementation details yourself when safe. State reasonable assumptions explicitly. Do not carry important unresolved architecture questions silently into development.
-
-## Analyze before designing
-
-- Inspect relevant AL objects and similar existing functionality.
-- Identify naming, object ID ranges, folders, permissions, and workspace constraints.
-- Identify existing responsibilities, extension patterns, and relevant standard integration points.
-- Prefer project context before broad external research.
-- Prefer `al-symbols-mcp` for BC symbols and standard objects, `microsoft.docs.mcp` for official Microsoft behavior, and `context7` for third-party documentation when available.
-- Verify uncertain integration points or make the uncertainty explicit.
+For unknown dependency APIs, use [symbol lookup](../al-symbol-lookup/SKILL.md). For uncertain platform behavior consult official Microsoft documentation. Do not prescribe a full repository map or load unrelated skills before a local design decision.
 
 ## AL architecture heuristics
 
@@ -61,4 +43,4 @@ Make the design concrete enough that development should not require silent redes
 - permissions, integrations, and testability
 - sequencing constraints, assumptions, risks, and accepted trade-offs
 
-Recommend one primary design. Mention alternatives only when they clarify a meaningful BC-specific trade-off. Do not emit full production AL code; small signatures or skeletons are acceptable only when they remove architectural ambiguity.
+Recommend one primary design. Mention alternatives only when they clarify a meaningful BC-specific trade-off. In a planning-only task, use signatures or small skeletons rather than implementing production code; this skill does not prevent implementation when the user requested it.

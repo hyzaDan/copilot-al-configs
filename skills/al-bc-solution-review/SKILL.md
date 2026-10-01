@@ -1,6 +1,6 @@
 ---
 name: al-bc-solution-review
-description: Reviews AL or BC solutions for correctness, maintainability, standards compliance, and testability.
+description: 'Use when reviewing AL changes or a BC solution design for defects, regressions, or missing tests.'
 argument-hint: "changed files or feature description"
 ---
 
@@ -13,6 +13,7 @@ Use this skill during review-oriented tasks.
 - Is the chosen extension pattern upgrade-safe?
 - Does object responsibility stay clear?
 - Are validation rules explicit and complete?
+- Do record operations preserve required triggers, transaction boundaries, and company context?
 - Are page extensions resilient to base app changes?
 - Are permission and data-classification choices appropriate?
 - Is testability preserved through clear dependency boundaries?
@@ -23,12 +24,13 @@ Use this skill during review-oriented tasks.
 ## Output expectations
 
 - findings first
+- cite file/symbol evidence and explain the failure scenario; distinguish project conventions from platform requirements
 - severity ordering
 - concrete fixes where possible
 - note residual risk if verification was incomplete
 
 ## Related skills
 
-- `al-coding-standards` for canonical naming, affix, and AL structure expectations
-- `al-performance-review` for deeper performance-focused review passes
-- `al-security-review` for permission, data-protection, and classification review passes
+- [Coding standards](../al-coding-standards/SKILL.md) when assessing naming or AL structure
+- [Performance](../al-performance-review/SKILL.md) only for meaningful data-access or runtime-cost risk
+- [Security](../al-security-review/SKILL.md) only for permission, sensitive-data, or access-control risk

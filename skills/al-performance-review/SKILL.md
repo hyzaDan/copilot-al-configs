@@ -1,6 +1,6 @@
 ---
 name: al-performance-review
-description: Reviews AL solutions for record loading, query shape, looping cost, scalability, and inefficient data-access patterns.
+description: 'Use for AL slow paths, large record loops, repeated database calls, or BC CPU-profile hotspots.'
 user-invocable: false
 ---
 
@@ -12,10 +12,10 @@ Use this skill when a change touches large data volumes, loops over records, pos
 
 - broad record loading where narrower field or filter usage is possible
 - queries inside loops and other N+1 patterns
-- missing `SetLoadFields` on partial-record scenarios
+- partial-record opportunities with `SetLoadFields`, accounting for later field access and JIT loads
 - weak `FindSet` / `FindFirst` / `FindLast` choices
 - repeated FlowField calculations or expensive work in loops
-- unnecessary row-by-row updates where bulk operations are available
+- row-by-row updates where bulk operations preserve required trigger and validation behavior
 - design choices that should move heavy work to separate tables, summaries, or background processing
 
 ## Review questions
@@ -27,6 +27,8 @@ Use this skill when a change touches large data volumes, loops over records, pos
 - Is there a simpler architectural split that reduces runtime cost?
 
 ## Output expectations
+
+For `.alcpuprofile` evidence, use [runtime artifact guidance](../al-debugging-methodology/references/runtime-artifacts.md). Recommend optimizations from measured or clearly bounded cost, not blanket `SetLoadFields` or bulk-update rules.
 
 - findings first
 - concrete AL-level improvement suggestions

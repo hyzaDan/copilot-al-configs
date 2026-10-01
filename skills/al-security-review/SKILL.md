@@ -1,6 +1,6 @@
 ---
 name: al-security-review
-description: Reviews AL changes for permission design, data classification, sensitive data handling, and access-control risks.
+description: 'Use for AL permission changes, sensitive fields, external integrations, or access-control review.'
 user-invocable: false
 ---
 
@@ -16,7 +16,9 @@ Use this skill when AL changes affect permissions, sensitive data, posting actio
 - fields left as `ToBeClassified`
 - sensitive data handling and auditability
 - direct data access patterns that bypass expected security boundaries
-- UI exposure that may reveal data without matching access control
+- UI exposure that may reveal data without matching access control; page visibility is not authorization
+- secrets in integration logs, telemetry, errors, or stored configuration
+- indirect codeunit permissions and background-session identities that widen access
 
 ## Review questions
 

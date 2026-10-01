@@ -1,6 +1,21 @@
 # Source Mapping
 
-This file maps the current Claude repository to the new Copilot repository.
+This file records source provenance. For current runtime ownership use [taxonomy](taxonomy.md). The original migration mappings below are historical; they are not instructions to restore archived agents or missing skills.
+
+## Current Ownership
+
+| Original knowledge | Current owner |
+| --- | --- |
+| Architecture/planning agents | Built-in Plan plus `al-solution-architecture` |
+| Developer/reviewer company rules | `al-coding-standards` and its optional team reference |
+| Multi-root build and stale diagnostics | `al-build-validation` |
+| Test orchestrator's AL coverage/runner guidance | `al-testing` |
+| Snapshot/profile analysis | `al-debugging-methodology` runtime-artifact reference |
+| Translation workflow | `al-translation-phase` |
+| Large symbol discovery | `al-symbol-lookup` plus optional `al-symbol-researcher` |
+| Generic TDD gates and worker-count recipes | Removed; explicit TDD supported by `al-testing` |
+
+There is no current `al.instructions.md` or `al-tdd-discipline` dependency. Historical references below explain the earlier proposal only.
 
 ## Taxonomy Mapping
 
