@@ -1,0 +1,20 @@
+{
+  "name": "copilot-al-configs",
+  "interface": {
+    "displayName": "AL Development Plugins"
+  },
+  "plugins": [
+    {
+      "name": "copilot-al-configs",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

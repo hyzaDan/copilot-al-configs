@@ -1,7 +1,7 @@
 {
   "name": "copilot-al-configs",
-  "description": "AL development configuration for GitHub Copilot CLI and VS Code Insiders.",
-  "version": "0.1.0",
+  "description": "AL and Business Central development skills and MCP tools for Codex and GitHub Copilot.",
+  "version": "0.1.1",
   "author": {
     "name": "Daniel Hyza"
   },

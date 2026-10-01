@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "al-symbols-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "al-mcp-server"
+      ]
+    },
+    "context7": {
+      "type": "streamable-http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "microsoft.docs.mcp": {
+      "type": "streamable-http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    }
+  }
+}

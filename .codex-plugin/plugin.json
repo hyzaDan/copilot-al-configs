@@ -1,0 +1,21 @@
+{
+  "name": "copilot-al-configs",
+  "description": "AL and Business Central development skills and MCP tools for Codex and GitHub Copilot.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Daniel Hyza"
+  },
+  "repository": "https://github.com/hyzaDan/copilot-al-configs",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AL Development",
+    "shortDescription": "AL skills and MCP tools",
+    "longDescription": "On-demand AL and Business Central skills for architecture, coding, debugging, builds, testing, review, symbol lookup, and Czech translation workflows. Bundles AL Symbols, Context7, and Microsoft Learn MCP connections. Builds, runtime tests, and translation require the tooling described in the README.",
+    "developerName": "Daniel Hyza",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": "Help me develop and review this AL / Business Central project using the relevant skills and available MCP tools."
+  }
+}

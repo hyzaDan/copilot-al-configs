@@ -31,7 +31,7 @@ Optional user-invoked shortcuts in the workspace overlay. They select built-in m
 
 ### Skills
 
-Portable capabilities that can be loaded on demand across Copilot runtimes.
+Portable capabilities that can be loaded on demand across Codex and Copilot runtimes, subject to the workflow's tooling prerequisites.
 
 Examples:
 - AL build and test workflows
@@ -44,11 +44,17 @@ Examples:
 
 ### Plugin root
 
-Use plugin root for shared runtime assets consumed by Copilot CLI and Copilot plugin loading:
+Use plugin root for shared runtime assets:
+- `plugin.json` for the portable manifest and OpenAI presentation metadata
+- `mcp.json` for portable MCP connections
+- `.codex-plugin/plugin.json` for the Codex compatibility layout
+- `.agents/plugins/marketplace.json` for Codex discovery; its source path resolves from the repository root
 - `agents/` for optional workers and compatibility entrypoints
 - `skills/`
-- `.mcp.json`
+- `.mcp.json` for Copilot and the Codex compatibility layout
 - `hooks.json`
+
+The Codex package registers shared skills and MCP connections. Copilot `.agent.md` files and their provider-specific model settings require a separate host integration. In particular, the translation skill requires its isolated worker; see the [Codex prerequisites](../README.md#czech-translation).
 
 ### VS Code workspace templates
 
