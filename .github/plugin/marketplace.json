@@ -13,7 +13,7 @@
       "description": "AL and Business Central development skills and MCP tools for Codex and GitHub Copilot.",
       "version": "0.1.2",
       "source": "./",
-      "agents": "agents/",
+      "agents": "com.github.copilot/agents/",
       "skills": [
         "skills/"
       ],

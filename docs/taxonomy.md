@@ -23,7 +23,7 @@ Use for context isolation, model selection, or tool restrictions. The body links
 - `al-symbol-researcher`: bounded dependency lookup with concise evidence returned to the parent.
 - `al-developer`: optional worker for an independently owned module.
 
-Develop/fix/test orchestrators remain manual compatibility entrypoints with automatic model invocation disabled. They do not require workers, worker counts, or mandatory reviewer sign-off. The old planner/architect in `Backup/` are historical and are not shipped from `agents/`.
+Develop/fix/test orchestrators remain manual compatibility entrypoints with automatic model invocation disabled. They do not require workers, worker counts, or mandatory reviewer sign-off. The old planner/architect in `Backup/` are historical and are not shipped from `com.github.copilot/agents/`.
 
 ### Prompt Files
 
@@ -49,7 +49,7 @@ Use plugin root for shared runtime assets:
 - `mcp.json` for portable MCP connections
 - `.codex-plugin/plugin.json` for the Codex compatibility layout
 - `.agents/plugins/marketplace.json` for Codex discovery; its source path resolves from the repository root
-- `agents/` for optional workers and compatibility entrypoints
+- `com.github.copilot/agents/` for Copilot workers and compatibility entrypoints, discovered by Agent Plugins 1.0
 - `skills/`
 - `.mcp.json` for Copilot and the Codex compatibility layout
 - `hooks.json`

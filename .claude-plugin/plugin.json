@@ -5,7 +5,7 @@
   "author": {
     "name": "Daniel Hyza"
   },
-  "agents": "agents/",
+  "agents": "com.github.copilot/agents/",
   "skills": [
     "skills/"
   ],

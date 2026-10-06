@@ -4,7 +4,7 @@ description: 'Optional coordination for a broad AL test effort; use built-in Age
 disable-model-invocation: true
 ---
 
-Use [AL testing](../skills/al-testing/SKILL.md) as the test workflow and [coding standards](../skills/al-coding-standards/SKILL.md) for authored AL.
+Use [AL testing](../../skills/al-testing/SKILL.md) as the test workflow and [coding standards](../../skills/al-coding-standards/SKILL.md) for authored AL.
 
 Write and execute targeted tests directly. Delegate only genuinely independent test areas, with disjoint files and available ID ranges. No fixed worker count or test-category quota is required.
 

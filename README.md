@@ -29,7 +29,19 @@ The repo marketplace makes the plugin discoverable. Installation and enablement 
 
 ## Install in GitHub Copilot
 
-Copilot manifests remain in `.github/plugin/`, with matching `.claude-plugin/` manifests for legacy discovery.
+VS Code discovers the root `plugin.json` as Agent Plugins 1.0 and loads custom agents from `com.github.copilot/agents/`. Copilot manifests remain in `.github/plugin/`, with matching `.claude-plugin/` manifests for legacy discovery; their agent paths point to the same definitions.
+
+For a local checkout in VS Code, register the actual repository path in the user settings:
+
+```json
+"chat.pluginLocations": {
+	"C:/path/to/copilot-al-configs": true
+}
+```
+
+Reload the VS Code window after changing the plugin layout. The plugin details should list 11 skills, four MCP servers, and eight agents. Six agents are available in the picker; `al-developer` and `al-symbol-researcher` are delegation-only. No separate `chat.agentFilesLocations` entry is needed for this plugin.
+
+For GitHub Copilot CLI:
 
 - Direct plugin install: `copilot plugin install hyzaDan/copilot-al-configs`
 - Marketplace add: `copilot plugin marketplace add hyzaDan/copilot-al-configs`
@@ -46,9 +58,9 @@ Copilot manifests remain in `.github/plugin/`, with matching `.claude-plugin/` m
 | `.agents/plugins/marketplace.json` | Codex marketplace pointing to the plugin at the repository root |
 | `.mcp.json` | Legacy MCP configuration for Copilot and the Codex compatibility layout |
 | `.github/plugin/`, `.claude-plugin/` | Copilot and legacy plugin/marketplace manifests |
-| `agents/` | Optional Copilot custom agents |
+| `com.github.copilot/agents/` | Optional Copilot custom agents, discovered by Agent Plugins 1.0 |
 
-Portable clients discover `skills/` and `mcp.json` automatically. Keep plugin identity/version synchronized across manifests, and keep the MCP server names, commands, arguments, and endpoints equivalent in `mcp.json` and `.mcp.json`; portable HTTP transport is `streamable-http`, while the legacy file uses `http`.
+Portable clients discover `skills/` and `mcp.json` automatically. Copilot discovers its custom agents in the `com.github.copilot` namespace; the root Agent Plugins manifest takes precedence over legacy manifests, so a root `agents/` folder alone is not sufficient. Keep plugin identity/version synchronized across manifests, and keep the MCP server names, commands, arguments, and endpoints equivalent in `mcp.json` and `.mcp.json`; portable HTTP transport is `streamable-http`, while the legacy file uses `http`.
 
 See the official [OpenAI plugin packaging guide](https://developers.openai.com/plugins/build/plugins) for the portable format, compatibility manifests, and marketplace behavior.
 
