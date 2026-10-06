@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Marketplace wrapper for the copilot-al-configs plugin.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "copilot-al-configs",
       "description": "AL and Business Central development skills and MCP tools for Codex and GitHub Copilot.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "source": "./",
       "agents": "agents/",
       "skills": [

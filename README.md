@@ -2,7 +2,7 @@
 
 AL and Business Central development skills and MCP tools for Codex, GitHub Copilot CLI, and VS Code Insiders.
 
-Version `0.1.1` packages 11 shared skills and three MCP connections. Runtime assets stay at the repository root.
+Version `0.1.2` packages 11 shared skills and four MCP connections. Runtime assets stay at the repository root.
 
 ## Install in Codex
 
@@ -56,11 +56,29 @@ See the official [OpenAI plugin packaging guide](https://developers.openai.com/p
 
 | Server | Connection | Prerequisites |
 | --- | --- | --- |
+| `alcops` | Local stdio: `alcops-mcp` | .NET 10, ALCops.Mcp on PATH, and BC Development Tools v18+; NuGet access for initial analyzer provisioning |
 | `al-symbols-mcp` | Local stdio: `npx -y al-mcp-server` | Node.js/npm with `npx` on PATH, initial npm registry access, and the consuming project's AL symbols |
 | `context7` | Streamable HTTP: `https://mcp.context7.com/mcp` | Network access; service access/rate limits apply |
 | `microsoft.docs.mcp` | Streamable HTTP: `https://learn.microsoft.com/api/mcp` | Network access |
 
 These are connections to existing servers. The plugin does not host or deploy a new MCP service. Keep the consuming AL project's context explicit when querying symbols; installing the plugin alone does not provide its `.app` dependencies.
+
+### ALCops project discovery
+
+Install the global tools once if they are not already available:
+
+```powershell
+dotnet tool install --global Microsoft.Dynamics.BusinessCentral.Development.Tools
+dotnet tool install --global ALCops.Mcp
+```
+
+Ensure `alcops-mcp` is on the MCP host's PATH (global .NET tools normally live under the user's `.dotnet/tools` directory). The plugin invokes the command by name, so it works across user accounts and operating systems without embedding a Windows executable path.
+
+The bundled configuration omits `--projects` and `cwd`. ALCops discovers `app.json` files below the working directory supplied by the consuming MCP host. Start it in the intended AL workspace, not the plugin cache directory. If the host uses another directory or the projects are elsewhere, configure `--projects` in that workspace's MCP settings and restart the server so it resolves project, analyzer, and ruleset settings at startup. Project paths belong to the consuming workspace rather than the shared plugin.
+
+`al_addproject` can register a project with the Microsoft AL tool proxy after startup, but it does not refresh ALCops' startup analyzer and ruleset configuration. Use the workspace configuration and restart approach when the full analyzer behavior is required.
+
+ALCops exposes analyzer/rule tools and code fixes, plus Microsoft's `al_*` tools through its `almcp` proxy. Code-fix tools can edit source files; build, publishing, and test prerequisites still apply. See the [ALCops installation and CLI documentation](https://github.com/ALCops/mcp-server#quick-start).
 
 Build validation requires an available AL compiler/build tool. Runtime tests require the project's configured runner and an identified BC test environment. AL Language and NAB editor tools are separate host capabilities, not servers bundled by this plugin.
 
@@ -91,7 +109,7 @@ See [taxonomy](docs/taxonomy.md) for ownership and [the skill-first audit](docs/
 ## Verify in a consuming project
 
 1. Confirm **AL Development** is enabled and the 11 skill names are discoverable in a new session.
-2. Confirm the three MCP servers initialize and list tools. Make a small documentation query and a bounded symbol query for the intended AL project.
+2. Confirm the four MCP servers initialize and list tools. Make a small documentation query and a bounded symbol query for the intended AL project; confirm ALCops has loaded that project before using its AL tools.
 3. Exercise build/test skills only with the actual compiler, runner, and authorized BC environment available.
 4. Exercise translation only after the isolated worker and translation tools have been integrated.
 
