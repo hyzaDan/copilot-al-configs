@@ -1,13 +1,6 @@
 # bc-test Runner Notes
 
-These commands require an installed compatible `bc-test` CLI and configured BC test server; they are not built-in AL Language commands. Check installed help and project configuration before using these forms:
-
-```text
-bc-test 50200
-bc-test 50200-50210
-bc-test -o .dev/test-results.json -f json
-bc-test --failures-only
-```
+`bc-test` is an optional external CLI, not supplied by this plugin or a built-in AL Language command. Inspect the installed executable's help/version and the project's configuration before constructing a command; there is no portable argument contract assumed here.
 
 Prefer explicit changed test codeunits. Some runner versions auto-detect only the first `app.json` ID range; check which codeunits ran before claiming full coverage. Keep results as an artifact when useful, returning only failures and counts to the main conversation.
 

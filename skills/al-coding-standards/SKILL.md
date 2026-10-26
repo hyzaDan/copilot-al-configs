@@ -1,7 +1,6 @@
 ---
 name: al-coding-standards
 description: 'Use when writing or reviewing AL objects, names, subscribers, permissions, labels, or enum conversions.'
-user-invocable: false
 ---
 
 # AL Coding Standards
@@ -35,19 +34,19 @@ Project instructions, supported runtime, and configured analyzers determine the 
 - Extract repeated business logic into shared procedures or codeunits.
 - Add codeunit `Permissions` only for an intentional indirect-permission requirement, not merely because a record is accessed.
 - Use `Validate` when field business rules must run; choose trigger execution on record operations deliberately.
-- Use `then` without `begin`/`end` for single-line `if`/`while`/`for` blocks; reserve `begin ... end` only for multi-line blocks.
+- Follow project block style (`then` for `if`, `do` for loops); omitting `begin`/`end` for a single statement is a team preference, not a compiler restriction.
 
 ## Event subscribers
 
 - Follow the project's event-handler organization and verify signatures against actual dependency symbols.
-- Set `SingleInstance = true` by default on event-handler codeunits. Reusing the instance across subscriber invocations reduces repeated codeunit instantiation overhead.
-- Omitting `SingleInstance` requires a concrete, documented reason, such as a required per-invocation state lifetime. Check global variables for state retained between calls; keep handlers stateless where possible. This default applies to event-handler codeunits, not every codeunit.
+- Choose `SingleInstance` from required state lifetime and any explicitly adopted project policy. The platform default is `false`; a stateless `StaticAutomatic` subscriber without it is valid. Do not require it or claim a performance defect without evidence. With `true`, globals can survive subsequent calls in the same client/company context; review reset, reentrancy, and leakage between operations. See [subscriber lifetime](./references/subscriber-lifetime.md).
 - Use the subscriber attribute syntax required by the supported AL compiler.
 
 ## Permission sets
 
 - Use AL `permissionset` objects, not XML.
 - Follow project naming and grant least privilege.
+- `InherentPermissions` and `InherentEntitlements` are specific permission mechanisms, not mandatory properties on every object. Report a concrete access defect or applicable analyzer rule; do not infer one from an omitted property.
 
 ## Labels and enums
 

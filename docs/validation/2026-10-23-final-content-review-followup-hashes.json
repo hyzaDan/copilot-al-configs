@@ -1,0 +1,146 @@
+[
+  {
+    "path": "skills\\al-bc-solution-review\\SKILL.md",
+    "old_sha256": "abdf051f819526412ad82e6822986ffb7fcf938704a88cf829ebd23ff7682335",
+    "new_sha256": "a3ea7f5e29a24026daf5bb574fc5ef3f9e47e34fbf51e5ae86abe6ca007a8355",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-build-validation\\SKILL.md",
+    "old_sha256": "0d7fb722609058d2535397e2b2ecb13e7bfadf68c4be3fbc99e3f5c5d77eb2f8",
+    "new_sha256": "c308a21955855269240c5fb1a948d66a5c0a70d6bfcc2a4e1011e46c84e89ede",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-build-validation\\references\\project-identity.md",
+    "old_sha256": "592349d8a320f599fc2201d905a257272d7db2f46c91a7084f02a91ac3205b7a",
+    "new_sha256": "1314e569bc22630a94937d009f6cfdf7a175f6b95530a51c1bc535351bdb15f2",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-coding-standards\\SKILL.md",
+    "old_sha256": "407511357102cf7d3d4f5048c528be33b51975b69cc2feb55f25ea09fc259d8f",
+    "new_sha256": "3d1ac94dd60284791019818f61ee6263f31f146bea883a0403b2c7b5b8cc5905",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-coding-standards\\references\\team-conventions.md",
+    "old_sha256": "bb95ca894bb03a45b8b9dc2ec7609caf9555c9f00e01b227ed44f96d106b4e33",
+    "new_sha256": "ceda21909902de86b9fbe91bee6eeeade8d205e657421e8e542605ea2d4305a2",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\SKILL.md",
+    "old_sha256": "1ec40d43fca0be16a811dd1a08b0e4664b77bacc7751cb9aa9ed165a4397f099",
+    "new_sha256": "614dde7dcf6965c900b264ed7d1acdf9409ad91b9fda17a4556ddffe6507a836",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\references\\runtime-artifacts.md",
+    "old_sha256": "94b8003e256c8ca5194aebb8e4125f92f23056b1488319f322ca71cbee1a1e3f",
+    "new_sha256": "20d352bac6019dd66f6c584996e03cb17728f3626c1192a45c1401446885f101",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-performance-review\\SKILL.md",
+    "old_sha256": "6947bbd19726d37a507a2a38c183a140f1e127af61b70fb655219f411d1bba73",
+    "new_sha256": "466c5c2fc5f4162233d2165b558dab9cf70e76c68ea2095449505934042aac3a",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-project-context-bootstrap\\SKILL.md",
+    "old_sha256": "e295c95b909e43d9ea79da77183eca79f118dad4d7ae81a9d0a71612e2835241",
+    "new_sha256": "e3c891cf8f8e4b769fbb6d86ff9208a98bf75ebcd411f7f3987e0eab90b5494c",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-security-review\\SKILL.md",
+    "old_sha256": "0a91ad68c979c231160ef9ca49edbe687847e39152cdc599b3869e488f56f6ba",
+    "new_sha256": "be7933a69568ec6eb1ee95e404f443b0da4386b31ef192e65932dd7534540a62",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-symbol-lookup\\SKILL.md",
+    "old_sha256": "df578d656adf4f40e0e731497ef5bc984715de5ac8a0a6d965f2f0e6d75a8111",
+    "new_sha256": "907eefa23d1132312f782c01db1559b1ca35be067ab6447683bb14f49afeee04",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-testing\\SKILL.md",
+    "old_sha256": "60f8767bbce4776cfc31c366be55f3cfedbc372291baa05ce1e5ff0718788074",
+    "new_sha256": "30b985f7ac00dfd1493efc64fed3215c0478021be5c30f05328ec87d4ea3f5a3",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-testing\\references\\bc-test.md",
+    "old_sha256": "98dc63647a440445c73fab14af8a3ee55b23d7bdbfd59b4d5fa8967c5407fc95",
+    "new_sha256": "96f14cb436f9ece2fddd5d1c4ccfa62398ccca8eb107f112f0f5a8912d90302e",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\al-translation-phase\\SKILL.md",
+    "old_sha256": "38ecc2b75d4fd9a68f664617b5d0c006a25ebac0a2b85ec779345384c3fcb6ec",
+    "new_sha256": "c5834c8b8c5ec5a6ea6aa51086f7aa744dbc8b99d08ef37368e8b23bc73b4d7b",
+    "reason": "CRLF-to-LF only"
+  },
+  {
+    "path": "skills\\bc-app-lifecycle\\references\\migration-decisions.md",
+    "old_sha256": "f9336f374fe1dc5d6ec04e1ac2df2782e9329bc6c3a3079a0444e6d0b6834d5b",
+    "new_sha256": "f15e2f689cbc118893983f4b61dd8a2ff38e4bfc26d884125327500ab4fa079c",
+    "reason": "reviewed precautionary content clarification"
+  },
+  {
+    "path": "skills\\bc-table-dimensions-generator\\SKILL.md",
+    "old_sha256": "79a7145b369c20dd32400f10b1df40944395f2b5b0ee4fb0e1ccdf973b0ed356",
+    "new_sha256": "6b4385c9362cfef0ae5242f7a7105af919cde314d358492ddff328155d1c66ef",
+    "reason": "reviewed precautionary content clarification"
+  },
+  {
+    "path": "skills\\al-bc-solution-review\\SKILL.md",
+    "old_sha256": "a3ea7f5e29a24026daf5bb574fc5ef3f9e47e34fbf51e5ae86abe6ca007a8355",
+    "new_sha256": "6280b23bda22663a62ee178fd78ee310b17c7db28c450f93383b7b62f8562d76",
+    "reason": "portable frontmatter only: removed argument-hint: \"changed files or feature description\""
+  },
+  {
+    "path": "skills\\al-coding-standards\\SKILL.md",
+    "old_sha256": "3d1ac94dd60284791019818f61ee6263f31f146bea883a0403b2c7b5b8cc5905",
+    "new_sha256": "df668aee5950a7ffc8c152560d12104b6ec32d18e98682d78130d3de0eb20aed",
+    "reason": "portable frontmatter only: removed user-invocable: false"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\SKILL.md",
+    "old_sha256": "614dde7dcf6965c900b264ed7d1acdf9409ad91b9fda17a4556ddffe6507a836",
+    "new_sha256": "06b6234910306a623f09034a30734bc66d71c5bd92fcf8848350f9419fa15ec8",
+    "reason": "portable frontmatter only: removed user-invocable: false"
+  },
+  {
+    "path": "skills\\al-performance-review\\SKILL.md",
+    "old_sha256": "466c5c2fc5f4162233d2165b558dab9cf70e76c68ea2095449505934042aac3a",
+    "new_sha256": "f7c5e870efbae3af300cee01969b28c4bc5aa2025bc3335f174c21487ecd34db",
+    "reason": "portable frontmatter only: removed user-invocable: false"
+  },
+  {
+    "path": "skills\\al-project-context-bootstrap\\SKILL.md",
+    "old_sha256": "e3c891cf8f8e4b769fbb6d86ff9208a98bf75ebcd411f7f3987e0eab90b5494c",
+    "new_sha256": "62c8384f45698777008abeffec12e6fd1038f612a42f284ba8ed07226fa0af66",
+    "reason": "portable frontmatter only: removed argument-hint: \"project root or module\""
+  },
+  {
+    "path": "skills\\al-security-review\\SKILL.md",
+    "old_sha256": "be7933a69568ec6eb1ee95e404f443b0da4386b31ef192e65932dd7534540a62",
+    "new_sha256": "27ca39089ced268ba63ab5361f5e906c700b1074ec199b6f9ae3e09c8608f122",
+    "reason": "portable frontmatter only: removed user-invocable: false"
+  },
+  {
+    "path": "skills\\al-symbol-lookup\\SKILL.md",
+    "old_sha256": "907eefa23d1132312f782c01db1559b1ca35be067ab6447683bb14f49afeee04",
+    "new_sha256": "2de026b29518a0b4611178656e0608e3148a9de986883a357094d5b949835d56",
+    "reason": "portable frontmatter only: removed user-invocable: false"
+  },
+  {
+    "path": "skills\\al-translation-phase\\SKILL.md",
+    "old_sha256": "c5834c8b8c5ec5a6ea6aa51086f7aa744dbc8b99d08ef37368e8b23bc73b4d7b",
+    "new_sha256": "bc5a889d97adf73315f85dbcf62661b5088e8a0b97f4c564ac1e6180d00b2789",
+    "reason": "portable frontmatter only: removed user-invocable: true"
+  }
+]

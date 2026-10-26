@@ -1,7 +1,6 @@
 ---
 name: al-security-review
 description: 'Use for AL permission changes, sensitive fields, external integrations, or access-control review.'
-user-invocable: false
 ---
 
 # Security Review

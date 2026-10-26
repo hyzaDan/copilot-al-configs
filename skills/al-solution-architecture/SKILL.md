@@ -44,3 +44,5 @@ Make the design concrete enough that development should not require silent redes
 - sequencing constraints, assumptions, risks, and accepted trade-offs
 
 Recommend one primary design. Mention alternatives only when they clarify a meaningful BC-specific trade-off. In a planning-only task, use signatures or small skeletons rather than implementing production code; this skill does not prevent implementation when the user requested it.
+
+For a persistent architecture artifact, read [BC decision checklist](./references/decision-checklist.md). Use [documentation](../al-documentation/SKILL.md) only when an actual document is requested; neither is a mandatory phase for a small change.

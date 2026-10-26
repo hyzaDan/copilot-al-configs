@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "path": "skills/bc-isolated-storage-generator/references/storage-patterns.md",
+      "sha256": "4d12a64372369bdff1b497d9f3facb6c43d8c7feea92cdc531c45e3df427397b"
+    },
+    {
+      "path": "skills/bc-telemetry-generator/references/producer-and-kql.md",
+      "sha256": "537f3aafe8a11899a13c0ae19da9773e155df226d6c9206a0b7bc74933efb9fd"
+    }
+  ],
+  "runtime": "15.0",
+  "target": "Cloud",
+  "exitCode": 0,
+  "packageProduced": true,
+  "passed": true,
+  "scope": "Compilation only: storage and telemetry method fragments. No BC runtime."
+}

@@ -1,0 +1,29 @@
+{
+  "package_validator": {
+    "exit_code": 0,
+    "summary": "29 skills; 56 maintained hashes; 50 dispositions; 155 local links; 6 versioned manifests"
+  },
+  "regression_tests": {
+    "exit_code": 0,
+    "tests": 15,
+    "result": "OK"
+  },
+  "script_hashes": [
+    {
+      "path": "scripts/validate-skills.py",
+      "sha256": "532904075076baabceaef97d28cc641853416fc37b4173ecabebbd826c07877f"
+    },
+    {
+      "path": "scripts/record-skill-integrity.py",
+      "sha256": "9b4a49048deaeffba4b60a3e68475b2d45807ac146063dcbab59187e1317bdd0"
+    },
+    {
+      "path": "scripts/test-validate-skills.py",
+      "sha256": "fb93e7cfae61a9c719e45f9c94823edf6f2762225c7e944d1cd47e2b26e9fc8d"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "5c7cb3584a3667c77be7995ed688e8805602ce52b60cf525735d2ad1acdf32ec"
+    }
+  ]
+}

@@ -29,19 +29,19 @@ Parent (selected implementation model, e.g. Astra)
   -> parent receives saved/remaining counts and ambiguities only
 ```
 
-This is a required isolation boundary, not a size-based optimization: parent agents do not synchronize, enumerate, or save XLF translation units. If Luna or its tools are unavailable, report the blocked prerequisite instead of silently falling back to the parent model.
+This is a required isolation boundary, not a size-based optimization: parent agents do not synchronize, enumerate, or save XLF translation units. The host must register an isolated worker and give it either NAB tools or XML-aware editing. If neither route is available, report the missing prerequisite instead of falling back to the parent context.
 
 ## Model configuration
 
 VS Code documents `model` on custom agents, not on ordinary skills. A skill is instructions loaded by the executing model, not an independent model endpoint. Writing `model: Terra` in `SKILL.md` does not establish supported model routing.
 
-The [symbol worker](../agents/al-symbol-researcher.agent.md) uses the same `GPT-5.6 Terra (unify-chat-provider)` identifier already used by this repository's developer/reviewer. The [translation worker](../agents/al-translator.agent.md) uses `GPT-5.6 Luna (unify-chat-provider)` for the isolated XLF boundary above. These are provider-specific configuration values, not a claim that these models are installed, cheaper, or suitable in every environment.
+The [symbol worker](../com.github.copilot/agents/al-symbol-researcher.agent.md) uses `GPT-5.6 Terra (unify-chat-provider)`. The [translation worker](../com.github.copilot/agents/al-translator.agent.md) uses `GPT-6 Luna (unify-chat-provider)` for the isolated XLF boundary above. These are provider-specific configuration values, not a claim that these models are installed, cheaper, or suitable in every environment.
 
 The worker allows `al-symbols-mcp/*` because the installed server's individual tool IDs are not established here. Its read-only instructions are not a sandbox: the wildcard permits whatever that server exposes. For enforced least privilege, inspect the installed tool list and replace the wildcard with the exact read-only lookup tools. The AL Language fallback is already limited to symbol search.
 
 To change the worker model, select an exact available model identifier in the target VS Code installation and update the agent's `model`. VS Code also supports a prioritized model list. Keep fallbacks explicit: silently falling back to an expensive parent would defeat a strict cost budget. If the configured provider is unavailable, configure an available model before relying on this worker; omitting `model` inherits the selected model and does not promise savings.
 
-Try Luna for bounded extraction only after checking signature accuracy on representative cases. Terra is the initial candidate here because its identifier already exists in the repository, not because a benchmark established superiority. Keep architecture, business semantics, and final integration validation with the parent model.
+Try Luna for bounded extraction only after checking signature accuracy on representative cases. The current configured model has not been benchmarked against alternatives. Keep architecture, business semantics, and final integration validation with the parent model.
 
 ## Experimental forked skills
 
@@ -59,7 +59,7 @@ No runtime model-routing or cost benchmark was performed as part of this reposit
 
 ## Sources
 
-- [VS Code custom agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents): model selection, invocation controls, and tool allowlists.
-- [VS Code agent skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills): supported metadata, progressive loading, and experimental forked context.
+- [VS Code custom agents](https://code.visualstudio.com/docs/agent-customization/custom-agents): model selection, invocation controls, and tool allowlists.
+- [VS Code agent skills](https://code.visualstudio.com/docs/agent-customization/agent-skills): supported metadata, progressive loading, and experimental forked context.
 
-Checked on 2026-09-06. Recheck host support before relying on experimental fields or cross-runtime model selection.
+Official VS Code skill/agent/plugin documentation, file paths and declared models were rechecked on 2026-10-23. Recheck installed host support before relying on experimental fields or cross-runtime model selection.

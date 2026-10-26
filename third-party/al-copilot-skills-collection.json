@@ -1,0 +1,2141 @@
+{
+  "schemaVersion": 2,
+  "packageVersion": "0.3.0",
+  "reviewedOn": "2026-10-23",
+  "baseline": {
+    "packageVersion": "0.2.0",
+    "localGitHead": "c87c2aa",
+    "skillCount": 50,
+    "localSkills": [
+      "al-bc-solution-review",
+      "al-build-validation",
+      "al-coding-standards",
+      "al-debugging-methodology",
+      "al-performance-review",
+      "al-project-context-bootstrap",
+      "al-security-review",
+      "al-solution-architecture",
+      "al-symbol-lookup",
+      "al-testing",
+      "al-translation-phase"
+    ],
+    "localFiles": [
+      {
+        "path": "skills/al-bc-solution-review/SKILL.md",
+        "sha256": "a7927033115d60c3d3c7dbc140ec0cdc82cad7929161bc91689776cf0b6c8fdb"
+      },
+      {
+        "path": "skills/al-build-validation/references/project-identity.md",
+        "sha256": "592349d8a320f599fc2201d905a257272d7db2f46c91a7084f02a91ac3205b7a"
+      },
+      {
+        "path": "skills/al-build-validation/SKILL.md",
+        "sha256": "0d7fb722609058d2535397e2b2ecb13e7bfadf68c4be3fbc99e3f5c5d77eb2f8"
+      },
+      {
+        "path": "skills/al-coding-standards/references/team-conventions.md",
+        "sha256": "76a5ef9528ada9c442a932d8d2c0c9832f6d066efa5ea3715674810fea0262bc"
+      },
+      {
+        "path": "skills/al-coding-standards/SKILL.md",
+        "sha256": "ffadef3c425e9e28438f0554f15424b44397442ee97da842471dc141ca96389a"
+      },
+      {
+        "path": "skills/al-debugging-methodology/references/runtime-artifacts.md",
+        "sha256": "94b8003e256c8ca5194aebb8e4125f92f23056b1488319f322ca71cbee1a1e3f"
+      },
+      {
+        "path": "skills/al-debugging-methodology/SKILL.md",
+        "sha256": "8fa6a6a4fb1593a38d8804f6f7129c559ade700ad9ba248a2cec1af4e106de62"
+      },
+      {
+        "path": "skills/al-performance-review/SKILL.md",
+        "sha256": "2dfc8009bca6514425a9391ca26175a80ecc406a2e2bc1dff3b3aec04f3e4067"
+      },
+      {
+        "path": "skills/al-project-context-bootstrap/SKILL.md",
+        "sha256": "37d1617ee578b11f2d7fa2d05608a52eb19e3a49816e55f1fc9808c7662dd1fd"
+      },
+      {
+        "path": "skills/al-security-review/SKILL.md",
+        "sha256": "0a91ad68c979c231160ef9ca49edbe687847e39152cdc599b3869e488f56f6ba"
+      },
+      {
+        "path": "skills/al-solution-architecture/SKILL.md",
+        "sha256": "d5eb0a7e5ceaa46e2f2eb571d3075bcde5f8bbbfa15ede2a242965d45db8762e"
+      },
+      {
+        "path": "skills/al-symbol-lookup/SKILL.md",
+        "sha256": "df578d656adf4f40e0e731497ef5bc984715de5ac8a0a6d965f2f0e6d75a8111"
+      },
+      {
+        "path": "skills/al-testing/references/bc-test.md",
+        "sha256": "0f9c8065de6d700d671f711d6a5fae11cf006287c07e0d0a9d412a830ade486e"
+      },
+      {
+        "path": "skills/al-testing/SKILL.md",
+        "sha256": "5834afef48e40e3300370d633fc5e865408e95bf12babfe00c92fe46bf0312ac"
+      },
+      {
+        "path": "skills/al-translation-phase/SKILL.md",
+        "sha256": "fdd8cfdb9d32fadd8c05f5b8cdad2f5e9c380b203a95b309f9011dfdf17acfab"
+      }
+    ]
+  },
+  "upstream": {
+    "repository": "https://github.com/fernandoartalf/AL-Copilot-Skills-Collection",
+    "commit": "f0ef89273477ec7f059bae3a53f62ce05fcdbd34",
+    "license": "MIT",
+    "licenseFile": "third-party/AL-Copilot-Skills-Collection.LICENSE",
+    "licenseSha256": "e5b1f316acd18abee5611875a7643339644618b583a008382f286af60469dbc5",
+    "skillCount": 39,
+    "files": [
+      {
+        "path": "skills/bc-agent-instructions-debugger/AUTHORS.md",
+        "upstreamSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b",
+        "baselineImportedSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b"
+      },
+      {
+        "path": "skills/bc-agent-instructions-debugger/CHANGELOG.md",
+        "upstreamSha256": "5ef0a175b924729005ce263f89d825629a64a40092442622573c99eefc662bd2",
+        "baselineImportedSha256": "5ef0a175b924729005ce263f89d825629a64a40092442622573c99eefc662bd2"
+      },
+      {
+        "path": "skills/bc-agent-instructions-debugger/SKILL.md",
+        "upstreamSha256": "8fafbe8912474acbce0a521def0218838089a72c4889a2a7d8bad9cdd6eb7d8a",
+        "baselineImportedSha256": "cf926697b11a4ba501faebb02adf671508b75dd59d6ac9e0673e0edfd5c2ec1f"
+      },
+      {
+        "path": "skills/bc-agent-instructions-debugger/references/anti-patterns.md",
+        "upstreamSha256": "8302e7fcec9799a9b1b9c37c7a70f57f94cb504bd4a7e112d692b51885bce6da",
+        "baselineImportedSha256": "8302e7fcec9799a9b1b9c37c7a70f57f94cb504bd4a7e112d692b51885bce6da"
+      },
+      {
+        "path": "skills/bc-agent-instructions-debugger/references/runtime-model.md",
+        "upstreamSha256": "d86cfea4840e0a6f9e378406bfb69cb7bc24317d8a5191357c9a9b63c0bcd46f",
+        "baselineImportedSha256": "d86cfea4840e0a6f9e378406bfb69cb7bc24317d8a5191357c9a9b63c0bcd46f"
+      },
+      {
+        "path": "skills/bc-al-bug-fix/AUTHORS.md",
+        "upstreamSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b",
+        "baselineImportedSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b"
+      },
+      {
+        "path": "skills/bc-al-bug-fix/CHANGELOG.md",
+        "upstreamSha256": "3d4ec5cdaf98273be26d80b22e9709da2d847016495aeaf9c2da3a9c51f51732",
+        "baselineImportedSha256": "3d4ec5cdaf98273be26d80b22e9709da2d847016495aeaf9c2da3a9c51f51732"
+      },
+      {
+        "path": "skills/bc-al-bug-fix/SKILL.md",
+        "upstreamSha256": "722ff00cf70d50d4b6e0415a58abe9aba13a97265335b6d7764994e3a5e154db",
+        "baselineImportedSha256": "1eac604fb66bbd5ca4b6698270f25af02be644e7d9a74e4d8f0dad89f3d4d06d"
+      },
+      {
+        "path": "skills/bc-al-bug-fix/references/fix-patterns.md",
+        "upstreamSha256": "cbd8feac56b66f2ba3da8bd587c72293e63fbda13f0312da409f9021ee6cbb83",
+        "baselineImportedSha256": "cbd8feac56b66f2ba3da8bd587c72293e63fbda13f0312da409f9021ee6cbb83"
+      },
+      {
+        "path": "skills/bc-al-bug-fix/references/symptom-map.md",
+        "upstreamSha256": "23fd645b8494d3ad3fc63bb86042d073a7df774ab3405e9c970d391650e09655",
+        "baselineImportedSha256": "23fd645b8494d3ad3fc63bb86042d073a7df774ab3405e9c970d391650e09655"
+      },
+      {
+        "path": "skills/bc-al-code-reviewer/AUTHORS.md",
+        "upstreamSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b",
+        "baselineImportedSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b"
+      },
+      {
+        "path": "skills/bc-al-code-reviewer/CHANGELOG.md",
+        "upstreamSha256": "26a0eb225fabf6e06f911b1be7125fec43272139e7d91670419a5fa462909240",
+        "baselineImportedSha256": "26a0eb225fabf6e06f911b1be7125fec43272139e7d91670419a5fa462909240"
+      },
+      {
+        "path": "skills/bc-al-code-reviewer/SKILL.md",
+        "upstreamSha256": "67ef7198af65e640cf91e24180de9cdafb14f2ffa5374b83df76d456682b00ac",
+        "baselineImportedSha256": "aa9de87debfb6713c2d5d7bfcb58953cb8296def94ab648170c51a4431071a80"
+      },
+      {
+        "path": "skills/bc-al-code-reviewer/references/appsource-blockers.md",
+        "upstreamSha256": "124b50ee10064b56ca5ecc594e218ca0c3d5cc166f707b20bf9b72c8f8a4d5dc",
+        "baselineImportedSha256": "124b50ee10064b56ca5ecc594e218ca0c3d5cc166f707b20bf9b72c8f8a4d5dc"
+      },
+      {
+        "path": "skills/bc-al-code-reviewer/references/convention-stack.md",
+        "upstreamSha256": "43fb6c42196035e2e246f88c962d57106b9c9e10ceca4891aa6ba679ea6fcc75",
+        "baselineImportedSha256": "43fb6c42196035e2e246f88c962d57106b9c9e10ceca4891aa6ba679ea6fcc75"
+      },
+      {
+        "path": "skills/bc-al-project-context/AUTHORS.md",
+        "upstreamSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b",
+        "baselineImportedSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b"
+      },
+      {
+        "path": "skills/bc-al-project-context/CHANGELOG.md",
+        "upstreamSha256": "0f8a38bb2027863e392308ce9efbbde1d8b3be6a2ee8968ae73bb444e0a7a0d7",
+        "baselineImportedSha256": "0f8a38bb2027863e392308ce9efbbde1d8b3be6a2ee8968ae73bb444e0a7a0d7"
+      },
+      {
+        "path": "skills/bc-al-project-context/SKILL.md",
+        "upstreamSha256": "1b4c4ea84c381b5ffa0ffcf2232cd8a2ce6e0ff231e04e632d11e413f8555d76",
+        "baselineImportedSha256": "0de611bc1f09057c68e1f8ce80cd36f789a9d5ca982a535844c2e5dff9f3d94c"
+      },
+      {
+        "path": "skills/bc-al-project-context/references/adr-format.md",
+        "upstreamSha256": "a99c065e17c6a6be8ec752f0b6a013e38c37c2b232437090ce34fc4a81dc9a9a",
+        "baselineImportedSha256": "a99c065e17c6a6be8ec752f0b6a013e38c37c2b232437090ce34fc4a81dc9a9a"
+      },
+      {
+        "path": "skills/bc-al-project-context/references/handoff-format.md",
+        "upstreamSha256": "c58ee9fc49ca819a720e7744abd794ada704c2ab7e5f55a55513e27d091b8214",
+        "baselineImportedSha256": "c58ee9fc49ca819a720e7744abd794ada704c2ab7e5f55a55513e27d091b8214"
+      },
+      {
+        "path": "skills/bc-api-page-generator/AUTHORS.md",
+        "upstreamSha256": "5e67c4909e1655525af7eccee400f010395fe3c10c5754810f0389b8a3078f1a",
+        "baselineImportedSha256": "5e67c4909e1655525af7eccee400f010395fe3c10c5754810f0389b8a3078f1a"
+      },
+      {
+        "path": "skills/bc-api-page-generator/CHANGELOG.md",
+        "upstreamSha256": "b532882d9b369a4db4f488d81cb25838bac83c5bffbcd46c3e2ac22ffc2119d8",
+        "baselineImportedSha256": "b532882d9b369a4db4f488d81cb25838bac83c5bffbcd46c3e2ac22ffc2119d8"
+      },
+      {
+        "path": "skills/bc-api-page-generator/SKILL.md",
+        "upstreamSha256": "2a202df003dae7a67d49c626c009e79093970306e3265dddb85b8dd7bae64cd1",
+        "baselineImportedSha256": "669eedad4ab54487e96134cfb24318086821ef59fb0bdfaac584fe5bbbfa2e0f"
+      },
+      {
+        "path": "skills/bc-api-page-generator/references/api-examples.md",
+        "upstreamSha256": "5a75e2303de8f8d479697845d5f5e2bf177e479aed90dd4d98d05c33e6780c31",
+        "baselineImportedSha256": "5a75e2303de8f8d479697845d5f5e2bf177e479aed90dd4d98d05c33e6780c31"
+      },
+      {
+        "path": "skills/bc-api-page-generator/references/api-patterns.md",
+        "upstreamSha256": "e19f2393fd70e9dca75b4b1cf35b3ccb71a8fefab3c3d1a464f8999793579a9d",
+        "baselineImportedSha256": "e19f2393fd70e9dca75b4b1cf35b3ccb71a8fefab3c3d1a464f8999793579a9d"
+      },
+      {
+        "path": "skills/bc-api-query-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-api-query-generator/CHANGELOG.md",
+        "upstreamSha256": "b7381906324b543f2b0551de02012bfbdb060402babdd778e797099ac74901a5",
+        "baselineImportedSha256": "b7381906324b543f2b0551de02012bfbdb060402babdd778e797099ac74901a5"
+      },
+      {
+        "path": "skills/bc-api-query-generator/SKILL.md",
+        "upstreamSha256": "4bef3c5b9ab800ff15a4e72ecb8cd64573c111a2f0ab8898cdf0ed49beda800a",
+        "baselineImportedSha256": "3d1769a4ec8e1b5396da7383d14c3ed2054d68102f542f985704f35284aebb2f"
+      },
+      {
+        "path": "skills/bc-api-query-generator/references/query-examples.md",
+        "upstreamSha256": "9338f96f12f075c2643aa5b3e542683f7156dc36fb03a6d669787e61ffe09299",
+        "baselineImportedSha256": "9338f96f12f075c2643aa5b3e542683f7156dc36fb03a6d669787e61ffe09299"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/CHANGELOG.md",
+        "upstreamSha256": "4f03bbaae4ccc1454bca1cef67171559a71202a00ad000653bdc384bf37c52fa",
+        "baselineImportedSha256": "4f03bbaae4ccc1454bca1cef67171559a71202a00ad000653bdc384bf37c52fa"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/SKILL.md",
+        "upstreamSha256": "ff0003cb0ce7ffe4fd11b8dd3588631bfc3be4d691c6ce9bf39f04beadd3aa46",
+        "baselineImportedSha256": "9a92e6d84e0bcba78bbe1224f8139ad7e23904b177d51a37e51f7d3f855534ff"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/approval-mgmt-codeunit-template.md",
+        "upstreamSha256": "3465509439412b22b1b523d34dcb7d45281551cdb67713feb9180aa7b11bf146",
+        "baselineImportedSha256": "3465509439412b22b1b523d34dcb7d45281551cdb67713feb9180aa7b11bf146"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/custom-page-card-template.md",
+        "upstreamSha256": "0823fe50ce4530cfb2923000c8550e5d6b388e1217a3f0430b74a831a8879d6d",
+        "baselineImportedSha256": "0823fe50ce4530cfb2923000c8550e5d6b388e1217a3f0430b74a831a8879d6d"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/custom-table-template.md",
+        "upstreamSha256": "ebe1322f028a6190a96f011a30142c9a4f33104435e25ec55c25456a22a7aadc",
+        "baselineImportedSha256": "ebe1322f028a6190a96f011a30142c9a4f33104435e25ec55c25456a22a7aadc"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/enum-template.md",
+        "upstreamSha256": "86fec5b043417839a9e701f2e5800fe940424eab1ae957bc00959e3d62106a46",
+        "baselineImportedSha256": "86fec5b043417839a9e701f2e5800fe940424eab1ae957bc00959e3d62106a46"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/page-extension-card-template.md",
+        "upstreamSha256": "61c760ed753fca81922a0196604a8330bba41313870e2790e486e602f0b8e6a3",
+        "baselineImportedSha256": "61c760ed753fca81922a0196604a8330bba41313870e2790e486e602f0b8e6a3"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/table-extension-template.md",
+        "upstreamSha256": "ea9653118db101405e01c68b7955a9548f99db999122baf50f9328074a7eb5f1",
+        "baselineImportedSha256": "ea9653118db101405e01c68b7955a9548f99db999122baf50f9328074a7eb5f1"
+      },
+      {
+        "path": "skills/bc-approval-workflow-generator/references/workflow-setup-codeunit-template.md",
+        "upstreamSha256": "c49213552a98cf48c4224480c3c154c83197066250cc896380a25c54df1c85f0",
+        "baselineImportedSha256": "c49213552a98cf48c4224480c3c154c83197066250cc896380a25c54df1c85f0"
+      },
+      {
+        "path": "skills/bc-attachments-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-attachments-generator/CHANGELOG.md",
+        "upstreamSha256": "f1d72b02b6167fdc398aca16d076b943f1ccc858cf535f844647e68671d9276b",
+        "baselineImportedSha256": "f1d72b02b6167fdc398aca16d076b943f1ccc858cf535f844647e68671d9276b"
+      },
+      {
+        "path": "skills/bc-attachments-generator/SKILL.md",
+        "upstreamSha256": "612ba6c21b667da28ecff85b6f14844e48a3b0083ffeba2df8f09abb2f1a1d66",
+        "baselineImportedSha256": "44be8937520a78e7679018475f5905220366552df868eb1a7a78ec67e3080605"
+      },
+      {
+        "path": "skills/bc-attachments-generator/references/code-templates.md",
+        "upstreamSha256": "14eddae3f709d3970350af2a7f1aeb5849be767d0737883493b86b93c26e51b4",
+        "baselineImportedSha256": "14eddae3f709d3970350af2a7f1aeb5849be767d0737883493b86b93c26e51b4"
+      },
+      {
+        "path": "skills/bc-batch-processing/AUTHORS.md",
+        "upstreamSha256": "0705b3d57a6d93424c4dbeec4286999c0514f2ebf9aa3268cc644890b3abe825",
+        "baselineImportedSha256": "0705b3d57a6d93424c4dbeec4286999c0514f2ebf9aa3268cc644890b3abe825"
+      },
+      {
+        "path": "skills/bc-batch-processing/CHANGELOG.md",
+        "upstreamSha256": "16a1a0eed3ed702ed5a0cd49e673ffa96e1ebbe63de313eeb307be06ea429d17",
+        "baselineImportedSha256": "16a1a0eed3ed702ed5a0cd49e673ffa96e1ebbe63de313eeb307be06ea429d17"
+      },
+      {
+        "path": "skills/bc-batch-processing/SKILL.md",
+        "upstreamSha256": "d99d4763c297f2860e3234f9bd510c732877dce9a55483af6550715f9d7a26c5",
+        "baselineImportedSha256": "71dfa9f09df64acf00633969792cd741f74107bce22fee7b8a309d84d1403a67"
+      },
+      {
+        "path": "skills/bc-batch-processing/references/anti-patterns.md",
+        "upstreamSha256": "562372a44475396b50668b71c44817a9a04d728b5a4b3dbd2aeaba03bad18355",
+        "baselineImportedSha256": "562372a44475396b50668b71c44817a9a04d728b5a4b3dbd2aeaba03bad18355"
+      },
+      {
+        "path": "skills/bc-batch-processing/references/complete-example.md",
+        "upstreamSha256": "bfcf6b4ff6d436d5cf4b1ecc1a966778304f02f48dae1acb00e7582622a38028",
+        "baselineImportedSha256": "bfcf6b4ff6d436d5cf4b1ecc1a966778304f02f48dae1acb00e7582622a38028"
+      },
+      {
+        "path": "skills/bc-batch-processing/references/pattern-1-batch-limiting.md",
+        "upstreamSha256": "2bf2dd457bec94642b629bdd39ab85fd69573d4a8c8aa0b74c72682bc7037244",
+        "baselineImportedSha256": "2bf2dd457bec94642b629bdd39ab85fd69573d4a8c8aa0b74c72682bc7037244"
+      },
+      {
+        "path": "skills/bc-batch-processing/references/pattern-2-progress-tables.md",
+        "upstreamSha256": "55568c3589b45d968a2f514db7fb9db75c7648dc9dea8f6a69618f34c55fa305",
+        "baselineImportedSha256": "55568c3589b45d968a2f514db7fb9db75c7648dc9dea8f6a69618f34c55fa305"
+      },
+      {
+        "path": "skills/bc-batch-processing/references/pattern-4-job-queue.md",
+        "upstreamSha256": "1e7b22df923ae1da2855f67592076f8766b82987a929781face933faf1908cbd",
+        "baselineImportedSha256": "1e7b22df923ae1da2855f67592076f8766b82987a929781face933faf1908cbd"
+      },
+      {
+        "path": "skills/bc-business-events-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-business-events-generator/CHANGELOG.md",
+        "upstreamSha256": "191dffdc624dab049c967093ae88bcb95b7bf679f3ac95f27f271e34a4731dc4",
+        "baselineImportedSha256": "191dffdc624dab049c967093ae88bcb95b7bf679f3ac95f27f271e34a4731dc4"
+      },
+      {
+        "path": "skills/bc-business-events-generator/SKILL.md",
+        "upstreamSha256": "db3581e369f0d9fa9ec79843612395a80d681df5c829e2c2d884c0cd20494c98",
+        "baselineImportedSha256": "9666e852a89c49495e41a2fbeb70a3b1bfc1866be8457310634abeda385628bf"
+      },
+      {
+        "path": "skills/bc-business-events-generator/references/code-templates.md",
+        "upstreamSha256": "cf581a0c6633602bf5e89ff325063c51004f101a61f0576c2a45798d630b912d",
+        "baselineImportedSha256": "cf581a0c6633602bf5e89ff325063c51004f101a61f0576c2a45798d630b912d"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/CHANGELOG.md",
+        "upstreamSha256": "70df022341b3872e686ce62545b61adb119d578eaf5f06d49ed993f51f92ca95",
+        "baselineImportedSha256": "70df022341b3872e686ce62545b61adb119d578eaf5f06d49ed993f51f92ca95"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/SKILL.md",
+        "upstreamSha256": "76c69542edd9f194b8f55a49a5365bbecd363fb83364e2ac05fac91ed4f3a427",
+        "baselineImportedSha256": "abc82a1416d9a7af7e5e915aaf191d1cc584825be9083d7f00c1fd84aea9089f"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/references/examples.md",
+        "upstreamSha256": "eab0541e95b15e6f99f5ad1caf9a30ceca04c5c4966cf7772001d26396bbe0b4",
+        "baselineImportedSha256": "eab0541e95b15e6f99f5ad1caf9a30ceca04c5c4966cf7772001d26396bbe0b4"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/references/field-layout.md",
+        "upstreamSha256": "5a4541e3524d4681afca0ffad2f67da1835a1810c2c08eae8031d118375e8959",
+        "baselineImportedSha256": "5a4541e3524d4681afca0ffad2f67da1835a1810c2c08eae8031d118375e8959"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/references/quick-start.md",
+        "upstreamSha256": "7b55f13500205fc7d12d9242f56258e071b32e2c701020a44c687d2cfa59a35b",
+        "baselineImportedSha256": "7b55f13500205fc7d12d9242f56258e071b32e2c701020a44c687d2cfa59a35b"
+      },
+      {
+        "path": "skills/bc-cds-page-generator/references/standard-components.md",
+        "upstreamSha256": "d5c4fe7e08b68a847d85759d7f9d20471decc85f1b5fc6425cb2fbd66ac82c2b",
+        "baselineImportedSha256": "d5c4fe7e08b68a847d85759d7f9d20471decc85f1b5fc6425cb2fbd66ac82c2b"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/CHANGELOG.md",
+        "upstreamSha256": "57c8d6cb814ec345a591453cb576b9d27e92f582bffb7225894810b63dbb3a26",
+        "baselineImportedSha256": "57c8d6cb814ec345a591453cb576b9d27e92f582bffb7225894810b63dbb3a26"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/SKILL.md",
+        "upstreamSha256": "3f716c93573c75e50e05b810ef0751218906709d4b0470139f002534f970275e",
+        "baselineImportedSha256": "921bb93efdda106c928bc2a213e97b64b800b4eb1c80d31d84e8fbefbbb4e3bc"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/references/generate-entity-list-script.md",
+        "upstreamSha256": "bdca6798e1c7899fbfadd633ce913e47a041c1a2707daf7d5bb042f145df9bc8",
+        "baselineImportedSha256": "bdca6798e1c7899fbfadd633ce913e47a041c1a2707daf7d5bb042f145df9bc8"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/references/generate-entity-script.md",
+        "upstreamSha256": "9e44dfb47ac293e6364f9db3b2a9f2f264642559bd55eb7dc0f05e80ab8c06cb",
+        "baselineImportedSha256": "9e44dfb47ac293e6364f9db3b2a9f2f264642559bd55eb7dc0f05e80ab8c06cb"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/references/workflow-examples.md",
+        "upstreamSha256": "7fcb4cda041baed38cc9bad04f41c2d690f4259eb4fb4d3935c518df929d6615",
+        "baselineImportedSha256": "7fcb4cda041baed38cc9bad04f41c2d690f4259eb4fb4d3935c518df929d6615"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/scripts/Generate-Entity-List.ps1",
+        "upstreamSha256": "9c83e0bb7338830877f74e9ccac1fd103429612187dd1b97f14219acf3234762",
+        "baselineImportedSha256": "9c83e0bb7338830877f74e9ccac1fd103429612187dd1b97f14219acf3234762"
+      },
+      {
+        "path": "skills/bc-dataverse-entity-generator/scripts/Generate-Entity.ps1",
+        "upstreamSha256": "53d3d0e97c5569bc4b84b162dade951ded0bf4299b8460da69aaf86f7734fc35",
+        "baselineImportedSha256": "53d3d0e97c5569bc4b84b162dade951ded0bf4299b8460da69aaf86f7734fc35"
+      },
+      {
+        "path": "skills/bc-dataverse-mapping-generator/AUTHORS.md",
+        "upstreamSha256": "21891e55fbeb9a5e4c39b5b99c16488dc1a91da39609b79d862506fc62f57c5b",
+        "baselineImportedSha256": "21891e55fbeb9a5e4c39b5b99c16488dc1a91da39609b79d862506fc62f57c5b"
+      },
+      {
+        "path": "skills/bc-dataverse-mapping-generator/CHANGELOG.md",
+        "upstreamSha256": "82d870e46778c09377023bf1ae3fb9a1b1300ae2da79eb9d7ada4d169b643968",
+        "baselineImportedSha256": "82d870e46778c09377023bf1ae3fb9a1b1300ae2da79eb9d7ada4d169b643968"
+      },
+      {
+        "path": "skills/bc-dataverse-mapping-generator/SKILL.md",
+        "upstreamSha256": "80e54ee093462106ada84d5c2979d8b26c4d8d44450c4437d8b7d104066be57d",
+        "baselineImportedSha256": "fbb82fd098ee3de19fbba959bac749e8cb67fd8416d2c1bf5962def9e6f75ca6"
+      },
+      {
+        "path": "skills/bc-dataverse-mapping-generator/references/custom-entity-mapping.md",
+        "upstreamSha256": "2af2707b883b5e67e5f931c6928b833b526576d2272d2ef093c1e96f17560531",
+        "baselineImportedSha256": "2af2707b883b5e67e5f931c6928b833b526576d2272d2ef093c1e96f17560531"
+      },
+      {
+        "path": "skills/bc-dataverse-mapping-generator/references/oob-entity-mapping.md",
+        "upstreamSha256": "6815e51b9da496da72ae86ed0d34ccd5351f28e69acc83b5447f0f361251938e",
+        "baselineImportedSha256": "6815e51b9da496da72ae86ed0d34ccd5351f28e69acc83b5447f0f361251938e"
+      },
+      {
+        "path": "skills/bc-field-propagation/AUTHORS.md",
+        "upstreamSha256": "fdb75a4bc0bb8f46b866e83644f1a857afa2686b374042be5bd313dd5f873547",
+        "baselineImportedSha256": "fdb75a4bc0bb8f46b866e83644f1a857afa2686b374042be5bd313dd5f873547"
+      },
+      {
+        "path": "skills/bc-field-propagation/CHANGELOG.md",
+        "upstreamSha256": "765f27366673db7688e51f629d26d8b065e7e135b9892755eda401adb5af97d5",
+        "baselineImportedSha256": "765f27366673db7688e51f629d26d8b065e7e135b9892755eda401adb5af97d5"
+      },
+      {
+        "path": "skills/bc-field-propagation/SKILL.md",
+        "upstreamSha256": "36367b143471c1150745e99c14355188dac14a876ef40e9e1101dd9221e635ea",
+        "baselineImportedSha256": "68e680a1cc693d2fa320a3d0c9c02ad65c603a01d5e4f281ea661470448c5837"
+      },
+      {
+        "path": "skills/bc-field-propagation/references/field-propagation-checklist.md",
+        "upstreamSha256": "31e9f904f359931eb6a8360e5dba8451f3b0145ff7048141dae17472cd971825",
+        "baselineImportedSha256": "31e9f904f359931eb6a8360e5dba8451f3b0145ff7048141dae17472cd971825"
+      },
+      {
+        "path": "skills/bc-field-propagation/references/pattern-a-table-map.md",
+        "upstreamSha256": "e55856cc1891e96b4f9d02e42941a5a671ab8790bb0544d19687d41d6dfca540",
+        "baselineImportedSha256": "e55856cc1891e96b4f9d02e42941a5a671ab8790bb0544d19687d41d6dfca540"
+      },
+      {
+        "path": "skills/bc-field-propagation/references/pattern-b-event-map.md",
+        "upstreamSha256": "25ea300bde9a1803cd2cde56bc8598158772882d3c8d0db3e20e98f652ea3504",
+        "baselineImportedSha256": "25ea300bde9a1803cd2cde56bc8598158772882d3c8d0db3e20e98f652ea3504"
+      },
+      {
+        "path": "skills/bc-install-codeunit-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-install-codeunit-generator/CHANGELOG.md",
+        "upstreamSha256": "9805c34e2cda9d6a0d09447cd4a01e4659c2a1243ade0996437beb01e2f979ea",
+        "baselineImportedSha256": "9805c34e2cda9d6a0d09447cd4a01e4659c2a1243ade0996437beb01e2f979ea"
+      },
+      {
+        "path": "skills/bc-install-codeunit-generator/SKILL.md",
+        "upstreamSha256": "1aa4fcece6f8ed1d5c7adcbdbdb18e56de6eb70edbbe73eb24209a374c51d475",
+        "baselineImportedSha256": "0dec4de14427715a6106dadd149d87c15b00de9e63a705b221242a9f0342424a"
+      },
+      {
+        "path": "skills/bc-install-codeunit-generator/references/install-examples.md",
+        "upstreamSha256": "0b15eed5f4f0ffb73087ec2d608c92f4a1a7dce8961435278bd501ba446c2ad5",
+        "baselineImportedSha256": "0b15eed5f4f0ffb73087ec2d608c92f4a1a7dce8961435278bd501ba446c2ad5"
+      },
+      {
+        "path": "skills/bc-isolated-storage-generator/AUTHORS.md",
+        "upstreamSha256": "c4b45abbbaaa91ab1b9d16f5a3303eb0175047e53f64b39dd3c23cba77033544",
+        "baselineImportedSha256": "c4b45abbbaaa91ab1b9d16f5a3303eb0175047e53f64b39dd3c23cba77033544"
+      },
+      {
+        "path": "skills/bc-isolated-storage-generator/CHANGELOG.md",
+        "upstreamSha256": "4c61ceabfb78109d51a3456f568ed820529d434b9053021e3e4c37eaf540a003",
+        "baselineImportedSha256": "4c61ceabfb78109d51a3456f568ed820529d434b9053021e3e4c37eaf540a003"
+      },
+      {
+        "path": "skills/bc-isolated-storage-generator/SKILL.md",
+        "upstreamSha256": "049ab9ca8b2e5464fd92af28c8702610979e788b829ba77a8ba34e689cd195cb",
+        "baselineImportedSha256": "ce58565613b041a708334960d82f30344b11ae911ab3f621d8ea33ba7ad5e6bf"
+      },
+      {
+        "path": "skills/bc-isolated-storage-generator/references/isolated-storage-examples.md",
+        "upstreamSha256": "67cb0b7c2b5e6ec2d1e0aec003d16ea1eda40e53d901cdad7e838e6661e3cd3c",
+        "baselineImportedSha256": "67cb0b7c2b5e6ec2d1e0aec003d16ea1eda40e53d901cdad7e838e6661e3cd3c"
+      },
+      {
+        "path": "skills/bc-job-queue/AUTHORS.md",
+        "upstreamSha256": "247f8845a766f04b239f63f6cbc0774d4f9afdc9cf3f613288ea69956fc38b90",
+        "baselineImportedSha256": "247f8845a766f04b239f63f6cbc0774d4f9afdc9cf3f613288ea69956fc38b90"
+      },
+      {
+        "path": "skills/bc-job-queue/CHANGELOG.md",
+        "upstreamSha256": "f32665eec88f92eedbdcf4e7c8d81ba7ff58cd5f6a75edf0843e13af6998df86",
+        "baselineImportedSha256": "f32665eec88f92eedbdcf4e7c8d81ba7ff58cd5f6a75edf0843e13af6998df86"
+      },
+      {
+        "path": "skills/bc-job-queue/SKILL.md",
+        "upstreamSha256": "f87d08b2f2a2a57f93ee142a0d1563c1d3fda60826358bbfce6190f61ca758ea",
+        "baselineImportedSha256": "01d077f1e2807d6d875ecc03329a36ad0154080b959c9e034b3da6504ffc1271"
+      },
+      {
+        "path": "skills/bc-job-queue/references/code-patterns.md",
+        "upstreamSha256": "68508a16ee0f1ad16612c1e124d919c4f8004a494f37881bfde55d012a1e2062",
+        "baselineImportedSha256": "68508a16ee0f1ad16612c1e124d919c4f8004a494f37881bfde55d012a1e2062"
+      },
+      {
+        "path": "skills/bc-job-queue/references/official-sources.md",
+        "upstreamSha256": "a3005d08901af3dc4e8dd24733679b21125dceebd99054aa4f6a8a90e58fcc40",
+        "baselineImportedSha256": "a3005d08901af3dc4e8dd24733679b21125dceebd99054aa4f6a8a90e58fcc40"
+      },
+      {
+        "path": "skills/bc-job-queue/references/release-plan-entry.md",
+        "upstreamSha256": "0e9b394eb389e7f66325d50419051621af732b3224d5e748cbf25751a80886a4",
+        "baselineImportedSha256": "0e9b394eb389e7f66325d50419051621af732b3224d5e748cbf25751a80886a4"
+      },
+      {
+        "path": "skills/bc-manifest-handoff-generator/AUTHORS.md",
+        "upstreamSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b",
+        "baselineImportedSha256": "968119be6929fa214934b4716f120810f0095b87c36ae8d98f4b6183e004213b"
+      },
+      {
+        "path": "skills/bc-manifest-handoff-generator/CHANGELOG.md",
+        "upstreamSha256": "aade67bd2c4cd8ce2ec6188dd6fe80fd5670ba73b00efd4760b402962037ed87",
+        "baselineImportedSha256": "aade67bd2c4cd8ce2ec6188dd6fe80fd5670ba73b00efd4760b402962037ed87"
+      },
+      {
+        "path": "skills/bc-manifest-handoff-generator/SKILL.md",
+        "upstreamSha256": "3d4ff77fd9681b790495cc3579cd02a0c44d11e1ccb1a4398648cf8808b45679",
+        "baselineImportedSha256": "3fe948b419adc2e6fe9bd7b30be594aa1ea5e7401cc2be35eef67a22b74d65ce"
+      },
+      {
+        "path": "skills/bc-manifest-handoff-generator/references/manifest-structure.md",
+        "upstreamSha256": "b821ac59a73f1fc7783a2c5ec67e642d2ca21a78b2c8592b9d14a42d34cc3bbf",
+        "baselineImportedSha256": "b821ac59a73f1fc7783a2c5ec67e642d2ca21a78b2c8592b9d14a42d34cc3bbf"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/AUTHORS.md",
+        "upstreamSha256": "6dd70232868eb3419e0c23bf9850332272190c41e703f4574bf4ff11c47d877d",
+        "baselineImportedSha256": "6dd70232868eb3419e0c23bf9850332272190c41e703f4574bf4ff11c47d877d"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/CHANGELOG.md",
+        "upstreamSha256": "0d49bd7d2dd93b500b59f3c8b8a86600ea282f7dfbba1ea42c2286c0f757805f",
+        "baselineImportedSha256": "0d49bd7d2dd93b500b59f3c8b8a86600ea282f7dfbba1ea42c2286c0f757805f"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/SKILL.md",
+        "upstreamSha256": "e54985d55354802ca6d4f42959ad7a983c2e35d40b58fb8504f98e8eecde7b09",
+        "baselineImportedSha256": "c96913251ce9803171853b6208247705f6666468e8a1593dfdd9e6d155ca39ab"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/references/examples/monthly-item-matrix.md",
+        "upstreamSha256": "6cea1e8b12207203c733ff1fe14d72ec1bb8ed9bda788bff2e8a272b6adf2651",
+        "baselineImportedSha256": "6cea1e8b12207203c733ff1fe14d72ec1bb8ed9bda788bff2e8a272b6adf2651"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/references/examples/weekly-customer-matrix.md",
+        "upstreamSha256": "f232070a62660566a09d18ab9147c1386d9f908bf6d917a79ee20197bd9e34cd",
+        "baselineImportedSha256": "f232070a62660566a09d18ab9147c1386d9f908bf6d917a79ee20197bd9e34cd"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/references/excel-export.md",
+        "upstreamSha256": "03dcb6f64cd321d52f25a548e0f61765aefbc2880b0493adb4c9a8f3157bc6ae",
+        "baselineImportedSha256": "03dcb6f64cd321d52f25a548e0f61765aefbc2880b0493adb4c9a8f3157bc6ae"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/references/pagination-patterns.md",
+        "upstreamSha256": "753b61e807c287c100939961a2315a145dad999b5ed9d3e7829471549148d3ff",
+        "baselineImportedSha256": "753b61e807c287c100939961a2315a145dad999b5ed9d3e7829471549148d3ff"
+      },
+      {
+        "path": "skills/bc-matrix-page-generator/references/periodicities.md",
+        "upstreamSha256": "def09a319534e7115a8f761b4f07f53452ce5f6a60dd0247a5c2bf938b94ced7",
+        "baselineImportedSha256": "def09a319534e7115a8f761b4f07f53452ce5f6a60dd0247a5c2bf938b94ced7"
+      },
+      {
+        "path": "skills/bc-number-series-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-number-series-generator/CHANGELOG.md",
+        "upstreamSha256": "9f9b39aded18e83d0bcffb601cf5ec20cac6caf2c47b9c3ceac346d7975cc774",
+        "baselineImportedSha256": "9f9b39aded18e83d0bcffb601cf5ec20cac6caf2c47b9c3ceac346d7975cc774"
+      },
+      {
+        "path": "skills/bc-number-series-generator/SKILL.md",
+        "upstreamSha256": "2b99efb82dd5dd8b91d357d4de9bb774f4dcafb6cccde35504b01bf32ad90069",
+        "baselineImportedSha256": "a2356f102f8575d4b49c683964a362432bf9f0da4f22975351c1ca543d264f65"
+      },
+      {
+        "path": "skills/bc-number-series-generator/references/number-series-examples.md",
+        "upstreamSha256": "6251b62a965e4720f49f7cd02248b3c8a191d52fccce01de8dea8867307a53d7",
+        "baselineImportedSha256": "6251b62a965e4720f49f7cd02248b3c8a191d52fccce01de8dea8867307a53d7"
+      },
+      {
+        "path": "skills/bc-number-series-generator/references/number-series-troubleshooting.md",
+        "upstreamSha256": "4f19b79bb8ea3116c782c6fd7f159dcbbd667749687817dc0abf3c4cb1aaae71",
+        "baselineImportedSha256": "4f19b79bb8ea3116c782c6fd7f159dcbbd667749687817dc0abf3c4cb1aaae71"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/AUTHORS.md",
+        "upstreamSha256": "247f8845a766f04b239f63f6cbc0774d4f9afdc9cf3f613288ea69956fc38b90",
+        "baselineImportedSha256": "247f8845a766f04b239f63f6cbc0774d4f9afdc9cf3f613288ea69956fc38b90"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/CHANGELOG.md",
+        "upstreamSha256": "91a7061656927ba4e718423ae67bbbf907a50f64bdc5713d6b2b68ef13fbe591",
+        "baselineImportedSha256": "91a7061656927ba4e718423ae67bbbf907a50f64bdc5713d6b2b68ef13fbe591"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/SKILL.md",
+        "upstreamSha256": "086b5bfdb5cc967472e8d6b7e6f4317d05bfd15de12ab4d85dd70aff273c988e",
+        "baselineImportedSha256": "21f0ef319c0559e6c38261bdf62d16afde273ccab92fa9280c72086760ea8d36"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/references/audit-checklist.md",
+        "upstreamSha256": "9a8521ef27f1a89fdc29a70d0cde88f4a9549220b1cc2b2d5d28e6e4a3dd1199",
+        "baselineImportedSha256": "9a8521ef27f1a89fdc29a70d0cde88f4a9549220b1cc2b2d5d28e6e4a3dd1199"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/references/custom-price-method.al",
+        "upstreamSha256": "aa89968dd505ec7f88c0ee504d902fb90a3c5fda004215fe4f6bdfe0cffe40a1",
+        "baselineImportedSha256": "aa89968dd505ec7f88c0ee504d902fb90a3c5fda004215fe4f6bdfe0cffe40a1"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/references/migration-events.md",
+        "upstreamSha256": "919b3a2ffc99ad587bd8fbd53ed64b44d64ba08039c137375ef51b84ab75f69f",
+        "baselineImportedSha256": "919b3a2ffc99ad587bd8fbd53ed64b44d64ba08039c137375ef51b84ab75f69f"
+      },
+      {
+        "path": "skills/bc-pricing-refactor/references/price-calculation-test.al",
+        "upstreamSha256": "37ff2b3941650a0dc4388e82719f64ae4850ba84eaf0e658c0f0f79bb8664854",
+        "baselineImportedSha256": "37ff2b3941650a0dc4388e82719f64ae4850ba84eaf0e658c0f0f79bb8664854"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/CHANGELOG.md",
+        "upstreamSha256": "d72d7c8fe6fd2931df3bf8056120c7d3bce8973b1a99e8bc83349a8c8490b58d",
+        "baselineImportedSha256": "d72d7c8fe6fd2931df3bf8056120c7d3bce8973b1a99e8bc83349a8c8490b58d"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/SKILL.md",
+        "upstreamSha256": "d6104cae944ec708c548d5f09ea7d2e2d304e2b521c90602cfb78d5422bb7e9d",
+        "baselineImportedSha256": "5c0e7816f33a241defa2aab2d92953ddc2458b9af127d439c0affccba6ae7fdd"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/enum-extension-template.md",
+        "upstreamSha256": "26f2e90f2c2b37f3be98f1dab679a06e66d569dc1cb4f2555f53b6afa8a6d61f",
+        "baselineImportedSha256": "26f2e90f2c2b37f3be98f1dab679a06e66d569dc1cb4f2555f53b6afa8a6d61f"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/install-codeunit-template.md",
+        "upstreamSha256": "802ba1774f4031f4749d82260269b5aa0c7a6295e57eb8d6d1fc453d40c689b3",
+        "baselineImportedSha256": "802ba1774f4031f4749d82260269b5aa0c7a6295e57eb8d6d1fc453d40c689b3"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/page-action-template.md",
+        "upstreamSha256": "9f379aba00bd41f03f94eb254589c9f2b6f829b47cf85f083be996cb8ab200c6",
+        "baselineImportedSha256": "9f379aba00bd41f03f94eb254589c9f2b6f829b47cf85f083be996cb8ab200c6"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/report-sel-mgmt-codeunit-template.md",
+        "upstreamSha256": "984a52deedc79d2e6189e18802d6a0a1a5e74410fe84c70fb46b6721f90b28e7",
+        "baselineImportedSha256": "984a52deedc79d2e6189e18802d6a0a1a5e74410fe84c70fb46b6721f90b28e7"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/report-selection-page-template.md",
+        "upstreamSha256": "41d1c3fc51c689733b032f0b287017a2c2f44dbcd01e16da0fd3aef06e8f4450",
+        "baselineImportedSha256": "41d1c3fc51c689733b032f0b287017a2c2f44dbcd01e16da0fd3aef06e8f4450"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/upgrade-codeunit-template.md",
+        "upstreamSha256": "467bde602b0806f917811faac44c2a6942fae5ca497eac15b4ba0689e87bbf1e",
+        "baselineImportedSha256": "467bde602b0806f917811faac44c2a6942fae5ca497eac15b4ba0689e87bbf1e"
+      },
+      {
+        "path": "skills/bc-report-selection-generator/references/upgrade-tag-def-template.md",
+        "upstreamSha256": "2e7112f7c0ed0d129a7b3038e0ec03e7b7efc0e0862d3b11e5870e276550d4e7",
+        "baselineImportedSha256": "2e7112f7c0ed0d129a7b3038e0ec03e7b7efc0e0862d3b11e5870e276550d4e7"
+      },
+      {
+        "path": "skills/bc-reports/AUTHORS.md",
+        "upstreamSha256": "b1785c0398afdc26b9abd5fd462153cb6b91c7d3528974b6619c7f9c06515c34",
+        "baselineImportedSha256": "b1785c0398afdc26b9abd5fd462153cb6b91c7d3528974b6619c7f9c06515c34"
+      },
+      {
+        "path": "skills/bc-reports/CHANGELOG.md",
+        "upstreamSha256": "a5848ec2d057f009a7c37c56d9a0f86b5cbb92a743eac08d944f31f7571d32d9",
+        "baselineImportedSha256": "a5848ec2d057f009a7c37c56d9a0f86b5cbb92a743eac08d944f31f7571d32d9"
+      },
+      {
+        "path": "skills/bc-reports/SKILL.md",
+        "upstreamSha256": "d9f1bf84f37f94af2acc0918870bf2e61e8a47e125b1889389011463667ff013",
+        "baselineImportedSha256": "c2b41ef815d42994089f2bbc3895f3589ca6bc2d2ac94de56264a58f64a0ac4c"
+      },
+      {
+        "path": "skills/bc-reports/references/al-report-checklist.md",
+        "upstreamSha256": "963938f0a8f528acdb915de0fd7d945accee586fad677388639595e06c90b17d",
+        "baselineImportedSha256": "963938f0a8f528acdb915de0fd7d945accee586fad677388639595e06c90b17d"
+      },
+      {
+        "path": "skills/bc-reports/references/rdlc-sizing-reference.md",
+        "upstreamSha256": "92f349e941b57209b0c029ccdfdb88a1c56977e29e0053972398c7a8d5bf0a44",
+        "baselineImportedSha256": "92f349e941b57209b0c029ccdfdb88a1c56977e29e0053972398c7a8d5bf0a44"
+      },
+      {
+        "path": "skills/bc-reports/references/setdata-index-guide.md",
+        "upstreamSha256": "192f62237236a8566eef3ce6760b2ab65d349158fb05e0a3754e2818d5dc9fa9",
+        "baselineImportedSha256": "192f62237236a8566eef3ce6760b2ab65d349158fb05e0a3754e2818d5dc9fa9"
+      },
+      {
+        "path": "skills/bc-setup-table-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-setup-table-generator/CHANGELOG.md",
+        "upstreamSha256": "e78b19da1fe37e3f307962155806ab6879c3987298904b7fafa72e28459310f3",
+        "baselineImportedSha256": "e78b19da1fe37e3f307962155806ab6879c3987298904b7fafa72e28459310f3"
+      },
+      {
+        "path": "skills/bc-setup-table-generator/SKILL.md",
+        "upstreamSha256": "fda539c7d5b34084d2b4049912c8bcb60ab2c6b11dc865abfa139d6403a7ed9f",
+        "baselineImportedSha256": "d77d74f7da7fba01f6da8ebd6a02433feee79db2530f458dcb2ef25bf7753170"
+      },
+      {
+        "path": "skills/bc-setup-table-generator/references/patterns.md",
+        "upstreamSha256": "771391dda6225f3108fe32658aaf59445796b51f1acbcefe90b6b0a5bbf5097b",
+        "baselineImportedSha256": "771391dda6225f3108fe32658aaf59445796b51f1acbcefe90b6b0a5bbf5097b"
+      },
+      {
+        "path": "skills/bc-setup-wizard-generator/AUTHORS.md",
+        "upstreamSha256": "dc4f24a55ee5c25bb6307868d88218c5652d736902a937473b7b98250ab3af20",
+        "baselineImportedSha256": "dc4f24a55ee5c25bb6307868d88218c5652d736902a937473b7b98250ab3af20"
+      },
+      {
+        "path": "skills/bc-setup-wizard-generator/CHANGELOG.md",
+        "upstreamSha256": "a846430b8bbaba26c2bf7d3af7b7a24828359ec456d4f3bf1927f0fcc07b2d3e",
+        "baselineImportedSha256": "a846430b8bbaba26c2bf7d3af7b7a24828359ec456d4f3bf1927f0fcc07b2d3e"
+      },
+      {
+        "path": "skills/bc-setup-wizard-generator/SKILL.md",
+        "upstreamSha256": "ecd46f284497054949cd953427dc4f60ae996ca26adf1d74c56829d706840966",
+        "baselineImportedSha256": "0cca4008642263635894f5603e3433a2bf360d9841948819f081b7fe29bb9868"
+      },
+      {
+        "path": "skills/bc-setup-wizard-generator/references/code-templates.md",
+        "upstreamSha256": "f44a2f361688adc04af0675366e33ecdb99bcd3ffd410fcea9fcd5bd9eecb6f6",
+        "baselineImportedSha256": "f44a2f361688adc04af0675366e33ecdb99bcd3ffd410fcea9fcd5bd9eecb6f6"
+      },
+      {
+        "path": "skills/bc-table-dimensions-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-table-dimensions-generator/CHANGELOG.md",
+        "upstreamSha256": "c884bda2fa7c0d054de43abcbfe99265547cd7abeb351ca7aa2ebed81cf4e2ae",
+        "baselineImportedSha256": "c884bda2fa7c0d054de43abcbfe99265547cd7abeb351ca7aa2ebed81cf4e2ae"
+      },
+      {
+        "path": "skills/bc-table-dimensions-generator/SKILL.md",
+        "upstreamSha256": "5a591cbda7d1a726460eb3dbf4ccfa07b500bd2f050d8670321db17dd2c3b648",
+        "baselineImportedSha256": "6f56462b7aaca782ea713e1f4610ce57f449e3d4cb68bc541708e69ada56a032"
+      },
+      {
+        "path": "skills/bc-table-dimensions-generator/references/code-templates.md",
+        "upstreamSha256": "8d568ee535b07cb060fc25d41a540e95130c0bde9d4148c2789abfea2557b3ab",
+        "baselineImportedSha256": "8d568ee535b07cb060fc25d41a540e95130c0bde9d4148c2789abfea2557b3ab"
+      },
+      {
+        "path": "skills/bc-telemetry-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-telemetry-generator/CHANGELOG.md",
+        "upstreamSha256": "561b6eecd42758cc120eb13b978ebbde3954f027351273ef0404e55125927d38",
+        "baselineImportedSha256": "561b6eecd42758cc120eb13b978ebbde3954f027351273ef0404e55125927d38"
+      },
+      {
+        "path": "skills/bc-telemetry-generator/SKILL.md",
+        "upstreamSha256": "0b83121a5bcc9b94bf8cbdafd75f1ca102eeaeac23cd142b86301f6aa7fa7f60",
+        "baselineImportedSha256": "e18c8a638ad72d5251db2c9cb514fcf9b85113576cfdafdd788297dc02fed03e"
+      },
+      {
+        "path": "skills/bc-telemetry-generator/references/kql-queries.md",
+        "upstreamSha256": "2f1c2193e7d19a5c514f35fd37753dc8203eeb4dcce85ca289b6354988f8c526",
+        "baselineImportedSha256": "2f1c2193e7d19a5c514f35fd37753dc8203eeb4dcce85ca289b6354988f8c526"
+      },
+      {
+        "path": "skills/bc-telemetry-generator/references/telemetry-reference.md",
+        "upstreamSha256": "874966eac2ea5c35fd28c68ac932945f9313d7c5e5e22b4cb5d6725e4540fad6",
+        "baselineImportedSha256": "874966eac2ea5c35fd28c68ac932945f9313d7c5e5e22b4cb5d6725e4540fad6"
+      },
+      {
+        "path": "skills/bc-test-codeunit-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-test-codeunit-generator/CHANGELOG.md",
+        "upstreamSha256": "6550e05604b3ad8f29f2262d949dfed388f6046ee1544e04717410c46527ef3e",
+        "baselineImportedSha256": "6550e05604b3ad8f29f2262d949dfed388f6046ee1544e04717410c46527ef3e"
+      },
+      {
+        "path": "skills/bc-test-codeunit-generator/SKILL.md",
+        "upstreamSha256": "f9f9461a543a3a77ffadad805d5ff570c2c0e1e0e4850f3b3de507e84832051f",
+        "baselineImportedSha256": "8b9a48b1bf54e9b970e024aa3f7947e2017c517f2d15951559b7c745312b51b3"
+      },
+      {
+        "path": "skills/bc-test-codeunit-generator/references/test-examples.md",
+        "upstreamSha256": "1dea9c51269d8c422121ca3232bac9ed99d8e4de23d78e10af4da2b3c7f2c01f",
+        "baselineImportedSha256": "1dea9c51269d8c422121ca3232bac9ed99d8e4de23d78e10af4da2b3c7f2c01f"
+      },
+      {
+        "path": "skills/bc-upgrade-codeunit-generator/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/bc-upgrade-codeunit-generator/CHANGELOG.md",
+        "upstreamSha256": "c4e84ca1a38b60063a6c437fc4c8506696c038126db653dd72eef5795d002ad2",
+        "baselineImportedSha256": "c4e84ca1a38b60063a6c437fc4c8506696c038126db653dd72eef5795d002ad2"
+      },
+      {
+        "path": "skills/bc-upgrade-codeunit-generator/SKILL.md",
+        "upstreamSha256": "907bb2ec086146e13c7fe41ad5e3c42a1124a33f31a5b82085d498fc98868f3a",
+        "baselineImportedSha256": "28c5fe01af81d60377ee3f0c6a8af616c835367b5e401f2b4c1663eb718d073c"
+      },
+      {
+        "path": "skills/bc-upgrade-codeunit-generator/references/upgrade-examples.md",
+        "upstreamSha256": "1c60e725f6c8211b832aea1a536199ad0c103e099c3f12f47bd0295e6215a6a8",
+        "baselineImportedSha256": "1c60e725f6c8211b832aea1a536199ad0c103e099c3f12f47bd0295e6215a6a8"
+      },
+      {
+        "path": "skills/documentation-bc-analysis-generator/AUTHORS.md",
+        "upstreamSha256": "ab853a2b3134d0d17cca7707253daf76fcc8bb6bb0f60b8d839d7e262bad0d14",
+        "baselineImportedSha256": "ab853a2b3134d0d17cca7707253daf76fcc8bb6bb0f60b8d839d7e262bad0d14"
+      },
+      {
+        "path": "skills/documentation-bc-analysis-generator/CHANGELOG.md",
+        "upstreamSha256": "80f1753f3646d2dc464be311bcca861111ac2ada2cf285ac58a64aac07c2a073",
+        "baselineImportedSha256": "80f1753f3646d2dc464be311bcca861111ac2ada2cf285ac58a64aac07c2a073"
+      },
+      {
+        "path": "skills/documentation-bc-analysis-generator/SKILL.md",
+        "upstreamSha256": "4d5430dde1f3b502e9237774b6160dbc96b576e971b665db56fed568afd70ab4",
+        "baselineImportedSha256": "9e5bef672af42a121ca70d61c0129fe07626048f669f23270fc78f6f5e3a10c2"
+      },
+      {
+        "path": "skills/documentation-bc-analysis-generator/references/analysis-fields.json",
+        "upstreamSha256": "5ed5eb78c3e46ceb3ae6827090628795bb7943cce32497f761a0010464b3aa5c",
+        "baselineImportedSha256": "5ed5eb78c3e46ceb3ae6827090628795bb7943cce32497f761a0010464b3aa5c"
+      },
+      {
+        "path": "skills/documentation-bc-analysis-generator/references/analysis-template.md",
+        "upstreamSha256": "eab2f381d96a7b9d511c70736b71a1d24d0d3b77d1299dba8470c63d9e1a5932",
+        "baselineImportedSha256": "eab2f381d96a7b9d511c70736b71a1d24d0d3b77d1299dba8470c63d9e1a5932"
+      },
+      {
+        "path": "skills/documentation-bc-architecture-generator/AUTHORS.md",
+        "upstreamSha256": "f5566a23a3b4fc6f6db5ce005d57f850182a1c48ac9808e4318b2f4d149735bf",
+        "baselineImportedSha256": "f5566a23a3b4fc6f6db5ce005d57f850182a1c48ac9808e4318b2f4d149735bf"
+      },
+      {
+        "path": "skills/documentation-bc-architecture-generator/CHANGELOG.md",
+        "upstreamSha256": "d645ee3126548c3cf7188c990b69b900e9332e0ee423b51590202ac593d26778",
+        "baselineImportedSha256": "d645ee3126548c3cf7188c990b69b900e9332e0ee423b51590202ac593d26778"
+      },
+      {
+        "path": "skills/documentation-bc-architecture-generator/SKILL.md",
+        "upstreamSha256": "8cb743533f9e4e94b936063e9a0735309de62d9ae2bdc1ddfe218031135b73f7",
+        "baselineImportedSha256": "3b52075acf15eec94bc70d6aa9687b08c54cdc72b8157a801247b5c14353c544"
+      },
+      {
+        "path": "skills/documentation-bc-architecture-generator/references/architecture-fields.json",
+        "upstreamSha256": "3cb51cd4086290b315942e3ef2832683e98a7b1406acc4a905d1de74fbe8b2ca",
+        "baselineImportedSha256": "3cb51cd4086290b315942e3ef2832683e98a7b1406acc4a905d1de74fbe8b2ca"
+      },
+      {
+        "path": "skills/documentation-bc-architecture-generator/references/architecture-template.md",
+        "upstreamSha256": "4116c62deedae8faabf2621fec6d76818672d140c363eee586abf0ee15c5bc59",
+        "baselineImportedSha256": "4116c62deedae8faabf2621fec6d76818672d140c363eee586abf0ee15c5bc59"
+      },
+      {
+        "path": "skills/documentation-bc-ccn-generator/AUTHORS.md",
+        "upstreamSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7",
+        "baselineImportedSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7"
+      },
+      {
+        "path": "skills/documentation-bc-ccn-generator/CHANGELOG.md",
+        "upstreamSha256": "b91ce236be0d27fdfa93a40d7a87f6eaa73a38e5ad384e8c5c6c8362ebd027c7",
+        "baselineImportedSha256": "b91ce236be0d27fdfa93a40d7a87f6eaa73a38e5ad384e8c5c6c8362ebd027c7"
+      },
+      {
+        "path": "skills/documentation-bc-ccn-generator/SKILL.md",
+        "upstreamSha256": "2c463a27c7a9c43445a714ec740f4e4d99cb1f01c68cfd398062299e1f0537a1",
+        "baselineImportedSha256": "ef7598358b6f239f1e72928c19e91c210752bca993f7ed8ec4822a230ce04f5c"
+      },
+      {
+        "path": "skills/documentation-bc-ccn-generator/references/ccn-fields.json",
+        "upstreamSha256": "a1c6314e7c1d89718ad5edf79605072b33544bbb10a2998bb396f8e2283c3db2",
+        "baselineImportedSha256": "a1c6314e7c1d89718ad5edf79605072b33544bbb10a2998bb396f8e2283c3db2"
+      },
+      {
+        "path": "skills/documentation-bc-ccn-generator/references/ccn-template.md",
+        "upstreamSha256": "79aaf6707766f974ddbfae2e24a481f972aa197d41cf9c91a100bcd08a455a95",
+        "baselineImportedSha256": "79aaf6707766f974ddbfae2e24a481f972aa197d41cf9c91a100bcd08a455a95"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/AUTHORS.md",
+        "upstreamSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f",
+        "baselineImportedSha256": "62932d40e874e45327146676f68f56c0547b6fc44291d81d85c6cc7fd186078f"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/CHANGELOG.md",
+        "upstreamSha256": "7ea9fde0e238e9c4ce201f99d46c20f4faf432e7abb08afa9fa9d261d4b1d395",
+        "baselineImportedSha256": "7ea9fde0e238e9c4ce201f99d46c20f4faf432e7abb08afa9fa9d261d4b1d395"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/SKILL.md",
+        "upstreamSha256": "eeab9de4f6170b3357cd0f52d2eac1d22a64fe46559eba52f9e7f00213ebb68a",
+        "baselineImportedSha256": "611e5eae9bdadb97d3a4f91be3c6adab0a612046b9908931c7953f39b1816324"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/scripts/build_raw_templates.py",
+        "upstreamSha256": "61028cbf0aeec903eb8d3b495e866e2824199aef5d19b0c629c7a11335ce38a8",
+        "baselineImportedSha256": "61028cbf0aeec903eb8d3b495e866e2824199aef5d19b0c629c7a11335ce38a8"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/scripts/convert_md_to_docx.py",
+        "upstreamSha256": "c04c43acad504dec61409057ef72404430df9672ba12594ffd55bded180e288a",
+        "baselineImportedSha256": "c04c43acad504dec61409057ef72404430df9672ba12594ffd55bded180e288a"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/scripts/requirements.txt",
+        "upstreamSha256": "dfea9cd01250f46caa09e7e7041e7105cd29d5383c7c3d3fff4a8dd24e79509b",
+        "baselineImportedSha256": "dfea9cd01250f46caa09e7e7041e7105cd29d5383c7c3d3fff4a8dd24e79509b"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/scripts/verify_docx_placeholders.py",
+        "upstreamSha256": "e3ebe687bf59226958da096f2757e9a5101cba0c87fdde58daa41550df893ee7",
+        "baselineImportedSha256": "e3ebe687bf59226958da096f2757e9a5101cba0c87fdde58daa41550df893ee7"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/1_UserStory_Template - Raw.docx",
+        "upstreamSha256": "3318f3171601137a7f1fb00f1fc1efb1a1c4bd9592ea63cd42683a27dfaa4736",
+        "baselineImportedSha256": "3318f3171601137a7f1fb00f1fc1efb1a1c4bd9592ea63cd42683a27dfaa4736"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/1_UserStory_Template_ALCSC.docx",
+        "upstreamSha256": "df422aaabd9ad93339698e46cf5b401bec0690ac1c1cb11c758755b095a927b1",
+        "baselineImportedSha256": "df422aaabd9ad93339698e46cf5b401bec0690ac1c1cb11c758755b095a927b1"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/2_Spec_Template - Raw.docx",
+        "upstreamSha256": "dd938cd2aa78de1b9fcc260009816852d4f1c934e3644df0aad84d8b664e5aa8",
+        "baselineImportedSha256": "dd938cd2aa78de1b9fcc260009816852d4f1c934e3644df0aad84d8b664e5aa8"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/2_Spec_Template_ALCSC.docx",
+        "upstreamSha256": "7197c5766a5f4b045f22ed32d7d505aa911f0f681df11faa71be455619956ade",
+        "baselineImportedSha256": "7197c5766a5f4b045f22ed32d7d505aa911f0f681df11faa71be455619956ade"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/3_Analysis_Template - Raw.docx",
+        "upstreamSha256": "9884fc7481e0bbc201c184ab27d3ef7364903bfc3efccd90f70310ed9257a069",
+        "baselineImportedSha256": "9884fc7481e0bbc201c184ab27d3ef7364903bfc3efccd90f70310ed9257a069"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/3_Analysis_Template_ALCSC.docx",
+        "upstreamSha256": "c4073def165e0fa3ea9d079de7d67eb7cc9f9a84b4c68e26072496e02e2391fd",
+        "baselineImportedSha256": "c4073def165e0fa3ea9d079de7d67eb7cc9f9a84b4c68e26072496e02e2391fd"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/4_Architecture_Template - Raw.docx",
+        "upstreamSha256": "6f1c3f371cc40345c4b83a0545b8a5e411c270b23277dc356a5f16e62d286f75",
+        "baselineImportedSha256": "6f1c3f371cc40345c4b83a0545b8a5e411c270b23277dc356a5f16e62d286f75"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/4_Architecture_Template_ALCSC.docx",
+        "upstreamSha256": "3829ba2552461970d401cf3548b6da0a9e09bb894872047469e8747a857bf05f",
+        "baselineImportedSha256": "3829ba2552461970d401cf3548b6da0a9e09bb894872047469e8747a857bf05f"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/5_CCN_Template - Raw.docx",
+        "upstreamSha256": "13cd7dab6926f4aa3802a64c5d8ad0f92b2926bed33a6de9c4700035540d3418",
+        "baselineImportedSha256": "13cd7dab6926f4aa3802a64c5d8ad0f92b2926bed33a6de9c4700035540d3418"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/5_CCN_Template_ALCSC.docx",
+        "upstreamSha256": "f82fa860297f1dd327965ba26f1ddb39894c333b455f1d656dc0bba74b9fb37d",
+        "baselineImportedSha256": "f82fa860297f1dd327965ba26f1ddb39894c333b455f1d656dc0bba74b9fb37d"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/6_ReleaseNote_Template - Raw.docx",
+        "upstreamSha256": "3c0cbf4a31b352dad2e13e5600fec3ab0d3406a963094f1a8957fae587ec4447",
+        "baselineImportedSha256": "3c0cbf4a31b352dad2e13e5600fec3ab0d3406a963094f1a8957fae587ec4447"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/templates/6_ReleaseNote_Template_ALCSC.docx",
+        "upstreamSha256": "e0eac0b4f49fdad6fed76cfc772d40df7852a433cd515b04c3fb84be8ac0708c",
+        "baselineImportedSha256": "e0eac0b4f49fdad6fed76cfc772d40df7852a433cd515b04c3fb84be8ac0708c"
+      },
+      {
+        "path": "skills/documentation-bc-md-to-docx-converter/tests/test_section_key_binding.py",
+        "upstreamSha256": "935c9dc71eabe06cb5c4f8d098bd5b03a7ba56ca5fb5952e4fc289f3ecbd8ec0",
+        "baselineImportedSha256": "935c9dc71eabe06cb5c4f8d098bd5b03a7ba56ca5fb5952e4fc289f3ecbd8ec0"
+      },
+      {
+        "path": "skills/documentation-bc-phase-plan-generator/AUTHORS.md",
+        "upstreamSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7",
+        "baselineImportedSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7"
+      },
+      {
+        "path": "skills/documentation-bc-phase-plan-generator/CHANGELOG.md",
+        "upstreamSha256": "80f6cf4451d38b5259963d132a62a92503fbc6e2636d89e63667473068768de8",
+        "baselineImportedSha256": "80f6cf4451d38b5259963d132a62a92503fbc6e2636d89e63667473068768de8"
+      },
+      {
+        "path": "skills/documentation-bc-phase-plan-generator/SKILL.md",
+        "upstreamSha256": "161ee18c67134e67baf719ca48a174f1f712e06f643fdee27e67b28611802622",
+        "baselineImportedSha256": "c0a8db969f0c1eb84338d66734e7f978d3624569ae11c49d7843ffbcb51cd5c4"
+      },
+      {
+        "path": "skills/documentation-bc-phase-plan-generator/references/phase-plan-fields.json",
+        "upstreamSha256": "a279d479374ccc743e0a1d7e426f12cfa0a8ec5666225e110d70a46065392cb0",
+        "baselineImportedSha256": "a279d479374ccc743e0a1d7e426f12cfa0a8ec5666225e110d70a46065392cb0"
+      },
+      {
+        "path": "skills/documentation-bc-phase-plan-generator/references/phase-plan-template.md",
+        "upstreamSha256": "dd38e10cdddd5c89579e0cf1d6422843329590121b4aef278fff193b69d72752",
+        "baselineImportedSha256": "dd38e10cdddd5c89579e0cf1d6422843329590121b4aef278fff193b69d72752"
+      },
+      {
+        "path": "skills/documentation-bc-release-note-generator/AUTHORS.md",
+        "upstreamSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7",
+        "baselineImportedSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7"
+      },
+      {
+        "path": "skills/documentation-bc-release-note-generator/CHANGELOG.md",
+        "upstreamSha256": "7d0eb6e1392aa2eb23f58249b45f49ae6b9ed5b91e0d7d9e7c043e34a59cde3b",
+        "baselineImportedSha256": "7d0eb6e1392aa2eb23f58249b45f49ae6b9ed5b91e0d7d9e7c043e34a59cde3b"
+      },
+      {
+        "path": "skills/documentation-bc-release-note-generator/SKILL.md",
+        "upstreamSha256": "030218eabe36805fbdc0046f7e9bb1b66a8d0bacc30fba445de87910043889d7",
+        "baselineImportedSha256": "6e20ee5ce82d3c8ea627c23b97ce37195002cc63d02e157fe1e1d6a008b78b9e"
+      },
+      {
+        "path": "skills/documentation-bc-release-note-generator/references/release-note-fields.json",
+        "upstreamSha256": "5107cb639ba389462003a2f434b9df75f1a43c00a82f2d97c52ad37e90feaa73",
+        "baselineImportedSha256": "5107cb639ba389462003a2f434b9df75f1a43c00a82f2d97c52ad37e90feaa73"
+      },
+      {
+        "path": "skills/documentation-bc-release-note-generator/references/release-note-template.md",
+        "upstreamSha256": "41bb40f393a1f03fd6a2cf0f10dbc8a8b7bb6f0cf53cb3c41452d3ca41be0a9a",
+        "baselineImportedSha256": "41bb40f393a1f03fd6a2cf0f10dbc8a8b7bb6f0cf53cb3c41452d3ca41be0a9a"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/AUTHORS.md",
+        "upstreamSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7",
+        "baselineImportedSha256": "f48d3e76ad9d08736b227274224c24f4894b8f37fb017d41e04cbc700dd02cc7"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/CHANGELOG.md",
+        "upstreamSha256": "dea8e4818eb559d5b1106aa612efc0bb1e79271dbd945104ed3453f524c8dc4c",
+        "baselineImportedSha256": "dea8e4818eb559d5b1106aa612efc0bb1e79271dbd945104ed3453f524c8dc4c"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/SKILL.md",
+        "upstreamSha256": "8a3849d2fc7cf8274815d6ffbb5a71194d0f6f7fb460739f7eaa8267389bd065",
+        "baselineImportedSha256": "a5b67d62c90050f841393a4d804b3c58f69187352430bbeb5b335946a3bc5c3a"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/references/plan-template.md",
+        "upstreamSha256": "7f20228a02d958cc4fb7375bb4eb481c7726fa552a01ea5b11ea6d3baede27e1",
+        "baselineImportedSha256": "7f20228a02d958cc4fb7375bb4eb481c7726fa552a01ea5b11ea6d3baede27e1"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/references/spec-fields.json",
+        "upstreamSha256": "197f3a386e971e9ee549fc7ad8f27325ad421ec57f1839b9a0bb09b17d2536f8",
+        "baselineImportedSha256": "197f3a386e971e9ee549fc7ad8f27325ad421ec57f1839b9a0bb09b17d2536f8"
+      },
+      {
+        "path": "skills/documentation-bc-technical-spec-generator/references/spec-template.md",
+        "upstreamSha256": "2d46ea0d4b2ad72fe10c28cb7d267dd3598c22d4096952f76784dab0519258a4",
+        "baselineImportedSha256": "2d46ea0d4b2ad72fe10c28cb7d267dd3598c22d4096952f76784dab0519258a4"
+      },
+      {
+        "path": "skills/documentation-bc-user-story-generator/AUTHORS.md",
+        "upstreamSha256": "f5566a23a3b4fc6f6db5ce005d57f850182a1c48ac9808e4318b2f4d149735bf",
+        "baselineImportedSha256": "f5566a23a3b4fc6f6db5ce005d57f850182a1c48ac9808e4318b2f4d149735bf"
+      },
+      {
+        "path": "skills/documentation-bc-user-story-generator/CHANGELOG.md",
+        "upstreamSha256": "c42cbc8ac36cf070464523f3299dc61a25e511d31a5fc0e30f3e43ee1fdbb003",
+        "baselineImportedSha256": "c42cbc8ac36cf070464523f3299dc61a25e511d31a5fc0e30f3e43ee1fdbb003"
+      },
+      {
+        "path": "skills/documentation-bc-user-story-generator/SKILL.md",
+        "upstreamSha256": "e0609f19cef5790589fcd9f429566b7413261260ebe0936d872012833a2ded08",
+        "baselineImportedSha256": "7ad8044df18260f258488a63d32e50c60c35324fa5a75fd2803ff4796f93b886"
+      },
+      {
+        "path": "skills/documentation-bc-user-story-generator/references/user-story-fields.json",
+        "upstreamSha256": "34b5fe471316f1a3edd535f97d33a20daf7ae942e7f46cb5b24cb68f63ae8b1d",
+        "baselineImportedSha256": "34b5fe471316f1a3edd535f97d33a20daf7ae942e7f46cb5b24cb68f63ae8b1d"
+      },
+      {
+        "path": "skills/documentation-bc-user-story-generator/references/user-story-template.md",
+        "upstreamSha256": "4abf4bdc26b09f8d9bd9493c152d7d52978dac230a8b2820b067e03b88a5d76f",
+        "baselineImportedSha256": "4abf4bdc26b09f8d9bd9493c152d7d52978dac230a8b2820b067e03b88a5d76f"
+      },
+      {
+        "path": "skills/onprem-remote-deploy/AUTHORS.md",
+        "upstreamSha256": "df0dd5d460c0f569f619141a0c8f39ef95f4665bd1b6dd787bc1dc50dcc227c1",
+        "baselineImportedSha256": "df0dd5d460c0f569f619141a0c8f39ef95f4665bd1b6dd787bc1dc50dcc227c1"
+      },
+      {
+        "path": "skills/onprem-remote-deploy/CHANGELOG.md",
+        "upstreamSha256": "c5f8aa6960b6550d4e673a1f13d11ccdd85336c24917688a37097689f914f24f",
+        "baselineImportedSha256": "c5f8aa6960b6550d4e673a1f13d11ccdd85336c24917688a37097689f914f24f"
+      },
+      {
+        "path": "skills/onprem-remote-deploy/SKILL.md",
+        "upstreamSha256": "602cbe6a07f1624840a0584d87e151797c3746f08ae6f918739c4cab0ffc7c2f",
+        "baselineImportedSha256": "216827de21606a14615f6064176fb26ec707122b74680b0251c1ce6387f91672"
+      },
+      {
+        "path": "skills/onprem-remote-deploy/references/onprem-remote-deploy-reference.md",
+        "upstreamSha256": "e73109b5b12437b6b88b7173fd5ba1f2277e4f1d74c40376fdd2fd8c0b564704",
+        "baselineImportedSha256": "e73109b5b12437b6b88b7173fd5ba1f2277e4f1d74c40376fdd2fd8c0b564704"
+      },
+      {
+        "path": "skills/onprem-remote-deploy/scripts/Setup-DeployAgent.Template.ps1",
+        "upstreamSha256": "d78775c8aed0b590ac7e534a9cb8aa0aeaf0187188097a2bedf1df0b7c114808",
+        "baselineImportedSha256": "d78775c8aed0b590ac7e534a9cb8aa0aeaf0187188097a2bedf1df0b7c114808"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/AUTHORS.md",
+        "upstreamSha256": "df0dd5d460c0f569f619141a0c8f39ef95f4665bd1b6dd787bc1dc50dcc227c1",
+        "baselineImportedSha256": "df0dd5d460c0f569f619141a0c8f39ef95f4665bd1b6dd787bc1dc50dcc227c1"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/CHANGELOG.md",
+        "upstreamSha256": "c196955212d1fb4320b68214c9aeae1cdaed2b4cb5d1e6df7d97bddcff4acfc5",
+        "baselineImportedSha256": "c196955212d1fb4320b68214c9aeae1cdaed2b4cb5d1e6df7d97bddcff4acfc5"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/SKILL.md",
+        "upstreamSha256": "541ba11eee93a945c303701755af8a93984f1f82ddf6698de6e001067055bbdb",
+        "baselineImportedSha256": "015ac1adbdbdd9466a9c51ac55919a40e092e89d0a521a8105786899d21787eb"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/references/onboarding-questionnaire.md",
+        "upstreamSha256": "9be6e317d94580cba924b5621d8bd1812905ec87ca759afae1e63b9486e7cbb6",
+        "baselineImportedSha256": "9be6e317d94580cba924b5621d8bd1812905ec87ca759afae1e63b9486e7cbb6"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/references/opportunity-detection.md",
+        "upstreamSha256": "1e03b5826d240e37b715a3388ccf640ee29899eae03e79facda8565f72bc721f",
+        "baselineImportedSha256": "1e03b5826d240e37b715a3388ccf640ee29899eae03e79facda8565f72bc721f"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/references/pr-readiness-checklist.md",
+        "upstreamSha256": "2ea1dfe85757ca8e38f4af90d575928f2cab821f7af08dfb7277c7ad435a9b27",
+        "baselineImportedSha256": "2ea1dfe85757ca8e38f4af90d575928f2cab821f7af08dfb7277c7ad435a9b27"
+      },
+      {
+        "path": "skills/skill-contribution-assistant/references/quality-gate.md",
+        "upstreamSha256": "5e9c3cbab0f60a617db7b7f56376f97f5e7e54bc16f15a6c246c093f0df6bc28",
+        "baselineImportedSha256": "5e9c3cbab0f60a617db7b7f56376f97f5e7e54bc16f15a6c246c093f0df6bc28"
+      }
+    ],
+    "authorsFile": "third-party/AL-Copilot-Skills-Collection.AUTHORS.md",
+    "authorsSha256": "d227fd5e026c41a38f80e0be8df43516024024bea9adf2e73dad1ad1be112459"
+  },
+  "dispositions": [
+    {
+      "sourceSkill": "al-bc-solution-review",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-bc-solution-review"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-build-validation",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-build-validation"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-coding-standards",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-coding-standards"
+      ],
+      "reason": "Zachováno projektové pojmenování; SingleInstance dle lifetime/politiky, nikoli povinně."
+    },
+    {
+      "sourceSkill": "al-debugging-methodology",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-debugging-methodology"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-performance-review",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-performance-review"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-project-context-bootstrap",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-project-context-bootstrap"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-security-review",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-security-review"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-solution-architecture",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-solution-architecture"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-symbol-lookup",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-symbol-lookup"
+      ],
+      "reason": "Zachován úzký původní AL workflow; pouze relevantní reference a konkrétní důkazy."
+    },
+    {
+      "sourceSkill": "al-testing",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-testing"
+      ],
+      "reason": "Zachováno oddělení authored/compiled/executed; přidány handlery a reálná izolace."
+    },
+    {
+      "sourceSkill": "al-translation-phase",
+      "origin": "local",
+      "action": "retained",
+      "destinations": [
+        "al-translation-phase"
+      ],
+      "reason": "Zachován en-US → cs-CZ a izolovaný worker; upřesněna dostupnost NAB/XML cesty."
+    },
+    {
+      "sourceSkill": "bc-agent-instructions-debugger",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-agent-instructions-debugger"
+      ],
+      "reason": "Úzká BC AI specializace; opravené guards a odstraněn vymyšlený parser kontrakt."
+    },
+    {
+      "sourceSkill": "bc-al-bug-fix",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-debugging-methodology"
+      ],
+      "reason": "Jedna diagnostika; převzaty AL pasti, odstraněny chybné load/trigger rady."
+    },
+    {
+      "sourceSkill": "bc-al-code-reviewer",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-bc-solution-review"
+      ],
+      "reason": "Jedno review; priorita důkazu před checklistem, odstraněny falešné povinnosti."
+    },
+    {
+      "sourceSkill": "bc-al-project-context",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-project-context-bootstrap"
+      ],
+      "reason": "Volitelný kontext/handoff a ADR bez povinného zápisu každé relace."
+    },
+    {
+      "sourceSkill": "bc-api-page-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-api-design"
+      ],
+      "reason": "Jedna volba API page/query a společný kontrakt; opravené bound actions."
+    },
+    {
+      "sourceSkill": "bc-api-query-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-api-design"
+      ],
+      "reason": "Sdílí API kontrakt; specifika read-only query zůstala v referenci."
+    },
+    {
+      "sourceSkill": "bc-approval-workflow-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-approval-workflow-generator"
+      ],
+      "reason": "Specifické workflow registrace, reakce a rekonstruování knihovny."
+    },
+    {
+      "sourceSkill": "bc-attachments-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-attachments-generator"
+      ],
+      "reason": "Specifický attachment lifecycle a úplné klíče při kopii/mazání."
+    },
+    {
+      "sourceSkill": "bc-batch-processing",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-job-queue"
+      ],
+      "reason": "Dávky, checkpoint a restart jsou jedním workflow s Job Queue."
+    },
+    {
+      "sourceSkill": "bc-business-events-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-business-events-generator"
+      ],
+      "reason": "Rozlišení interních a externích událostí, transakce a bezpečný payload."
+    },
+    {
+      "sourceSkill": "bc-cds-page-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-dataverse-mapping-generator"
+      ],
+      "reason": "Coupling UI má vlastní referenci v Dataverse workflow."
+    },
+    {
+      "sourceSkill": "bc-dataverse-entity-generator",
+      "origin": "upstream",
+      "action": "removed",
+      "destinations": [],
+      "reason": "Vyřazeny nebezpečné skripty a neověřený generátor; potřeba cílového Dataverse schématu zůstává v mapping skillu."
+    },
+    {
+      "sourceSkill": "bc-dataverse-mapping-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-dataverse-mapping-generator"
+      ],
+      "reason": "Užitečné ownership/sync/coupling rozhodování bez cizích helperů."
+    },
+    {
+      "sourceSkill": "bc-field-propagation",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-field-propagation"
+      ],
+      "reason": "Posting/archive/copy matice a zachování vlastních transformací."
+    },
+    {
+      "sourceSkill": "bc-install-codeunit-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-app-lifecycle"
+      ],
+      "reason": "Install a upgrade sdílejí data lifecycle, ale zachovávají odlišné triggery."
+    },
+    {
+      "sourceSkill": "bc-isolated-storage-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-isolated-storage-generator"
+      ],
+      "reason": "SecretText, explicitní scope a šifrované uložení bez plaintext fallbacku."
+    },
+    {
+      "sourceSkill": "bc-job-queue",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-job-queue"
+      ],
+      "reason": "Restart, identita background uživatele a retry/recurrence mají konkrétní BC specifika."
+    },
+    {
+      "sourceSkill": "bc-manifest-handoff-generator",
+      "origin": "upstream",
+      "action": "removed",
+      "destinations": [],
+      "reason": "Cizí ALDC/CIRCE/DELFOS pipeline není dodána; obecná inventura API je volitelně v dokumentaci."
+    },
+    {
+      "sourceSkill": "bc-matrix-page-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-matrix-page-generator"
+      ],
+      "reason": "Omezený počet sloupců, perioda, filtry a drilldown jsou úzká specializace."
+    },
+    {
+      "sourceSkill": "bc-number-series-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-number-series-generator"
+      ],
+      "reason": "Moderní No. Series, ruční číslo, AssistEdit a souběh číslování."
+    },
+    {
+      "sourceSkill": "bc-pricing-refactor",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-pricing-refactor"
+      ],
+      "reason": "Specifická migrace na pricing engine a správný Handler/Method vztah."
+    },
+    {
+      "sourceSkill": "bc-report-selection-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-reports"
+      ],
+      "reason": "Specifické zapojení výběru reportů v samostatné referenci."
+    },
+    {
+      "sourceSkill": "bc-reports",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-reports"
+      ],
+      "reason": "Dataset/layout a tisk aktuálního dokladu vyžadují samostatnou znalost."
+    },
+    {
+      "sourceSkill": "bc-setup-table-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-setup-table-generator"
+      ],
+      "reason": "Singleton lifecycle, bezpečná konfigurace a volitelný wizard."
+    },
+    {
+      "sourceSkill": "bc-setup-wizard-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-setup-table-generator"
+      ],
+      "reason": "Wizard je volitelná reference setup workflow, včetně souběžných změn."
+    },
+    {
+      "sourceSkill": "bc-table-dimensions-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-table-dimensions-generator"
+      ],
+      "reason": "Dimension Set ID a validace zkratek mají vlastní platformní pravidla."
+    },
+    {
+      "sourceSkill": "bc-telemetry-generator",
+      "origin": "upstream",
+      "action": "retained",
+      "destinations": [
+        "bc-telemetry-generator"
+      ],
+      "reason": "Ověřený producent/KQL kontrakt a ochrana obchodních dat."
+    },
+    {
+      "sourceSkill": "bc-test-codeunit-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-testing"
+      ],
+      "reason": "Generování testů, handlery a skutečná izolace patří do jednoho workflow."
+    },
+    {
+      "sourceSkill": "bc-upgrade-codeunit-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "bc-app-lifecycle"
+      ],
+      "reason": "Upgrade tags, company scope a bezpečná migrace ve společném skillu."
+    },
+    {
+      "sourceSkill": "documentation-bc-analysis-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "documentation-bc-architecture-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-solution-architecture"
+      ],
+      "reason": "Převzaty BC rozhodovací hranice a ADR; cizí formální pipeline odstraněna."
+    },
+    {
+      "sourceSkill": "documentation-bc-ccn-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "documentation-bc-md-to-docx-converter",
+      "origin": "upstream",
+      "action": "removed",
+      "destinations": [],
+      "reason": "Nefunkční konvertor, chybějící registry, nekompatibilní šablony a JSON kontrakt; nový renderer není cílem."
+    },
+    {
+      "sourceSkill": "documentation-bc-phase-plan-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "documentation-bc-release-note-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "documentation-bc-technical-spec-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "documentation-bc-user-story-generator",
+      "origin": "upstream",
+      "action": "merged",
+      "destinations": [
+        "al-documentation"
+      ],
+      "reason": "Volba požadovaného artefaktu v jedné referenci; bez duplicitních interview a nedodaného registry."
+    },
+    {
+      "sourceSkill": "onprem-remote-deploy",
+      "origin": "upstream",
+      "action": "removed",
+      "destinations": [],
+      "reason": "Bezpečný přenos a kontext služby nebyly implementovány; odstraněn nefunkční deployment návod."
+    },
+    {
+      "sourceSkill": "skill-contribution-assistant",
+      "origin": "upstream",
+      "action": "removed",
+      "destinations": [],
+      "reason": "Nástroj přispívání do cizí kolekce není každodenní AL schopnost."
+    }
+  ],
+  "activeSkills": [
+    "al-bc-solution-review",
+    "al-build-validation",
+    "al-coding-standards",
+    "al-debugging-methodology",
+    "al-documentation",
+    "al-performance-review",
+    "al-project-context-bootstrap",
+    "al-security-review",
+    "al-solution-architecture",
+    "al-symbol-lookup",
+    "al-testing",
+    "al-translation-phase",
+    "bc-agent-instructions-debugger",
+    "bc-api-design",
+    "bc-app-lifecycle",
+    "bc-approval-workflow-generator",
+    "bc-attachments-generator",
+    "bc-business-events-generator",
+    "bc-dataverse-mapping-generator",
+    "bc-field-propagation",
+    "bc-isolated-storage-generator",
+    "bc-job-queue",
+    "bc-matrix-page-generator",
+    "bc-number-series-generator",
+    "bc-pricing-refactor",
+    "bc-reports",
+    "bc-setup-table-generator",
+    "bc-table-dimensions-generator",
+    "bc-telemetry-generator"
+  ],
+  "maintainedFiles": [
+    {
+      "path": "skills/al-bc-solution-review/SKILL.md",
+      "sha256": "6280b23bda22663a62ee178fd78ee310b17c7db28c450f93383b7b62f8562d76",
+      "sourceSkills": [
+        "al-bc-solution-review",
+        "bc-al-code-reviewer"
+      ]
+    },
+    {
+      "path": "skills/al-build-validation/references/project-identity.md",
+      "sha256": "1314e569bc22630a94937d009f6cfdf7a175f6b95530a51c1bc535351bdb15f2",
+      "sourceSkills": [
+        "al-build-validation"
+      ]
+    },
+    {
+      "path": "skills/al-build-validation/SKILL.md",
+      "sha256": "c308a21955855269240c5fb1a948d66a5c0a70d6bfcc2a4e1011e46c84e89ede",
+      "sourceSkills": [
+        "al-build-validation"
+      ]
+    },
+    {
+      "path": "skills/al-coding-standards/references/subscriber-lifetime.md",
+      "sha256": "0300e47f4ed0b0ae5513992b6380f230ddcf5fc84ae4da45aa94df7d8372030c",
+      "sourceSkills": [
+        "al-coding-standards"
+      ]
+    },
+    {
+      "path": "skills/al-coding-standards/references/team-conventions.md",
+      "sha256": "ceda21909902de86b9fbe91bee6eeeade8d205e657421e8e542605ea2d4305a2",
+      "sourceSkills": [
+        "al-coding-standards"
+      ]
+    },
+    {
+      "path": "skills/al-coding-standards/SKILL.md",
+      "sha256": "df668aee5950a7ffc8c152560d12104b6ec32d18e98682d78130d3de0eb20aed",
+      "sourceSkills": [
+        "al-coding-standards"
+      ]
+    },
+    {
+      "path": "skills/al-debugging-methodology/references/record-access.md",
+      "sha256": "32ae4237bb638bf280017c076233120f95e817455b95bbf63e2148b615c56e05",
+      "sourceSkills": [
+        "al-debugging-methodology",
+        "bc-al-bug-fix"
+      ]
+    },
+    {
+      "path": "skills/al-debugging-methodology/references/runtime-artifacts.md",
+      "sha256": "20d352bac6019dd66f6c584996e03cb17728f3626c1192a45c1401446885f101",
+      "sourceSkills": [
+        "al-debugging-methodology",
+        "bc-al-bug-fix"
+      ]
+    },
+    {
+      "path": "skills/al-debugging-methodology/SKILL.md",
+      "sha256": "06b6234910306a623f09034a30734bc66d71c5bd92fcf8848350f9419fa15ec8",
+      "sourceSkills": [
+        "al-debugging-methodology",
+        "bc-al-bug-fix"
+      ]
+    },
+    {
+      "path": "skills/al-documentation/references/artifacts.md",
+      "sha256": "5114c5ac50542858af598829ef8749e53e5c1f65f3652b5c84bfb41eaedf652f",
+      "sourceSkills": [
+        "documentation-bc-analysis-generator",
+        "documentation-bc-ccn-generator",
+        "documentation-bc-phase-plan-generator",
+        "documentation-bc-release-note-generator",
+        "documentation-bc-technical-spec-generator",
+        "documentation-bc-user-story-generator"
+      ]
+    },
+    {
+      "path": "skills/al-documentation/SKILL.md",
+      "sha256": "d1c358ff2f60ecefb43c84f88487a1b934f88a6c981e902fa356e5e62d3e1624",
+      "sourceSkills": [
+        "documentation-bc-analysis-generator",
+        "documentation-bc-ccn-generator",
+        "documentation-bc-phase-plan-generator",
+        "documentation-bc-release-note-generator",
+        "documentation-bc-technical-spec-generator",
+        "documentation-bc-user-story-generator"
+      ]
+    },
+    {
+      "path": "skills/al-performance-review/SKILL.md",
+      "sha256": "f7c5e870efbae3af300cee01969b28c4bc5aa2025bc3335f174c21487ecd34db",
+      "sourceSkills": [
+        "al-performance-review"
+      ]
+    },
+    {
+      "path": "skills/al-project-context-bootstrap/references/context-and-decisions.md",
+      "sha256": "fc0178f7375e3f71662f6cde62eefe85cbdc2e20db9a85ad297983c9abe98029",
+      "sourceSkills": [
+        "al-project-context-bootstrap",
+        "bc-al-project-context"
+      ]
+    },
+    {
+      "path": "skills/al-project-context-bootstrap/SKILL.md",
+      "sha256": "62c8384f45698777008abeffec12e6fd1038f612a42f284ba8ed07226fa0af66",
+      "sourceSkills": [
+        "al-project-context-bootstrap",
+        "bc-al-project-context"
+      ]
+    },
+    {
+      "path": "skills/al-security-review/SKILL.md",
+      "sha256": "27ca39089ced268ba63ab5361f5e906c700b1074ec199b6f9ae3e09c8608f122",
+      "sourceSkills": [
+        "al-security-review"
+      ]
+    },
+    {
+      "path": "skills/al-solution-architecture/references/decision-checklist.md",
+      "sha256": "25b74dff6308cf97c5685697cb04986020476a5c84c598019bbce86d9aa61ba1",
+      "sourceSkills": [
+        "al-solution-architecture",
+        "documentation-bc-architecture-generator"
+      ]
+    },
+    {
+      "path": "skills/al-solution-architecture/SKILL.md",
+      "sha256": "660f560aecc0705deecb287563011eab6628936fb1d235b24384610fe01744bd",
+      "sourceSkills": [
+        "al-solution-architecture",
+        "documentation-bc-architecture-generator"
+      ]
+    },
+    {
+      "path": "skills/al-symbol-lookup/SKILL.md",
+      "sha256": "2de026b29518a0b4611178656e0608e3148a9de986883a357094d5b949835d56",
+      "sourceSkills": [
+        "al-symbol-lookup"
+      ]
+    },
+    {
+      "path": "skills/al-testing/references/bc-test.md",
+      "sha256": "96f14cb436f9ece2fddd5d1c4ccfa62398ccca8eb107f112f0f5a8912d90302e",
+      "sourceSkills": [
+        "al-testing",
+        "bc-test-codeunit-generator"
+      ]
+    },
+    {
+      "path": "skills/al-testing/references/handlers-and-isolation.md",
+      "sha256": "3393544a9a3a7f6cab14d1364a61a2d7ae605fc5cbb77d008e65cac847056ca0",
+      "sourceSkills": [
+        "al-testing",
+        "bc-test-codeunit-generator"
+      ]
+    },
+    {
+      "path": "skills/al-testing/SKILL.md",
+      "sha256": "30b985f7ac00dfd1493efc64fed3215c0478021be5c30f05328ec87d4ea3f5a3",
+      "sourceSkills": [
+        "al-testing",
+        "bc-test-codeunit-generator"
+      ]
+    },
+    {
+      "path": "skills/al-translation-phase/SKILL.md",
+      "sha256": "bc5a889d97adf73315f85dbcf62661b5088e8a0b97f4c564ac1e6180d00b2789",
+      "sourceSkills": [
+        "al-translation-phase"
+      ]
+    },
+    {
+      "path": "skills/bc-agent-instructions-debugger/references/instruction-checks.md",
+      "sha256": "7bb59c0337b2eb1f0871a50054aca7835f5d7a67e49c591d015e1c65b07b5f10",
+      "sourceSkills": [
+        "bc-agent-instructions-debugger"
+      ]
+    },
+    {
+      "path": "skills/bc-agent-instructions-debugger/SKILL.md",
+      "sha256": "06d7eb98be7eb35550459980c1847b3f1627e6a7bd6d91622ccf4b79e0c7eec1",
+      "sourceSkills": [
+        "bc-agent-instructions-debugger"
+      ]
+    },
+    {
+      "path": "skills/bc-api-design/references/pages-and-actions.md",
+      "sha256": "17a92ca1d37800b8c348773e70ad1a9cc9a36bfbf5d6ce3101a56ebb7449a6f1",
+      "sourceSkills": [
+        "bc-api-page-generator",
+        "bc-api-query-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-api-design/references/queries.md",
+      "sha256": "dca64b4965464908f9e7e689679418d9c927f1517fdefe7a92fe3b32aa068512",
+      "sourceSkills": [
+        "bc-api-page-generator",
+        "bc-api-query-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-api-design/SKILL.md",
+      "sha256": "aba683595f20b6338c23d1e4200dc65df42d3a98f011b5af8204dc2a6346a38a",
+      "sourceSkills": [
+        "bc-api-page-generator",
+        "bc-api-query-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-app-lifecycle/references/migration-decisions.md",
+      "sha256": "f15e2f689cbc118893983f4b61dd8a2ff38e4bfc26d884125327500ab4fa079c",
+      "sourceSkills": [
+        "bc-install-codeunit-generator",
+        "bc-upgrade-codeunit-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-app-lifecycle/SKILL.md",
+      "sha256": "da4279ea8415dac13dede7e17eb9bbfc858e679bd75c87df3c366c95ac8bbe30",
+      "sourceSkills": [
+        "bc-install-codeunit-generator",
+        "bc-upgrade-codeunit-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-approval-workflow-generator/SKILL.md",
+      "sha256": "38762cbfaa1744719e91c6647727c0851c2cdafe943c96ed23b5e6fa7292fb19",
+      "sourceSkills": [
+        "bc-approval-workflow-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-attachments-generator/SKILL.md",
+      "sha256": "7461c58400f14b64febd4f23f9b9d0b23c12757ef55cd83814e44ddf9bac1b9c",
+      "sourceSkills": [
+        "bc-attachments-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-business-events-generator/references/event-patterns.md",
+      "sha256": "948fb339955c4069cd8223f941d610ca1b8e64f160d283b0d7d012165183c684",
+      "sourceSkills": [
+        "bc-business-events-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-business-events-generator/SKILL.md",
+      "sha256": "54a7151ac6d6091150c79c89cea382ed2d950d7891da32598f90e1b5a01ce3a5",
+      "sourceSkills": [
+        "bc-business-events-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-dataverse-mapping-generator/references/coupling-ui.md",
+      "sha256": "6ad0398c466c3eda2aee01d63c21e7ffdb01a6f6d0174bce7ade21d61608cc36",
+      "sourceSkills": [
+        "bc-cds-page-generator",
+        "bc-dataverse-mapping-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-dataverse-mapping-generator/references/mapping.md",
+      "sha256": "e5833719288d1b47129324c72a9b59b649ccc6348ae72a627835dc298f70785d",
+      "sourceSkills": [
+        "bc-cds-page-generator",
+        "bc-dataverse-mapping-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-dataverse-mapping-generator/SKILL.md",
+      "sha256": "191d2b2f839fd630cbbb598232c77407a47146f953fffd4ecb53813a5cf8125b",
+      "sourceSkills": [
+        "bc-cds-page-generator",
+        "bc-dataverse-mapping-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-field-propagation/references/chain-checklist.md",
+      "sha256": "1765129a8aeb77cf2ee119f510f73a0b53165dfccceb0325787a89d7e9ca1ad3",
+      "sourceSkills": [
+        "bc-field-propagation"
+      ]
+    },
+    {
+      "path": "skills/bc-field-propagation/SKILL.md",
+      "sha256": "a3178b5afb3a2360835f7e0fac7263910663e7d1786f0fabeaf08e1b9c722fbb",
+      "sourceSkills": [
+        "bc-field-propagation"
+      ]
+    },
+    {
+      "path": "skills/bc-isolated-storage-generator/references/storage-patterns.md",
+      "sha256": "4d12a64372369bdff1b497d9f3facb6c43d8c7feea92cdc531c45e3df427397b",
+      "sourceSkills": [
+        "bc-isolated-storage-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-isolated-storage-generator/SKILL.md",
+      "sha256": "a38abea78b76538d2bf8dcdd1d5ee3e6e2c5608cded7955544a8bdfd9ee15a52",
+      "sourceSkills": [
+        "bc-isolated-storage-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-job-queue/references/batching.md",
+      "sha256": "8dacc40fa01d540075e67c6a49821d1db1f84864ab32d44f92925b85181eca72",
+      "sourceSkills": [
+        "bc-batch-processing",
+        "bc-job-queue"
+      ]
+    },
+    {
+      "path": "skills/bc-job-queue/references/execution.md",
+      "sha256": "4eb068458cc79f1af828d5c54ff90bada856337da91d95aad1654cea24a5eb83",
+      "sourceSkills": [
+        "bc-batch-processing",
+        "bc-job-queue"
+      ]
+    },
+    {
+      "path": "skills/bc-job-queue/SKILL.md",
+      "sha256": "768499d166c16e2fa2b33edc18e0f080f4bf0dbfef408a5a61a5a193ae0d145b",
+      "sourceSkills": [
+        "bc-batch-processing",
+        "bc-job-queue"
+      ]
+    },
+    {
+      "path": "skills/bc-matrix-page-generator/SKILL.md",
+      "sha256": "a94cb97633ba67ec6d29e22d68cf1ebb9a857e2760c3ca3fa225f46eca655331",
+      "sourceSkills": [
+        "bc-matrix-page-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-number-series-generator/SKILL.md",
+      "sha256": "4f74311f4c9c75ff9c9a8b4c8440b283c5860bd519085d220813c7beaf1aeeb3",
+      "sourceSkills": [
+        "bc-number-series-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-pricing-refactor/references/migration-and-regression.md",
+      "sha256": "54515939a7771a7dc4e7cceeeae62b543b5ad78207f5dda9060f6421a05e1674",
+      "sourceSkills": [
+        "bc-pricing-refactor"
+      ]
+    },
+    {
+      "path": "skills/bc-pricing-refactor/SKILL.md",
+      "sha256": "f728def4df4aa3b61e41ed00005aa00a4834070cd6fa4ffa116a4a76be562cf4",
+      "sourceSkills": [
+        "bc-pricing-refactor"
+      ]
+    },
+    {
+      "path": "skills/bc-reports/references/rdlc-layout.md",
+      "sha256": "86e9b95e2fad3382dfc2910035459150b83d088f4e220caab1136fb39cb55ced",
+      "sourceSkills": [
+        "bc-report-selection-generator",
+        "bc-reports"
+      ]
+    },
+    {
+      "path": "skills/bc-reports/references/report-selection.md",
+      "sha256": "7d7d765fdfd99de20bbff7f5cef9effd63c17219008c8008a57a421a496e00ae",
+      "sourceSkills": [
+        "bc-report-selection-generator",
+        "bc-reports"
+      ]
+    },
+    {
+      "path": "skills/bc-reports/SKILL.md",
+      "sha256": "7ef8edf54522855048e9d7c4f9f26d2711745f493553dbbb97bf60dd73fec51a",
+      "sourceSkills": [
+        "bc-report-selection-generator",
+        "bc-reports"
+      ]
+    },
+    {
+      "path": "skills/bc-setup-table-generator/references/assisted-setup.md",
+      "sha256": "40bea4cd3993954721a2b1a95fc474f1ee29ff66bfc6875e75669483770303a8",
+      "sourceSkills": [
+        "bc-setup-table-generator",
+        "bc-setup-wizard-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-setup-table-generator/SKILL.md",
+      "sha256": "428876bf65d1481a613cdc65de07dd80e89f91871f7e60b4b50ff63d53113886",
+      "sourceSkills": [
+        "bc-setup-table-generator",
+        "bc-setup-wizard-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-table-dimensions-generator/references/inheritance.md",
+      "sha256": "ad9780259c9ff1e338dcf340f561ea3ed4fe775d7faf947a920c643abde1e218",
+      "sourceSkills": [
+        "bc-table-dimensions-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-table-dimensions-generator/SKILL.md",
+      "sha256": "6b4385c9362cfef0ae5242f7a7105af919cde314d358492ddff328155d1c66ef",
+      "sourceSkills": [
+        "bc-table-dimensions-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-telemetry-generator/references/producer-and-kql.md",
+      "sha256": "537f3aafe8a11899a13c0ae19da9773e155df226d6c9206a0b7bc74933efb9fd",
+      "sourceSkills": [
+        "bc-telemetry-generator"
+      ]
+    },
+    {
+      "path": "skills/bc-telemetry-generator/SKILL.md",
+      "sha256": "e7f3b4565c117604a6cee0061774f79a7fb5e38a29f515c910dbf53e4ad9f2c8",
+      "sourceSkills": [
+        "bc-telemetry-generator"
+      ]
+    }
+  ]
+}

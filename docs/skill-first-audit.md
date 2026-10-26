@@ -1,5 +1,7 @@
 # Skill-First Audit
 
+> Historical snapshot. The final 0.3.0 set, revised SingleInstance policy, corrected content and current verification are documented in the [2026-10-23 consolidation report](skill-consolidation-2026-10-23.md). This document is not active workflow guidance.
+
 Date: 2026-09-06. Goal: built-in Plan and Agent as defaults, with domain skills discovered on demand and custom agents used exceptionally.
 
 The supplied article is a prompt-design motivation, not evidence of a particular model's abilities or billing. Changes target redundant instructions and concrete AL/tooling risks across models; no Astra/Sol/Terra/Luna performance comparison was performed.

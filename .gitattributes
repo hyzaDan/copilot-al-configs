@@ -1,0 +1,5 @@
+# Maintained skill hashes must survive Windows and Unix checkouts unchanged.
+/skills/** text eol=lf
+# Preserve the exact upstream license bytes.
+/third-party/AL-Copilot-Skills-Collection.LICENSE -text
+/third-party/AL-Copilot-Skills-Collection.AUTHORS.md text eol=lf

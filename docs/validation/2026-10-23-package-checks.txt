@@ -1,0 +1,38 @@
+Final checks 2026-10-23; package 0.3.0
+
+CHECK 1
+PASS: 29 skills; 56 maintained hashes; 50 dispositions; 194 local links; 6 versioned manifests
+PASS: pinned raw upstream blobs and MIT license
+LIMIT: static package checks; no host discovery, AL compilation or BC runtime implied
+
+CHECK 2
+test_altered_skill (__main__.PackageValidation.test_altered_skill) ... ok
+test_authorship_change (__main__.PackageValidation.test_authorship_change) ... ok
+test_broken_link (__main__.PackageValidation.test_broken_link) ... ok
+test_checkout_policy (__main__.PackageValidation.test_checkout_policy) ... ok
+test_crlf_rejected (__main__.PackageValidation.test_crlf_rejected) ... ok
+test_duplicate_yaml (__main__.PackageValidation.test_duplicate_yaml) ... ok
+test_hidden_discovery_path (__main__.PackageValidation.test_hidden_discovery_path) ... ok
+test_https_is_not_machine_path (__main__.PackageValidation.test_https_is_not_machine_path) ... ok
+test_license_change (__main__.PackageValidation.test_license_change) ... ok
+test_machine_paths_detected (__main__.PackageValidation.test_machine_paths_detected) ... ok
+test_mcp_drift (__main__.PackageValidation.test_mcp_drift) ... ok
+test_missing_disposition (__main__.PackageValidation.test_missing_disposition) ... ok
+test_missing_skill (__main__.PackageValidation.test_missing_skill) ... ok
+test_routing_drift (__main__.PackageValidation.test_routing_drift) ... ok
+test_unrecorded_file (__main__.PackageValidation.test_unrecorded_file) ... ok
+test_valid_package (__main__.PackageValidation.test_valid_package) ... ok
+test_version_drift (__main__.PackageValidation.test_version_drift) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 7.092s
+
+OK
+
+CHECK 3
+quick_validate: 29 skills; 0 failures
+Python AST: 4 scripts parsed
+Independent review fingerprints: 56 current files match
+Compiled examples: both current input fingerprints match
+
+Git diff --check: exit 0. No commit/push/deployment.

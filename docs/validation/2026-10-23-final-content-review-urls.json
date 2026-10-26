@@ -1,0 +1,532 @@
+[
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-singleinstance-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-singleinstance-property",
+    "files": [
+      "skills\\al-coding-standards\\references\\subscriber-lifetime.md:9"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-eventsubscriberinstance-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-eventsubscriberinstance-property",
+    "files": [
+      "skills\\al-coding-standards\\references\\subscriber-lifetime.md:9"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-partial-records",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-partial-records",
+    "files": [
+      "skills\\al-debugging-methodology\\references\\record-access.md:13"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-setloadfields-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-setloadfields-method",
+    "files": [
+      "skills\\al-debugging-methodology\\references\\record-access.md:13"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-modify-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-modify-method",
+    "files": [
+      "skills\\al-debugging-methodology\\references\\record-access.md:13"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-testisolation-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-testisolation-property",
+    "files": [
+      "skills\\al-testing\\references\\handlers-and-isolation.md:10"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods",
+    "files": [
+      "skills\\al-testing\\references\\handlers-and-isolation.md:10"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods",
+    "files": [
+      "skills\\al-testing\\references\\handlers-and-isolation.md:10"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instructions",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instructions",
+    "files": [
+      "skills\\bc-agent-instructions-debugger\\references\\instruction-checks.md:11"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instruction-keywords",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/ai/ai-development-toolkit-instruction-keywords",
+    "files": [
+      "skills\\bc-agent-instructions-debugger\\references\\instruction-checks.md:11"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api",
+    "files": [
+      "skills\\bc-api-design\\references\\pages-and-actions.md:40"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype",
+    "files": [
+      "skills\\bc-api-design\\references\\pages-and-actions.md:41"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-serviceenabled-attribute",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-serviceenabled-attribute",
+    "files": [
+      "skills\\bc-api-design\\references\\pages-and-actions.md:42"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-bound-action",
+    "files": [
+      "skills\\bc-api-design\\references\\pages-and-actions.md:42"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype",
+    "files": [
+      "skills\\bc-api-design\\references\\queries.md:28"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-filters",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-query-filters",
+    "files": [
+      "skills\\bc-api-design\\references\\queries.md:29"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-query-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-query-property",
+    "files": [
+      "skills\\bc-api-design\\references\\queries.md:30"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-totals-grouping",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-query-totals-grouping",
+    "files": [
+      "skills\\bc-api-design\\references\\queries.md:31"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/attributes/devenv-externalbusinessevent-attribute",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-externalbusinessevent-attribute",
+    "files": [
+      "skills\\bc-business-events-generator\\references\\event-patterns.md:35"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/business-events-overview",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/business-events-overview",
+    "files": [
+      "skills\\bc-business-events-generator\\references\\event-patterns.md:36"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-flowfields",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfields",
+    "files": [
+      "skills\\bc-business-events-generator\\references\\event-patterns.md:37"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration",
+    "files": [
+      "skills\\bc-dataverse-mapping-generator\\references\\coupling-ui.md:21",
+      "skills\\bc-dataverse-mapping-generator\\references\\mapping.md:35"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping",
+    "files": [
+      "skills\\bc-dataverse-mapping-generator\\references\\mapping.md:36"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection",
+    "files": [
+      "skills\\bc-dataverse-mapping-generator\\references\\mapping.md:37"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-isolated-storage",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-isolated-storage",
+    "files": [
+      "skills\\bc-isolated-storage-generator\\references\\storage-patterns.md:49"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/datascope/datascope-option",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/datascope/datascope-option",
+    "files": [
+      "skills\\bc-isolated-storage-generator\\references\\storage-patterns.md:49"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-setencrypted-string-secrettext-datascope-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-setencrypted-string-secrettext-datascope-method",
+    "files": [
+      "skills\\bc-isolated-storage-generator\\references\\storage-patterns.md:50"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-get-string-datascope-secrettext-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/isolatedstorage/isolatedstorage-get-string-datascope-secrettext-method",
+    "files": [
+      "skills\\bc-isolated-storage-generator\\references\\storage-patterns.md:51"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/admin-job-queues-schedule-tasks",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks",
+    "files": [
+      "skills\\bc-job-queue\\references\\batching.md:37",
+      "skills\\bc-job-queue\\references\\execution.md:54"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/database/database-commit-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/database/database-commit-method",
+    "files": [
+      "skills\\bc-job-queue\\references\\batching.md:37"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-modify-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-modify-method",
+    "files": [
+      "skills\\bc-job-queue\\references\\batching.md:37"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-partial-records",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-partial-records",
+    "files": [
+      "skills\\bc-job-queue\\references\\batching.md:37"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-job-queue",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-job-queue",
+    "files": [
+      "skills\\bc-job-queue\\references\\execution.md:53"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-async-overview",
+    "files": [
+      "skills\\bc-job-queue\\references\\execution.md:55"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace",
+    "files": [
+      "skills\\bc-job-queue\\references\\execution.md:56"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
+    "files": [
+      "skills\\bc-telemetry-generator\\references\\producer-and-kql.md:46"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/telemetry-event-ids",
+    "files": [
+      "skills\\bc-telemetry-generator\\references\\producer-and-kql.md:47"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/duration/duration-data-type",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/duration/duration-data-type",
+    "files": [
+      "skills\\bc-telemetry-generator\\references\\producer-and-kql.md:48"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-variables",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-al-variables",
+    "files": [
+      "skills\\bc-telemetry-generator\\references\\producer-and-kql.md:48"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-format-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-format-property",
+    "files": [
+      "skills\\bc-telemetry-generator\\references\\producer-and-kql.md:49"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-install-code",
+    "files": [
+      "skills\\bc-app-lifecycle\\SKILL.md:18"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions",
+    "files": [
+      "skills\\bc-app-lifecycle\\SKILL.md:20"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/navapp/navapp-restorearchivedata-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/navapp/navapp-restorearchivedata-method",
+    "files": [
+      "skills\\bc-app-lifecycle\\SKILL.md:40"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-data-transfer",
+    "files": [
+      "skills\\bc-app-lifecycle\\references\\migration-decisions.md:9"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-walkthrough-workflow-events-responses",
+    "files": [
+      "skills\\bc-approval-workflow-generator\\SKILL.md:30"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-restrict-and-allow-usage-of-a-record",
+    "files": [
+      "skills\\bc-approval-workflow-generator\\SKILL.md:36"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/application/base-application/table/microsoft.foundation.attachment.document-attachment",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/table/microsoft.foundation.attachment.document-attachment",
+    "files": [
+      "skills\\bc-attachments-generator\\SKILL.md:12"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/ui-how-add-link-to-record",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-add-link-to-record",
+    "files": [
+      "skills\\bc-attachments-generator\\SKILL.md:23"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-transferfields-table-boolean-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-transferfields-table-boolean-method",
+    "files": [
+      "skills\\bc-field-propagation\\SKILL.md:24"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-calcdate-dateformula-date-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-calcdate-dateformula-date-method",
+    "files": [
+      "skills\\bc-matrix-page-generator\\SKILL.md:23"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/application/business-foundation/codeunit/microsoft.foundation.noseries.no.-series",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/application/business-foundation/codeunit/microsoft.foundation.noseries.no.-series",
+    "files": [
+      "skills\\bc-number-series-generator\\SKILL.md:18"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/ui-create-number-series",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/ui-create-number-series",
+    "files": [
+      "skills\\bc-number-series-generator\\SKILL.md:18"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extending-best-price-calculations",
+    "files": [
+      "skills\\bc-pricing-refactor\\SKILL.md:27"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/across-prices-and-discounts",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-prices-and-discounts",
+    "files": [
+      "skills\\bc-pricing-refactor\\references\\migration-and-regression.md:18"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset",
+    "files": [
+      "skills\\bc-reports\\SKILL.md:21"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/sql/reporting-services/report-design/pagination-in-reporting-services-report-builder-and-ssrs",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/sql/reporting-services/report-design/pagination-in-reporting-services-report-builder-and-ssrs",
+    "files": [
+      "skills\\bc-reports\\references\\rdlc-layout.md:13"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/application/base-application/page/microsoft.sales.setup.report-selection---sales",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/page/microsoft.sales.setup.report-selection---sales",
+    "files": [
+      "skills\\bc-reports\\references\\report-selection.md:9"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-setrecfilter-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-setrecfilter-method",
+    "files": [
+      "skills\\bc-reports\\references\\report-selection.md:17"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-runmodal-method",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/report/report-runmodal-method",
+    "files": [
+      "skills\\bc-reports\\references\\report-selection.md:17"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-datapercompany-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-datapercompany-property",
+    "files": [
+      "skills\\bc-setup-table-generator\\SKILL.md:18"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/properties/devenv-extendeddatatype-property",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-extendeddatatype-property",
+    "files": [
+      "skills\\bc-setup-table-generator\\SKILL.md:28"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/application/system-application/codeunit/system.environment.configuration.guided-experience",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/application/system-application/codeunit/system.environment.configuration.guided-experience",
+    "files": [
+      "skills\\bc-setup-table-generator\\references\\assisted-setup.md:22"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/design-details-dimension-set-entries-overview",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/design-details-dimension-set-entries-overview",
+    "files": [
+      "skills\\bc-table-dimensions-generator\\SKILL.md:14"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/application/base-application/codeunit/microsoft.finance.dimension.dimensionmanagement",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/application/base-application/codeunit/microsoft.finance.dimension.dimensionmanagement",
+    "files": [
+      "skills\\bc-table-dimensions-generator\\SKILL.md:22"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/pagefield/devenv-onvalidate-pagefield-trigger",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/triggers-auto/pagefield/devenv-onvalidate-pagefield-trigger",
+    "files": [
+      "skills\\bc-table-dimensions-generator\\SKILL.md:31"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/triggers-auto/pagefieldextension/devenv-onaftervalidate-pagefieldextension-trigger",
+    "status": 200,
+    "final": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/triggers-auto/pagefieldextension/devenv-onaftervalidate-pagefieldextension-trigger",
+    "files": [
+      "skills\\bc-table-dimensions-generator\\SKILL.md:31"
+    ]
+  }
+]

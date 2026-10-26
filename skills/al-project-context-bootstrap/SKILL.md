@@ -1,7 +1,6 @@
 ---
 name: al-project-context-bootstrap
 description: 'Use when onboarding to an unfamiliar AL app or explicitly preparing reusable project context for a feature stream.'
-argument-hint: "project root or module"
 ---
 
 # Project Context Bootstrap
@@ -22,6 +21,8 @@ Not a prerequisite for ordinary edits. Start with the affected module and captur
 ## Output
 
 Produce a concise working context that future planning and implementation can reuse.
+
+Only when reusable context or handoff is requested or materially needed, use [context and decision records](./references/context-and-decisions.md). Do not create a session log or ADR for every edit.
 
 ## Rules
 

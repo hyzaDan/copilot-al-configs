@@ -9,6 +9,8 @@ Reuse the project's test app, library codeunits, handlers, and fixtures. Allocat
 
 Test changed behavior through the appropriate public procedure, trigger, or posting flow. Include the relevant rejection/boundary case, not a fixed matrix for every change. Consider company isolation, permissions, concurrency, and transaction rollback when behavior depends on them. Keep setup deterministic and isolate side effects.
 
+For test generation, read [handlers and isolation](./references/handlers-and-isolation.md). Runner `TestIsolation` defaults to `Disabled`; never promise rollback after each test without inspecting the actual runner. A tooltip-only edit usually needs source/XLF/build checks, not a synthetic business test.
+
 Compile production and dependent test apps using [build validation](../al-build-validation/SKILL.md). Compilation, authored scenarios, and executed passing tests are separate claims.
 
 Use the repository's configured runner against an identified, authorized test environment. Server configuration alone does not authorize publishing or mutating tests. If the runner is `bc-test`, read [runner notes](./references/bc-test.md).

@@ -1,7 +1,6 @@
 ---
 name: al-bc-solution-review
 description: 'Use when reviewing AL changes or a BC solution design for defects, regressions, or missing tests.'
-argument-hint: "changed files or feature description"
 ---
 
 # BC Solution Review
@@ -28,6 +27,8 @@ Use this skill during review-oriented tasks.
 - severity ordering
 - concrete fixes where possible
 - note residual risk if verification was incomplete
+- No quota of findings: correct code may have none. A finding needs a reachable failure, relevant requirement, or measured cost; put unverified assumptions and optional style suggestions outside defects.
+- Do not demand `SingleInstance`, inherent permissions, full architecture documents, or a new test suite merely because this is AL. Use [record-access semantics](../al-debugging-methodology/references/record-access.md) when partial loading, FlowFields, or trigger behavior are disputed.
 
 ## Related skills
 

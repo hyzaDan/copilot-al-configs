@@ -23,7 +23,7 @@ Use for context isolation, model selection, or tool restrictions. The body links
 - `al-symbol-researcher`: bounded dependency lookup with concise evidence returned to the parent.
 - `al-developer`: optional worker for an independently owned module.
 
-Develop/fix/test orchestrators remain manual compatibility entrypoints with automatic model invocation disabled. They do not require workers, worker counts, or mandatory reviewer sign-off. The old planner/architect in `Backup/` are historical and are not shipped from `com.github.copilot/agents/`.
+Develop/fix/test orchestrators remain manual compatibility entrypoints with automatic model invocation disabled. They do not require workers, worker counts, or mandatory reviewer sign-off.
 
 ### Prompt Files
 
@@ -58,7 +58,7 @@ The Codex package registers shared skills and MCP connections. Copilot `.agent.m
 
 ### VS Code workspace templates
 
-Use `templates/vscode-workspace/.github/` for target-project customization:
+No workspace overlay template is shipped in this checkout. If a consuming project needs its own `.github/` customization, keep it in that project:
 - `copilot-instructions.md`
 - `prompts/` for thin workflow launchers when helpful for UX
 - local `.github/agents/` only for project-specific overrides, not as the default mirrored source

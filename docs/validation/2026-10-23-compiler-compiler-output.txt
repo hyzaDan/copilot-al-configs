@@ -1,0 +1,8 @@
+Microsoft (R) AL Compiler version 18.0.41.62505
+Copyright (C) Microsoft Corporation. All rights reserved
+
+Compilation started for project 'Skill Snippet Probe' containing '1' files at '09:20:09.168'.
+
+
+Compilation ended at '09:20:09.723'.
+

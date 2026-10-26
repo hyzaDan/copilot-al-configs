@@ -1,7 +1,6 @@
 ---
 name: al-debugging-methodology
 description: 'Use for unclear AL runtime defects, event/trigger failures, regressions, snapshot traces, or .alcpuprofile analysis.'
-user-invocable: false
 ---
 
 # Debugging Methodology
@@ -9,6 +8,8 @@ user-invocable: false
 Use this skill when an AL issue is not obvious from first inspection and a fix requires disciplined diagnosis.
 
 Anchor diagnosis to the failing action, error, or trace and the smallest check that distinguishes the leading explanation. A simple defect does not need a ranked hypothesis report.
+
+Read [record access and subscriber diagnosis](./references/record-access.md) for suspected missing fields, skipped validation, or non-firing subscribers. Preserve existing business transformations; a generic copy pattern is not evidence that custom logic is redundant.
 
 ## Common AL debugging checks
 

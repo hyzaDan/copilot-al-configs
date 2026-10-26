@@ -1,7 +1,6 @@
 ---
 name: al-performance-review
 description: 'Use for AL slow paths, large record loops, repeated database calls, or BC CPU-profile hotspots.'
-user-invocable: false
 ---
 
 # Performance Review
@@ -13,6 +12,7 @@ Use this skill when a change touches large data volumes, loops over records, pos
 - broad record loading where narrower field or filter usage is possible
 - queries inside loops and other N+1 patterns
 - partial-record opportunities with `SetLoadFields`, accounting for later field access and JIT loads
+- `SetLoadFields` includes normal fields only; calculate FlowFields separately. See [record-access semantics](../al-debugging-methodology/references/record-access.md) before reporting missing-load defects.
 - weak `FindSet` / `FindFirst` / `FindLast` choices
 - repeated FlowField calculations or expensive work in loops
 - row-by-row updates where bulk operations preserve required trigger and validation behavior

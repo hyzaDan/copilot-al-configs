@@ -1,7 +1,6 @@
 ---
 name: al-translation-phase
 description: 'Use for AL XLF synchronization and English-to-Czech translation (en-US to cs-CZ) after changed captions, labels, or tooltips.'
-user-invocable: true
 ---
 
 # Translation Phase
@@ -16,9 +15,9 @@ Translate only from English (`en-US`) to Czech (`cs-CZ`). Ignore all other targe
 
 ## Routing
 
-XLF synchronization and Czech translation are isolated worker tasks. A primary Agent prepares the successful-build evidence and selected Czech scope, then invokes `al-translator`; it does not call `refreshXlf`, read bulk XLF units, or save translations in its own context. The Luna worker retains raw tool responses and returns only saved/remaining counts and genuine ambiguities to the parent.
+XLF synchronization and Czech translation are isolated worker tasks under this package's team policy. A primary Agent prepares the successful-build evidence and selected Czech scope, then invokes `al-translator`; it does not call `refreshXlf`, read bulk XLF units, or save translations in its own context. The configured worker retains raw tool responses and returns only saved/remaining counts and genuine ambiguities to the parent. This is a local workflow boundary, not an AL platform requirement.
 
-This routing requirement applies to a parent Agent. When the active agent is `al-translator`, execute the workflow below directly. If that worker or its required tools are unavailable, report the blocked prerequisite; do not silently perform XLF work with the parent model.
+This routing requirement applies to a parent Agent. When the active agent is `al-translator`, execute the workflow below directly. The host must provide a registered isolated worker with either NAB tools or XML-aware file editing. If neither path is available in that worker, or the worker is missing, report the concrete prerequisite; do not silently perform XLF work with the parent model. A shipped Copilot agent definition does not register a worker in Codex. See [host routing](../../docs/model-routing.md).
 ## NAB workflow
 
 1. Synchronize only Czech (`cs-CZ`) target files with `refreshXlf` when needed to align with current English generated source.

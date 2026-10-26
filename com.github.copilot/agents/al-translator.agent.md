@@ -1,6 +1,6 @@
 ---
 name: al-translator
-description: 'Translate AL XLF from English to Czech only (en-US to cs-CZ) in an isolated context using NAB AL Tools.'
+description: 'Translate AL XLF from English to Czech only (en-US to cs-CZ) in an isolated context using NAB tools or XML-aware editing.'
 model: GPT-6 Luna (unify-chat-provider)
 tools: [read, edit, search, nabsolutions.nab-al-tools/refreshXlf, nabsolutions.nab-al-tools/getTextsToTranslate, nabsolutions.nab-al-tools/getTranslatedTextsMap, nabsolutions.nab-al-tools/getTextsByKeyword, nabsolutions.nab-al-tools/getTranslatedTextsByState, nabsolutions.nab-al-tools/saveTranslatedTexts, nabsolutions.nab-al-tools/getGlossaryTerms]
 ---

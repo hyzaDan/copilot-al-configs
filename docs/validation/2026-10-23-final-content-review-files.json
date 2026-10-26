@@ -1,0 +1,226 @@
+[
+  {
+    "path": "skills\\al-bc-solution-review\\SKILL.md",
+    "sha256": "6280b23bda22663a62ee178fd78ee310b17c7db28c450f93383b7b62f8562d76"
+  },
+  {
+    "path": "skills\\al-build-validation\\SKILL.md",
+    "sha256": "c308a21955855269240c5fb1a948d66a5c0a70d6bfcc2a4e1011e46c84e89ede"
+  },
+  {
+    "path": "skills\\al-build-validation\\references\\project-identity.md",
+    "sha256": "1314e569bc22630a94937d009f6cfdf7a175f6b95530a51c1bc535351bdb15f2"
+  },
+  {
+    "path": "skills\\al-coding-standards\\SKILL.md",
+    "sha256": "df668aee5950a7ffc8c152560d12104b6ec32d18e98682d78130d3de0eb20aed"
+  },
+  {
+    "path": "skills\\al-coding-standards\\references\\subscriber-lifetime.md",
+    "sha256": "0300e47f4ed0b0ae5513992b6380f230ddcf5fc84ae4da45aa94df7d8372030c"
+  },
+  {
+    "path": "skills\\al-coding-standards\\references\\team-conventions.md",
+    "sha256": "ceda21909902de86b9fbe91bee6eeeade8d205e657421e8e542605ea2d4305a2"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\SKILL.md",
+    "sha256": "06b6234910306a623f09034a30734bc66d71c5bd92fcf8848350f9419fa15ec8"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\references\\record-access.md",
+    "sha256": "32ae4237bb638bf280017c076233120f95e817455b95bbf63e2148b615c56e05"
+  },
+  {
+    "path": "skills\\al-debugging-methodology\\references\\runtime-artifacts.md",
+    "sha256": "20d352bac6019dd66f6c584996e03cb17728f3626c1192a45c1401446885f101"
+  },
+  {
+    "path": "skills\\al-documentation\\SKILL.md",
+    "sha256": "d1c358ff2f60ecefb43c84f88487a1b934f88a6c981e902fa356e5e62d3e1624"
+  },
+  {
+    "path": "skills\\al-documentation\\references\\artifacts.md",
+    "sha256": "5114c5ac50542858af598829ef8749e53e5c1f65f3652b5c84bfb41eaedf652f"
+  },
+  {
+    "path": "skills\\al-performance-review\\SKILL.md",
+    "sha256": "f7c5e870efbae3af300cee01969b28c4bc5aa2025bc3335f174c21487ecd34db"
+  },
+  {
+    "path": "skills\\al-project-context-bootstrap\\SKILL.md",
+    "sha256": "62c8384f45698777008abeffec12e6fd1038f612a42f284ba8ed07226fa0af66"
+  },
+  {
+    "path": "skills\\al-project-context-bootstrap\\references\\context-and-decisions.md",
+    "sha256": "fc0178f7375e3f71662f6cde62eefe85cbdc2e20db9a85ad297983c9abe98029"
+  },
+  {
+    "path": "skills\\al-security-review\\SKILL.md",
+    "sha256": "27ca39089ced268ba63ab5361f5e906c700b1074ec199b6f9ae3e09c8608f122"
+  },
+  {
+    "path": "skills\\al-solution-architecture\\SKILL.md",
+    "sha256": "660f560aecc0705deecb287563011eab6628936fb1d235b24384610fe01744bd"
+  },
+  {
+    "path": "skills\\al-solution-architecture\\references\\decision-checklist.md",
+    "sha256": "25b74dff6308cf97c5685697cb04986020476a5c84c598019bbce86d9aa61ba1"
+  },
+  {
+    "path": "skills\\al-symbol-lookup\\SKILL.md",
+    "sha256": "2de026b29518a0b4611178656e0608e3148a9de986883a357094d5b949835d56"
+  },
+  {
+    "path": "skills\\al-testing\\SKILL.md",
+    "sha256": "30b985f7ac00dfd1493efc64fed3215c0478021be5c30f05328ec87d4ea3f5a3"
+  },
+  {
+    "path": "skills\\al-testing\\references\\bc-test.md",
+    "sha256": "96f14cb436f9ece2fddd5d1c4ccfa62398ccca8eb107f112f0f5a8912d90302e"
+  },
+  {
+    "path": "skills\\al-testing\\references\\handlers-and-isolation.md",
+    "sha256": "3393544a9a3a7f6cab14d1364a61a2d7ae605fc5cbb77d008e65cac847056ca0"
+  },
+  {
+    "path": "skills\\al-translation-phase\\SKILL.md",
+    "sha256": "bc5a889d97adf73315f85dbcf62661b5088e8a0b97f4c564ac1e6180d00b2789"
+  },
+  {
+    "path": "skills\\bc-agent-instructions-debugger\\SKILL.md",
+    "sha256": "06d7eb98be7eb35550459980c1847b3f1627e6a7bd6d91622ccf4b79e0c7eec1"
+  },
+  {
+    "path": "skills\\bc-agent-instructions-debugger\\references\\instruction-checks.md",
+    "sha256": "7bb59c0337b2eb1f0871a50054aca7835f5d7a67e49c591d015e1c65b07b5f10"
+  },
+  {
+    "path": "skills\\bc-api-design\\SKILL.md",
+    "sha256": "aba683595f20b6338c23d1e4200dc65df42d3a98f011b5af8204dc2a6346a38a"
+  },
+  {
+    "path": "skills\\bc-api-design\\references\\pages-and-actions.md",
+    "sha256": "17a92ca1d37800b8c348773e70ad1a9cc9a36bfbf5d6ce3101a56ebb7449a6f1"
+  },
+  {
+    "path": "skills\\bc-api-design\\references\\queries.md",
+    "sha256": "dca64b4965464908f9e7e689679418d9c927f1517fdefe7a92fe3b32aa068512"
+  },
+  {
+    "path": "skills\\bc-business-events-generator\\SKILL.md",
+    "sha256": "54a7151ac6d6091150c79c89cea382ed2d950d7891da32598f90e1b5a01ce3a5"
+  },
+  {
+    "path": "skills\\bc-business-events-generator\\references\\event-patterns.md",
+    "sha256": "948fb339955c4069cd8223f941d610ca1b8e64f160d283b0d7d012165183c684"
+  },
+  {
+    "path": "skills\\bc-dataverse-mapping-generator\\SKILL.md",
+    "sha256": "191d2b2f839fd630cbbb598232c77407a47146f953fffd4ecb53813a5cf8125b"
+  },
+  {
+    "path": "skills\\bc-dataverse-mapping-generator\\references\\coupling-ui.md",
+    "sha256": "6ad0398c466c3eda2aee01d63c21e7ffdb01a6f6d0174bce7ade21d61608cc36"
+  },
+  {
+    "path": "skills\\bc-dataverse-mapping-generator\\references\\mapping.md",
+    "sha256": "e5833719288d1b47129324c72a9b59b649ccc6348ae72a627835dc298f70785d"
+  },
+  {
+    "path": "skills\\bc-isolated-storage-generator\\SKILL.md",
+    "sha256": "a38abea78b76538d2bf8dcdd1d5ee3e6e2c5608cded7955544a8bdfd9ee15a52"
+  },
+  {
+    "path": "skills\\bc-isolated-storage-generator\\references\\storage-patterns.md",
+    "sha256": "4d12a64372369bdff1b497d9f3facb6c43d8c7feea92cdc531c45e3df427397b"
+  },
+  {
+    "path": "skills\\bc-job-queue\\SKILL.md",
+    "sha256": "768499d166c16e2fa2b33edc18e0f080f4bf0dbfef408a5a61a5a193ae0d145b"
+  },
+  {
+    "path": "skills\\bc-job-queue\\references\\batching.md",
+    "sha256": "8dacc40fa01d540075e67c6a49821d1db1f84864ab32d44f92925b85181eca72"
+  },
+  {
+    "path": "skills\\bc-job-queue\\references\\execution.md",
+    "sha256": "4eb068458cc79f1af828d5c54ff90bada856337da91d95aad1654cea24a5eb83"
+  },
+  {
+    "path": "skills\\bc-telemetry-generator\\SKILL.md",
+    "sha256": "e7f3b4565c117604a6cee0061774f79a7fb5e38a29f515c910dbf53e4ad9f2c8"
+  },
+  {
+    "path": "skills\\bc-telemetry-generator\\references\\producer-and-kql.md",
+    "sha256": "537f3aafe8a11899a13c0ae19da9773e155df226d6c9206a0b7bc74933efb9fd"
+  },
+  {
+    "path": "skills\\bc-app-lifecycle\\SKILL.md",
+    "sha256": "da4279ea8415dac13dede7e17eb9bbfc858e679bd75c87df3c366c95ac8bbe30"
+  },
+  {
+    "path": "skills\\bc-app-lifecycle\\references\\migration-decisions.md",
+    "sha256": "f15e2f689cbc118893983f4b61dd8a2ff38e4bfc26d884125327500ab4fa079c"
+  },
+  {
+    "path": "skills\\bc-approval-workflow-generator\\SKILL.md",
+    "sha256": "38762cbfaa1744719e91c6647727c0851c2cdafe943c96ed23b5e6fa7292fb19"
+  },
+  {
+    "path": "skills\\bc-attachments-generator\\SKILL.md",
+    "sha256": "7461c58400f14b64febd4f23f9b9d0b23c12757ef55cd83814e44ddf9bac1b9c"
+  },
+  {
+    "path": "skills\\bc-field-propagation\\SKILL.md",
+    "sha256": "a3178b5afb3a2360835f7e0fac7263910663e7d1786f0fabeaf08e1b9c722fbb"
+  },
+  {
+    "path": "skills\\bc-field-propagation\\references\\chain-checklist.md",
+    "sha256": "1765129a8aeb77cf2ee119f510f73a0b53165dfccceb0325787a89d7e9ca1ad3"
+  },
+  {
+    "path": "skills\\bc-matrix-page-generator\\SKILL.md",
+    "sha256": "a94cb97633ba67ec6d29e22d68cf1ebb9a857e2760c3ca3fa225f46eca655331"
+  },
+  {
+    "path": "skills\\bc-number-series-generator\\SKILL.md",
+    "sha256": "4f74311f4c9c75ff9c9a8b4c8440b283c5860bd519085d220813c7beaf1aeeb3"
+  },
+  {
+    "path": "skills\\bc-pricing-refactor\\SKILL.md",
+    "sha256": "f728def4df4aa3b61e41ed00005aa00a4834070cd6fa4ffa116a4a76be562cf4"
+  },
+  {
+    "path": "skills\\bc-pricing-refactor\\references\\migration-and-regression.md",
+    "sha256": "54515939a7771a7dc4e7cceeeae62b543b5ad78207f5dda9060f6421a05e1674"
+  },
+  {
+    "path": "skills\\bc-reports\\SKILL.md",
+    "sha256": "7ef8edf54522855048e9d7c4f9f26d2711745f493553dbbb97bf60dd73fec51a"
+  },
+  {
+    "path": "skills\\bc-reports\\references\\rdlc-layout.md",
+    "sha256": "86e9b95e2fad3382dfc2910035459150b83d088f4e220caab1136fb39cb55ced"
+  },
+  {
+    "path": "skills\\bc-reports\\references\\report-selection.md",
+    "sha256": "7d7d765fdfd99de20bbff7f5cef9effd63c17219008c8008a57a421a496e00ae"
+  },
+  {
+    "path": "skills\\bc-setup-table-generator\\SKILL.md",
+    "sha256": "428876bf65d1481a613cdc65de07dd80e89f91871f7e60b4b50ff63d53113886"
+  },
+  {
+    "path": "skills\\bc-setup-table-generator\\references\\assisted-setup.md",
+    "sha256": "40bea4cd3993954721a2b1a95fc474f1ee29ff66bfc6875e75669483770303a8"
+  },
+  {
+    "path": "skills\\bc-table-dimensions-generator\\SKILL.md",
+    "sha256": "6b4385c9362cfef0ae5242f7a7105af919cde314d358492ddff328155d1c66ef"
+  },
+  {
+    "path": "skills\\bc-table-dimensions-generator\\references\\inheritance.md",
+    "sha256": "ad9780259c9ff1e338dcf340f561ea3ed4fe775d7faf947a920c643abde1e218"
+  }
+]

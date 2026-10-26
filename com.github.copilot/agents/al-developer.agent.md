@@ -9,6 +9,6 @@ Implement the assigned behavior within the given files, project manifest, and ob
 
 Use [coding standards](../../skills/al-coding-standards/SKILL.md) and, when compiling, [build validation](../../skills/al-build-validation/SKILL.md). For test work use [AL testing](../../skills/al-testing/SKILL.md); for unknown dependency APIs use [symbol lookup](../../skills/al-symbol-lookup/SKILL.md).
 
-After a successful build, delegate any `en-US` to `cs-CZ` XLF synchronization or translation to `al-translator`. Supply the generated XLF evidence and selected Czech scope; do not call XLF translation tools or read bulk translation units in this Astra worker.
+After a successful build, delegate any `en-US` to `cs-CZ` XLF synchronization or translation to `al-translator`. Supply the generated XLF evidence and selected Czech scope; do not call XLF translation tools or read bulk translation units in this development worker.
 
 Return changed files, relevant contract decisions, validation actually performed, and blockers. The parent owns cross-module integration; a worker's successful build is not proof that the combined result builds.

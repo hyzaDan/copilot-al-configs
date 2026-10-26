@@ -1,7 +1,6 @@
 ---
 name: al-symbol-lookup
 description: 'Use to find BC dependency objects, fields, procedures, or event signatures through AL symbol tools or al-symbols-mcp.'
-user-invocable: false
 ---
 
 # AL Symbol Lookup

@@ -2,7 +2,15 @@
 
 AL and Business Central development skills and MCP tools for Codex, GitHub Copilot CLI, and VS Code Insiders.
 
-Version `0.1.2` packages 11 shared skills and four MCP connections. Runtime assets stay at the repository root.
+Version `0.3.0` contains 29 focused skills and four MCP connection definitions. The 11 original AL skills form the common workflows; BC specialties load only when relevant.
+
+## Consolidated collection
+
+The upstream [AL-Copilot-Skills-Collection](https://github.com/fernandoartalf/AL-Copilot-Skills-Collection) at commit `f0ef89273477ec7f059bae3a53f62ce05fcdbd34` was reviewed and substantially consolidated. Duplicate debugging/review/testing/context and documentation workflows were merged; broken DOCX, deployment and foreign framework workflows were removed. Active content contains the corrections directly and does not require historical warning notes.
+
+Read the [final Czech report and all 50 dispositions](docs/skill-consolidation-2026-10-23.md) for decisions, corrected defects, actual verification and rollout gaps. The [initial audit](docs/skill-audit-2026-10-22.md) records the previous 0.2.0 snapshot only.
+
+[Third-party notices](THIRD-PARTY-NOTICES.md) preserve licensing and authorship. The [provenance manifest](third-party/al-copilot-skills-collection.json) separates pinned upstream blobs, historical imported bytes and maintained files. Run `python -m pip install -r scripts/requirements-validation.txt`, then `python -X utf8 scripts/validate-skills.py`. Optionally add `--upstream C:/path/to/AL-Copilot-Skills-Collection` to verify original Git blobs and license. After intentional skill edits, review the diff and run `python scripts/record-skill-integrity.py --write` to update only maintained hashes; this does not certify content quality.
 
 ## Install in Codex
 
@@ -31,7 +39,7 @@ The repo marketplace makes the plugin discoverable. Installation and enablement 
 
 VS Code discovers the root `plugin.json` as Agent Plugins 1.0 and loads custom agents from `com.github.copilot/agents/`. Copilot manifests remain in `.github/plugin/`, with matching `.claude-plugin/` manifests for legacy discovery; their agent paths point to the same definitions.
 
-For a local checkout in VS Code, register the actual repository path in the user settings:
+For a local checkout in a supporting VS Code version, enable agent plugins and register the actual repository path in the experimental `chat.pluginLocations` user setting. See [current VS Code plugin guidance](https://code.visualstudio.com/docs/agent-customization/agent-plugins).
 
 ```json
 "chat.pluginLocations": {
@@ -39,7 +47,7 @@ For a local checkout in VS Code, register the actual repository path in the user
 }
 ```
 
-Reload the VS Code window after changing the plugin layout. The plugin details should list 11 skills, four MCP servers, and eight agents. Six agents are available in the picker; `al-developer` and `al-symbol-researcher` are delegation-only. No separate `chat.agentFilesLocations` entry is needed for this plugin.
+Reload the VS Code window after changing the plugin layout. The plugin details should list 29 skills, four MCP servers, and eight agents. Six agents are available in the picker; `al-developer` and `al-symbol-researcher` are delegation-only. No separate `chat.agentFilesLocations` entry is needed for this plugin.
 
 For GitHub Copilot CLI:
 
@@ -114,13 +122,13 @@ Use the host's built-in planning and execution modes. AL skills load on demand; 
 
 In Copilot, custom agents are useful for isolated review, runtime artifact analysis, translation, or bounded symbol research. Existing develop/fix/test orchestrator names remain as manual compatibility entrypoints and disable automatic model invocation. The developer and symbol-research workers are hidden from the picker and remain available for delegation in that host.
 
-The symbol worker uses the repository's existing Terra provider identifier. This is not a portable guarantee of model availability or lower cost. See [model routing](docs/model-routing.md) for configuration, forked skills, and verification steps.
+The symbol worker uses its configured provider-specific model identifier. This is not a portable guarantee of model availability or lower cost. See [model routing](docs/model-routing.md) for configuration, forked skills, and verification steps.
 
 See [taxonomy](docs/taxonomy.md) for ownership and [the skill-first audit](docs/skill-first-audit.md) for the earlier Copilot migration. Historical migration documents are not runtime workflow dependencies.
 
 ## Verify in a consuming project
 
-1. Confirm **AL Development** is enabled and the 11 skill names are discoverable in a new session.
+1. Confirm **AL Development** is enabled and the 29 skill names are discoverable in a new session.
 2. Confirm the four MCP servers initialize and list tools. Make a small documentation query and a bounded symbol query for the intended AL project; confirm ALCops has loaded that project before using its AL tools.
 3. Exercise build/test skills only with the actual compiler, runner, and authorized BC environment available.
 4. Exercise translation only after the isolated worker and translation tools have been integrated.
